@@ -1,0 +1,31 @@
+2024-11-18 01:57:14,596 - INFO - Starting log analysis
+2024-11-18 01:57:14,597 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 01:57:14,597 - INFO - Initializing LogParser
+2024-11-18 01:57:14,597 - INFO - Parsing the log file
+2024-11-18 01:57:14,599 - INFO - Parsed logs successfully
+2024-11-18 01:57:14,604 - INFO - Initializing SentimentAnalysis
+2024-11-18 01:57:16,783 - INFO - Analyzing sentiment of log messages
+2024-11-18 01:57:18,736 - INFO - Sentiment analysis completed
+2024-11-18 01:57:18,741 - INFO - Initializing SensitiveDataParser
+2024-11-18 01:57:18,741 - INFO - Parsing sensitive data
+2024-11-18 01:57:18,742 - INFO - Sensitive data parsing completed
+2024-11-18 01:57:18,742 - INFO - Initializing KeywordClustering
+2024-11-18 01:57:18,742 - INFO - Clustering messages into categories
+2024-11-18 01:57:18,742 - INFO - Keyword clustering completed
+2024-11-18 01:57:18,745 - INFO - Initializing AnomalyPrediction
+2024-11-18 01:57:18,745 - INFO - Extracting anomalies from log messages
+2024-11-18 01:57:18,747 - INFO - Anomaly prediction completed
+2024-11-18 01:57:18,747 - INFO - Initializing RootCauseAnalysis
+2024-11-18 01:57:18,747 - INFO - Analyzing root causes
+2024-11-18 01:57:18,747 - INFO - Root cause analysis completed
+2024-11-18 01:57:18,747 - INFO - Initializing ThresholdAlert
+2024-11-18 01:57:18,747 - INFO - Analyzing thresholds for alerts
+2024-11-18 01:57:18,747 - INFO - Threshold alert analysis completed
+2024-11-18 01:57:18,748 - INFO - Initializing DBSCANClustering
+2024-11-18 01:57:18,748 - INFO - Clustering log messages using DBSCAN
+2024-11-18 01:57:18,755 - INFO - DBSCAN clustering completed
+2024-11-18 01:57:18,757 - INFO - Grouping logs by DBSCAN clusters
+2024-11-18 01:57:18,761 - INFO - Initializing HDBSCANClustering
+2024-11-18 01:57:18,761 - INFO - Clustering log messages using HDBSCAN
+2024-11-18 01:57:18,771 - INFO - HDBSCAN clustering completed
+2024-11-18 01:57:18,775 - INFO - Log analysis completed successfully

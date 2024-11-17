@@ -1,0 +1,438 @@
+    level                                                                                                                 message
+0   ERROR          Failed to consume message from topic 'topic_transactions' using AWS. Error: TimeoutException after 30 seconds.
+1    INFO                                                                 Kubernetes pod scaled up successfully. New replicas: 5.
+2    INFO                                                                 Kubernetes pod scaled up successfully. New replicas: 5.
+3    INFO                                 DELETE request to /api/v1/users succeeded. Response code: 200 OK. Response size: 1.2MB.
+4   ERROR                          Phone number 9123456789 could not be added due to a duplicate record conflict in the database.
+5    INFO                                                    CPU usage is 27%. Threshold not exceeded. System operating normally.
+6   ERROR                                         Airflow encountered an issue. Exception: NullPointerException in thread 'main'.
+7   ERROR  Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.
+8   ERROR                             Docker container failed to start for service Java. Error log: Container crashed on startup.
+9    INFO                                                    CPU usage is 15%. Threshold not exceeded. System operating normally.
+10   INFO                                           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.
+11   INFO                              Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.
+12  ERROR                          Phone number 9123456789 could not be added due to a duplicate record conflict in the database.
+13   INFO                                   PATCH request to /healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB.
+14   INFO                                           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.
+15   INFO                                Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds.
+16  ERROR                Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures .
+17   INFO                                         Kafka operation completed successfully. Processed 1500 records in 2.35 seconds.
+18  ERROR        Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2.
+19   INFO                           Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds.
+20  ERROR                  Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2.
+21   INFO                                                Lambda function executed successfully in AWS. Execution duration: 250ms.
+22  ERROR                                            Lambda function execution failed in AWS. Error: Invalid parameters provided.
+23   INFO                                                                 Disk usage is 71%. Disk space within acceptable limits.
+24   INFO                                                                 Disk usage is 67%. Disk space within acceptable limits.
+25   INFO                                   PUT request to /api/v1/orders succeeded. Response code: 200 OK. Response size: 1.2MB.
+26  ERROR                     Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures .
+27  ERROR                          Docker container failed to start for service Airflow. Error log: Container crashed on startup.
+28  ERROR                                                         Oreder pipeline container ETL failures . Pod ID: kube_pod12345.
+29   INFO                              Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.
+30   INFO                                     User user123@domain.org logged in from IP 192.168.0.20. Login duration: 10 minutes.
+31   INFO                                                                 Disk usage is 76%. Disk space within acceptable limits.
+32  ERROR                                                           CPU usage is critically high: 51%. Immediate action required.
+33   INFO                                                           Phone number 9988776655 was successfully added to the system.
+34   INFO                                                           Phone number 9123456789 was successfully added to the system.
+35   INFO                                                    CPU usage is 66%. Threshold not exceeded. System operating normally.
+36   INFO                                   User alice.smith@test.com logged in from IP 192.168.0.64. Login duration: 10 minutes.
+37   INFO                                           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.
+38   INFO                              Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.
+39   INFO                                  User john.doe@example.com logged in from IP 192.168.0.197. Login duration: 10 minutes.
+40   INFO               Published message to topic 'topic_transactions' using Azure. Message delivery confirmed after 10 retries.
+41   INFO                            Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.
+42  ERROR                            Docker container failed to start for service Kafka. Error log: Container crashed on startup.
+43   INFO                                    Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds.
+44  ERROR             Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.
+45  ERROR                                             Disk usage is critically high: 74%. Threshold exceeded on volume /dev/sda1.
+46   INFO                            Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.
+47   INFO                                                    CPU usage is 64%. Threshold not exceeded. System operating normally.
+48   INFO                                                Lambda function executed successfully in AWS. Execution duration: 250ms.
+49   INFO                                                Lambda function executed successfully in AWS. Execution duration: 250ms.
+Analyzed Logs:
+                                                                                                                   message Sentiment
+0           Failed to consume message from topic 'topic_transactions' using AWS. Error: TimeoutException after 30 seconds.  Negative
+1                                                                  Kubernetes pod scaled up successfully. New replicas: 5.  Positive
+2                                                                  Kubernetes pod scaled up successfully. New replicas: 5.  Positive
+3                                  DELETE request to /api/v1/users succeeded. Response code: 200 OK. Response size: 1.2MB.  Negative
+4                           Phone number 9123456789 could not be added due to a duplicate record conflict in the database.  Negative
+5                                                     CPU usage is 27%. Threshold not exceeded. System operating normally.   Neutral
+6                                          Airflow encountered an issue. Exception: NullPointerException in thread 'main'.   Neutral
+7   Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.  Negative
+8                              Docker container failed to start for service Java. Error log: Container crashed on startup.  Negative
+9                                                     CPU usage is 15%. Threshold not exceeded. System operating normally.   Neutral
+10                                           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.  Positive
+11                              Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.  Positive
+12                          Phone number 9123456789 could not be added due to a duplicate record conflict in the database.  Negative
+13                                   PATCH request to /healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB.  Negative
+14                                           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.  Positive
+15                                Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds.  Positive
+16                Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures .  Negative
+17                                         Kafka operation completed successfully. Processed 1500 records in 2.35 seconds.  Positive
+18        Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2.  Negative
+19                           Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds.  Positive
+20                  Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2.  Negative
+21                                                Lambda function executed successfully in AWS. Execution duration: 250ms.  Positive
+22                                            Lambda function execution failed in AWS. Error: Invalid parameters provided.  Negative
+23                                                                 Disk usage is 71%. Disk space within acceptable limits.  Negative
+24                                                                 Disk usage is 67%. Disk space within acceptable limits.  Negative
+25                                   PUT request to /api/v1/orders succeeded. Response code: 200 OK. Response size: 1.2MB.  Negative
+26                     Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures .  Negative
+27                          Docker container failed to start for service Airflow. Error log: Container crashed on startup.  Negative
+28                                                         Oreder pipeline container ETL failures . Pod ID: kube_pod12345.  Negative
+29                              Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.  Positive
+30                                     User user123@domain.org logged in from IP 192.168.0.20. Login duration: 10 minutes.  Negative
+31                                                                 Disk usage is 76%. Disk space within acceptable limits.  Negative
+32                                                           CPU usage is critically high: 51%. Immediate action required.   Neutral
+33                                                           Phone number 9988776655 was successfully added to the system.  Positive
+34                                                           Phone number 9123456789 was successfully added to the system.  Positive
+35                                                    CPU usage is 66%. Threshold not exceeded. System operating normally.   Neutral
+36                                   User alice.smith@test.com logged in from IP 192.168.0.64. Login duration: 10 minutes.  Negative
+37                                           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.  Positive
+38                              Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.  Positive
+39                                  User john.doe@example.com logged in from IP 192.168.0.197. Login duration: 10 minutes.  Negative
+40               Published message to topic 'topic_transactions' using Azure. Message delivery confirmed after 10 retries.  Negative
+41                            Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.  Positive
+42                            Docker container failed to start for service Kafka. Error log: Container crashed on startup.  Negative
+43                                    Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds.  Positive
+44             Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.  Negative
+45                                             Disk usage is critically high: 74%. Threshold exceeded on volume /dev/sda1.  Negative
+46                            Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.  Positive
+47                                                    CPU usage is 64%. Threshold not exceeded. System operating normally.   Neutral
+48                                                Lambda function executed successfully in AWS. Execution duration: 250ms.  Positive
+49                                                Lambda function executed successfully in AWS. Execution duration: 250ms.  Positive
+Parsed Sensitive Data:
+[
+    {
+        "timestamp": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.64. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.64. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.197. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.197. Login duration: 10 minutes."
+    }
+]
+Clustered Logs:
+                                                                                                                   message Keyword_cluster
+0           Failed to consume message from topic 'topic_transactions' using AWS. Error: TimeoutException after 30 seconds.           kafka
+1                                                                  Kubernetes pod scaled up successfully. New replicas: 5.         unknown
+2                                                                  Kubernetes pod scaled up successfully. New replicas: 5.         unknown
+3                                  DELETE request to /api/v1/users succeeded. Response code: 200 OK. Response size: 1.2MB.             api
+4                           Phone number 9123456789 could not be added due to a duplicate record conflict in the database.        database
+5                                                     CPU usage is 27%. Threshold not exceeded. System operating normally.          server
+6                                          Airflow encountered an issue. Exception: NullPointerException in thread 'main'.         unknown
+7   Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.         airflow
+8                              Docker container failed to start for service Java. Error log: Container crashed on startup.         unknown
+9                                                     CPU usage is 15%. Threshold not exceeded. System operating normally.          server
+10                                           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.         unknown
+11                              Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.         unknown
+12                          Phone number 9123456789 could not be added due to a duplicate record conflict in the database.        database
+13                                   PATCH request to /healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB.         unknown
+14                                           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.         unknown
+15                                Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds.         airflow
+16                Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures .         airflow
+17                                         Kafka operation completed successfully. Processed 1500 records in 2.35 seconds.         unknown
+18        Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2.         airflow
+19                           Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds.         airflow
+20                  Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2.         airflow
+21                                                Lambda function executed successfully in AWS. Execution duration: 250ms.             aws
+22                                            Lambda function execution failed in AWS. Error: Invalid parameters provided.             aws
+23                                                                 Disk usage is 71%. Disk space within acceptable limits.          server
+24                                                                 Disk usage is 67%. Disk space within acceptable limits.          server
+25                                   PUT request to /api/v1/orders succeeded. Response code: 200 OK. Response size: 1.2MB.             api
+26                     Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures .         airflow
+27                          Docker container failed to start for service Airflow. Error log: Container crashed on startup.         unknown
+28                                                         Oreder pipeline container ETL failures . Pod ID: kube_pod12345.         unknown
+29                              Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.         unknown
+30                                     User user123@domain.org logged in from IP 192.168.0.20. Login duration: 10 minutes.         logging
+31                                                                 Disk usage is 76%. Disk space within acceptable limits.          server
+32                                                           CPU usage is critically high: 51%. Immediate action required.          server
+33                                                           Phone number 9988776655 was successfully added to the system.         unknown
+34                                                           Phone number 9123456789 was successfully added to the system.         unknown
+35                                                    CPU usage is 66%. Threshold not exceeded. System operating normally.          server
+36                                   User alice.smith@test.com logged in from IP 192.168.0.64. Login duration: 10 minutes.         logging
+37                                           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.         unknown
+38                              Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.         unknown
+39                                  User john.doe@example.com logged in from IP 192.168.0.197. Login duration: 10 minutes.         logging
+40               Published message to topic 'topic_transactions' using Azure. Message delivery confirmed after 10 retries.           kafka
+41                            Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.         airflow
+42                            Docker container failed to start for service Kafka. Error log: Container crashed on startup.         unknown
+43                                    Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds.         unknown
+44             Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.         airflow
+45                                             Disk usage is critically high: 74%. Threshold exceeded on volume /dev/sda1.          server
+46                            Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.         airflow
+47                                                    CPU usage is 64%. Threshold not exceeded. System operating normally.          server
+48                                                Lambda function executed successfully in AWS. Execution duration: 250ms.             aws
+49                                                Lambda function executed successfully in AWS. Execution duration: 250ms.             aws
+Extracted Anomalies:
+[
+    {
+        "timestamp": "2024-11-17 23:18:00",
+        "event": "CPU usage",
+        "value": 27
+    },
+    {
+        "timestamp": "2024-11-17 23:22:00",
+        "event": "CPU usage",
+        "value": 15
+    },
+    {
+        "timestamp": "2024-11-18 02:19:00",
+        "event": "Disk usage",
+        "value": 71
+    },
+    {
+        "timestamp": "2024-11-18 02:22:00",
+        "event": "Disk usage",
+        "value": 67
+    },
+    {
+        "timestamp": "2024-11-18 03:02:00",
+        "event": "Disk usage",
+        "value": 76
+    },
+    {
+        "timestamp": "2024-11-18 03:04:00",
+        "event": "CPU usage",
+        "value": 51
+    },
+    {
+        "timestamp": "2024-11-18 03:17:00",
+        "event": "CPU usage",
+        "value": 66
+    },
+    {
+        "timestamp": "2024-11-18 04:40:00",
+        "event": "CPU usage",
+        "value": 64
+    },
+    {
+        "timestamp": "2024-11-18 01:55:29.896450",
+        "event": "Service failures",
+        "value": 2
+    },
+    {
+        "timestamp": "2024-11-18 01:55:29.896596",
+        "event": "ETL failures",
+        "value": 1
+    }
+]
+Root Causes and Recommendations:
+{
+    "issues": [
+        {
+            "timestamp": "2024-11-18 02:19:00",
+            "root_cause": "Disk usage",
+            "value": 71,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-18 03:02:00",
+            "root_cause": "Disk usage",
+            "value": 76,
+            "recommendation": "Free up disk space or expand storage capacity."
+        }
+    ]
+}
+Threshold Alerts:
+{
+    "issues": [
+        {
+            "timestamp": "2024-11-18 02:19:00",
+            "root_cause": "Disk usage",
+            "value": 71,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-18 03:02:00",
+            "root_cause": "Disk usage",
+            "value": 76,
+            "recommendation": "Free up disk space or expand storage capacity."
+        }
+    ]
+}
+DBSCAN Clustering Results:
+                                                                                                                   message  cluster
+0           Failed to consume message from topic 'topic_transactions' using AWS. Error: TimeoutException after 30 seconds.       -1
+1                                                                  Kubernetes pod scaled up successfully. New replicas: 5.        0
+2                                                                  Kubernetes pod scaled up successfully. New replicas: 5.        0
+3                                  DELETE request to /api/v1/users succeeded. Response code: 200 OK. Response size: 1.2MB.        1
+4                           Phone number 9123456789 could not be added due to a duplicate record conflict in the database.        2
+5                                                     CPU usage is 27%. Threshold not exceeded. System operating normally.        3
+6                                          Airflow encountered an issue. Exception: NullPointerException in thread 'main'.       -1
+7   Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.        4
+8                              Docker container failed to start for service Java. Error log: Container crashed on startup.        5
+9                                                     CPU usage is 15%. Threshold not exceeded. System operating normally.        3
+10                                           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.        6
+11                              Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.        5
+12                          Phone number 9123456789 could not be added due to a duplicate record conflict in the database.        2
+13                                   PATCH request to /healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB.        1
+14                                           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.        6
+15                                Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds.        7
+16                Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures .        4
+17                                         Kafka operation completed successfully. Processed 1500 records in 2.35 seconds.        6
+18        Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2.        4
+19                           Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds.        7
+20                  Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2.        4
+21                                                Lambda function executed successfully in AWS. Execution duration: 250ms.        8
+22                                            Lambda function execution failed in AWS. Error: Invalid parameters provided.       -1
+23                                                                 Disk usage is 71%. Disk space within acceptable limits.        9
+24                                                                 Disk usage is 67%. Disk space within acceptable limits.        9
+25                                   PUT request to /api/v1/orders succeeded. Response code: 200 OK. Response size: 1.2MB.        1
+26                     Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures .        4
+27                          Docker container failed to start for service Airflow. Error log: Container crashed on startup.        5
+28                                                         Oreder pipeline container ETL failures . Pod ID: kube_pod12345.       -1
+29                              Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.        5
+30                                     User user123@domain.org logged in from IP 192.168.0.20. Login duration: 10 minutes.       10
+31                                                                 Disk usage is 76%. Disk space within acceptable limits.        9
+32                                                           CPU usage is critically high: 51%. Immediate action required.       -1
+33                                                           Phone number 9988776655 was successfully added to the system.       11
+34                                                           Phone number 9123456789 was successfully added to the system.       11
+35                                                    CPU usage is 66%. Threshold not exceeded. System operating normally.        3
+36                                   User alice.smith@test.com logged in from IP 192.168.0.64. Login duration: 10 minutes.       10
+37                                           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.        6
+38                              Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.        5
+39                                  User john.doe@example.com logged in from IP 192.168.0.197. Login duration: 10 minutes.       10
+40               Published message to topic 'topic_transactions' using Azure. Message delivery confirmed after 10 retries.       -1
+41                            Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.        7
+42                            Docker container failed to start for service Kafka. Error log: Container crashed on startup.        5
+43                                    Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds.        6
+44             Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.        4
+45                                             Disk usage is critically high: 74%. Threshold exceeded on volume /dev/sda1.       -1
+46                            Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.        7
+47                                                    CPU usage is 64%. Threshold not exceeded. System operating normally.        3
+48                                                Lambda function executed successfully in AWS. Execution duration: 250ms.        8
+49                                                Lambda function executed successfully in AWS. Execution duration: 250ms.        8
+
+Cluster -1:
+0     Failed to consume message from topic 'topic_transactions' using AWS. Error: TimeoutException after 30 seconds.
+6                                    Airflow encountered an issue. Exception: NullPointerException in thread 'main'.
+22                                      Lambda function execution failed in AWS. Error: Invalid parameters provided.
+28                                                   Oreder pipeline container ETL failures . Pod ID: kube_pod12345.
+32                                                     CPU usage is critically high: 51%. Immediate action required.
+40         Published message to topic 'topic_transactions' using Azure. Message delivery confirmed after 10 retries.
+45                                       Disk usage is critically high: 74%. Threshold exceeded on volume /dev/sda1.
+Name: message, dtype: object
+
+Cluster 0:
+1    Kubernetes pod scaled up successfully. New replicas: 5.
+2    Kubernetes pod scaled up successfully. New replicas: 5.
+Name: message, dtype: object
+
+Cluster 1:
+3     DELETE request to /api/v1/users succeeded. Response code: 200 OK. Response size: 1.2MB.
+13      PATCH request to /healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB.
+25      PUT request to /api/v1/orders succeeded. Response code: 200 OK. Response size: 1.2MB.
+Name: message, dtype: object
+
+Cluster 2:
+4     Phone number 9123456789 could not be added due to a duplicate record conflict in the database.
+12    Phone number 9123456789 could not be added due to a duplicate record conflict in the database.
+Name: message, dtype: object
+
+Cluster 3:
+5     CPU usage is 27%. Threshold not exceeded. System operating normally.
+9     CPU usage is 15%. Threshold not exceeded. System operating normally.
+35    CPU usage is 66%. Threshold not exceeded. System operating normally.
+47    CPU usage is 64%. Threshold not exceeded. System operating normally.
+Name: message, dtype: object
+
+Cluster 4:
+7     Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.
+16                  Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures .
+18          Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2.
+20                    Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2.
+26                       Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures .
+44               Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.
+Name: message, dtype: object
+
+Cluster 5:
+8        Docker container failed to start for service Java. Error log: Container crashed on startup.
+11        Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.
+27    Docker container failed to start for service Airflow. Error log: Container crashed on startup.
+29        Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.
+38        Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.
+42      Docker container failed to start for service Kafka. Error log: Container crashed on startup.
+Name: message, dtype: object
+
+Cluster 6:
+10           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.
+14           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.
+17         Kafka operation completed successfully. Processed 1500 records in 2.35 seconds.
+37           AWS operation completed successfully. Processed 1500 records in 2.35 seconds.
+43    Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds.
+Name: message, dtype: object
+
+Cluster 7:
+15         Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds.
+19    Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds.
+41     Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.
+46     Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.
+Name: message, dtype: object
+
+Cluster 8:
+21    Lambda function executed successfully in AWS. Execution duration: 250ms.
+48    Lambda function executed successfully in AWS. Execution duration: 250ms.
+49    Lambda function executed successfully in AWS. Execution duration: 250ms.
+Name: message, dtype: object
+
+Cluster 9:
+23    Disk usage is 71%. Disk space within acceptable limits.
+24    Disk usage is 67%. Disk space within acceptable limits.
+31    Disk usage is 76%. Disk space within acceptable limits.
+Name: message, dtype: object
+
+Cluster 10:
+30       User user123@domain.org logged in from IP 192.168.0.20. Login duration: 10 minutes.
+36     User alice.smith@test.com logged in from IP 192.168.0.64. Login duration: 10 minutes.
+39    User john.doe@example.com logged in from IP 192.168.0.197. Login duration: 10 minutes.
+Name: message, dtype: object
+
+Cluster 11:
+33    Phone number 9988776655 was successfully added to the system.
+34    Phone number 9123456789 was successfully added to the system.
+Name: message, dtype: object
+HDBSCAN Clustering Results:
+    cluster  ...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         message
+0        -1  ...                                                                                                                  [Failed to consume message from topic 'topic_transactions' using AWS. Error: TimeoutException after 30 seconds., Kubernetes pod scaled up successfully. New replicas: 5., Kubernetes pod scaled up successfully. New replicas: 5., Airflow encountered an issue. Exception: NullPointerException in thread 'main'., Oreder pipeline container ETL failures . Pod ID: kube_pod12345., CPU usage is critically high: 51%. Immediate action required., Published message to topic 'topic_transactions' using Azure. Message delivery confirmed after 10 retries.]
+1         0  ...                                                                                                                                                                                                                                                                                                                                                                                                         [DELETE request to /api/v1/users succeeded. Response code: 200 OK. Response size: 1.2MB., PATCH request to /healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB., PUT request to /api/v1/orders succeeded. Response code: 200 OK. Response size: 1.2MB.]
+2         1  ...                                                                                                                                                                                                                                                                                                                                                  [Phone number 9123456789 could not be added due to a duplicate record conflict in the database., Phone number 9123456789 could not be added due to a duplicate record conflict in the database., Phone number 9988776655 was successfully added to the system., Phone number 9123456789 was successfully added to the system.]
+3         2  ...                                                                                                                                                                                                                                                                                                                                                                                                            [User user123@domain.org logged in from IP 192.168.0.20. Login duration: 10 minutes., User alice.smith@test.com logged in from IP 192.168.0.64. Login duration: 10 minutes., User john.doe@example.com logged in from IP 192.168.0.197. Login duration: 10 minutes.]
+4         3  ...                                                                                                                                                                                                                                                                                                                                                                                     [Docker container failed to start for service Java. Error log: Container crashed on startup., Docker container failed to start for service Airflow. Error log: Container crashed on startup., Docker container failed to start for service Kafka. Error log: Container crashed on startup.]
+5         4  ...                                                                                                                                                                                                                                                                                                                                                                                            [Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678., Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678., Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.]
+6         5  ...                                                                                                                                                                                                                                                                                                           [CPU usage is 27%. Threshold not exceeded. System operating normally., CPU usage is 15%. Threshold not exceeded. System operating normally., CPU usage is 66%. Threshold not exceeded. System operating normally., Disk usage is critically high: 74%. Threshold exceeded on volume /dev/sda1., CPU usage is 64%. Threshold not exceeded. System operating normally.]
+7         6  ...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     [Disk usage is 71%. Disk space within acceptable limits., Disk usage is 67%. Disk space within acceptable limits., Disk usage is 76%. Disk space within acceptable limits.]
+8         7  ...                                                                                                                                                                                                                                                                                                                                                                    [Lambda function executed successfully in AWS. Execution duration: 250ms., Lambda function execution failed in AWS. Error: Invalid parameters provided., Lambda function executed successfully in AWS. Execution duration: 250ms., Lambda function executed successfully in AWS. Execution duration: 250ms.]
+9         8  ...                                                                                                                                                                                                                                                            [AWS operation completed successfully. Processed 1500 records in 2.35 seconds., AWS operation completed successfully. Processed 1500 records in 2.35 seconds., Kafka operation completed successfully. Processed 1500 records in 2.35 seconds., AWS operation completed successfully. Processed 1500 records in 2.35 seconds., Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds.]
+10        9  ...  [Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2., Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ., Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2., Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2., Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ., Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.]
+11       10  ...                                                                                                                                                                                                                                                                                           [Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds., Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds., Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds., Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.]
+
+[12 rows x 3 columns]
