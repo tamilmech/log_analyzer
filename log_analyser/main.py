@@ -1,8 +1,10 @@
 from logs_preprocessor import LogParser
 from model_components.model_loader import SentimentAnalysis
 from model_components.log_sensitive_data_parser import SensitiveDataParser  # Import the new class
+from model_components.clustering_keywords import KeywordClustering # Import the KeywordClustering class
 
 import json
+
 def main():
     # Define the path to the sample log file
     log_file_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt"  # Replace with the actual path to your log file
@@ -37,6 +39,16 @@ def main():
     # Display parsed sensitive data as JSON
     print("Parsed Sensitive Data:")
     print(json.dumps(sensitive_data, indent=4))
+
+    # Initialize the KeywordClustering class
+    keyword_clustering = KeywordClustering()
+
+    # Categorize the messages into clusters
+    clustered_df = keyword_clustering.categorize(df)
+
+    # Display the clustering results
+    print("Clustered Logs:")
+    print(clustered_df[['message', 'Keyword_cluster']])
 
 if __name__ == "__main__":
     main()
