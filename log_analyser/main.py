@@ -36,8 +36,17 @@ def save_output(df, output_path, filename):
 
 def save_json_output(data, output_path, filename):
     """
-    Save JSON output to the given path.
+    Save JSON output to the given path, ensuring proper formatting.
     """
+    # If data is a JSON string, parse it to a Python dictionary
+    if isinstance(data, str):
+        try:
+            data = json.loads(data)
+        except json.JSONDecodeError as e:
+            logging.error(f"Failed to decode JSON string: {e}")
+            return
+
+    # Save the JSON object with proper formatting
     json_path = os.path.join(output_path, f"{filename}.json")
     with open(json_path, "w") as json_file:
         json.dump(data, json_file, indent=4)
@@ -121,14 +130,22 @@ def main():
     logging.info("Extracting anomalies from log messages")
     anomalies_json = anomaly_predictor.analyze(df)
     logging.info("Anomaly prediction completed")
+
+    # Deserialize anomalies JSON
+    try:
+        structured_data = json.loads(anomalies_json) if isinstance(anomalies_json, str) else anomalies_json
+    except json.JSONDecodeError as e:
+        logging.error(f"Failed to decode anomalies JSON: {e}")
+        print("Failed to decode anomalies JSON")
+        return
+
+    # Pretty print the deserialized anomalies
+    logging.info("Structured anomalies data successfully parsed")
     print("Extracted Anomalies:")
-    print(anomalies_json)
+    print(json.dumps(structured_data, indent=4))
 
-    # Save anomaly predictions to JSON
-    save_json_output(anomalies_json, output_path, "anomalies")
-
-    # Convert anomalies JSON back to a Python object for threshold alert analysis
-    structured_data = json.loads(anomalies_json)
+    # Save anomalies JSON to file
+    save_json_output(structured_data, output_path, "anomalies")
 
     # Initialize the RootCauseAnalysis class
     logging.info("Initializing RootCauseAnalysis")
@@ -139,7 +156,7 @@ def main():
     root_cause_json = root_cause_analyzer.analyze(structured_data)
     logging.info("Root cause analysis completed")
     print("Root Causes and Recommendations:")
-    print(root_cause_json)
+    print(json.dumps(root_cause_json, indent=4))
 
     # Save root cause analysis results to JSON
     save_json_output(root_cause_json, output_path, "root_cause_analysis")
@@ -152,53 +169,13 @@ def main():
     logging.info("Analyzing thresholds for alerts")
     threshold_alert_json = threshold_alert.analyze(structured_data)
     logging.info("Threshold alert analysis completed")
+
+    # Pretty print the threshold alerts
     print("Threshold Alerts:")
-    print(threshold_alert_json)
+    print(json.dumps(threshold_alert_json, indent=4))
 
-    # Save threshold alert results to JSON
+    # Save threshold alerts JSON to file
     save_json_output(threshold_alert_json, output_path, "threshold_alerts")
-
-    # Initialize the DBSCANClustering class
-    logging.info("Initializing DBSCANClustering")
-    dbscan_clustering = DBSCANClustering()
-
-    # Cluster the log messages using DBSCAN
-    logging.info("Clustering log messages using DBSCAN")
-    dbscan_clustered_df = dbscan_clustering.cluster(df)
-    logging.info("DBSCAN clustering completed")
-    print("DBSCAN Clustering Results:")
-    print(dbscan_clustered_df[['message', 'cluster']])
-
-    # Save DBSCAN clustering results to CSV and JSON
-    save_output(dbscan_clustered_df, output_path, "dbscan_clustering_results")
-
-    # Group logs by cluster
-    logging.info("Grouping logs by DBSCAN clusters")
-    for cluster_id in dbscan_clustered_df['cluster'].unique():
-        print(f"\nCluster {cluster_id}:")
-        print(dbscan_clustered_df[dbscan_clustered_df['cluster'] == cluster_id]['message'])
-
-    # Initialize the HDBSCANClustering class
-    logging.info("Initializing HDBSCANClustering")
-    hdbscan_clustering = HDBSCANClustering()
-
-    # Cluster the log messages using HDBSCAN
-    logging.info("Clustering log messages using HDBSCAN")
-    hdbscan_clustered_df = hdbscan_clustering.cluster(df)
-    logging.info("HDBSCAN clustering completed")
-    print("HDBSCAN Clustering Results:")
-    print(hdbscan_clustered_df)
-
-    # Save HDBSCAN clustering results to CSV and JSON
-    save_output(hdbscan_clustered_df, output_path, "hdbscan_clustering_results")
-
-    # Uncomment if ClusterTitleGenerator is implemented
-    # logging.info("Initializing ClusterTitleGenerator")
-    # cluster_title_generator = ClusterTitleGenerator()
-    # cluster_titles_df = cluster_title_generator.generate_titles(dbscan_clustered_df)
-    # logging.info("Cluster title generation completed")
-    # print("Cluster Titles and Counts:")
-    # print(cluster_titles_df)
 
     logging.info("Log analysis completed successfully")
 
