@@ -1,9 +1,39 @@
 [
     {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
         "timestamp": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database.",
         "sensitive_data_type": "phone",
         "detected_value": "9123456789",
         "log_message": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.250. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.250. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.196. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.196. Login duration: 10 minutes."
     },
     {
         "timestamp": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database.",
@@ -24,15 +54,789 @@
         "log_message": "Phone number 9123456789 was successfully added to the system."
     },
     {
-        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.64. Login duration: 10 minutes.",
-        "sensitive_data_type": "email",
-        "detected_value": "alice.smith@test.com",
-        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.64. Login duration: 10 minutes."
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
     },
     {
-        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.197. Login duration: 10 minutes.",
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.231. Login duration: 10 minutes.",
         "sensitive_data_type": "email",
         "detected_value": "john.doe@example.com",
-        "log_message": "User john.doe@example.com logged in from IP 192.168.0.197. Login duration: 10 minutes."
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.231. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.242. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.242. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.150. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.150. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.146. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.146. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.229. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.229. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.255. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.255. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.48. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.48. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.250. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.250. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.155. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.155. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.142. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.142. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.109. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.109. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.19. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.19. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.167. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.167. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.103. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.103. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.79. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.79. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.153. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.153. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.234. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.234. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.43. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.43. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.83. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.83. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.251. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.251. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.19. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.19. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.162. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.162. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.193. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.193. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.119. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.119. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.138. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.138. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.224. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.224. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.208. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.208. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.198. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.198. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.219. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.219. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.150. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.150. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.237. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.237. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.26. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.26. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.113. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.113. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.248. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.248. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.254. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.254. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.55. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.55. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.102. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.102. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9876543210 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9876543210",
+        "log_message": "Phone number 9876543210 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.35. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.35. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.209. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.209. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.48. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.48. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.29. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.29. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.44. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.44. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.234. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.234. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 was successfully added to the system."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.20. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.20. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "User john.doe@example.com logged in from IP 192.168.0.168. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "john.doe@example.com",
+        "log_message": "User john.doe@example.com logged in from IP 192.168.0.168. Login duration: 10 minutes."
+    },
+    {
+        "timestamp": "Phone number 9123456789 was successfully added to the system.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 was successfully added to the system."
+    },
+    {
+        "timestamp": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9988776655",
+        "log_message": "Phone number 9988776655 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database.",
+        "sensitive_data_type": "phone",
+        "detected_value": "9123456789",
+        "log_message": "Phone number 9123456789 could not be added due to a duplicate record conflict in the database."
+    },
+    {
+        "timestamp": "User alice.smith@test.com logged in from IP 192.168.0.89. Login duration: 10 minutes.",
+        "sensitive_data_type": "email",
+        "detected_value": "alice.smith@test.com",
+        "log_message": "User alice.smith@test.com logged in from IP 192.168.0.89. Login duration: 10 minutes."
     }
 ]

@@ -1,0 +1,16 @@
+2024-11-18 20:54:08,145 - INFO - Starting plot analysis
+2024-11-18 20:54:08,145 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 20:54:08,145 - INFO - Initializing LogParser
+2024-11-18 20:54:08,145 - INFO - Parsing the log file
+2024-11-18 20:54:08,152 - INFO - Logs parsed successfully
+2024-11-18 20:54:08,693 - INFO - Bar chart for log levels saved.
+2024-11-18 20:54:08,798 - INFO - Line chart for hourly error counts saved.
+2024-11-18 20:54:08,799 - INFO - Visualizations generated successfully
+2024-11-18 20:55:06,857 - INFO - Starting plot analysis
+2024-11-18 20:55:06,857 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 20:55:06,857 - INFO - Initializing LogParser
+2024-11-18 20:55:06,857 - INFO - Parsing the log file
+2024-11-18 20:55:06,859 - INFO - Logs parsed successfully
+2024-11-18 20:55:07,015 - INFO - Bar chart for log levels saved.
+2024-11-18 20:55:07,111 - INFO - Line chart for hourly error counts saved.
+2024-11-18 20:55:07,111 - INFO - Visualizations generated successfully

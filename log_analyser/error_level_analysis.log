@@ -1,0 +1,16 @@
+2024-11-18 20:57:32,924 - INFO - ErrorLevel initialized.
+2024-11-18 20:57:32,924 - INFO - Starting error level analysis
+2024-11-18 20:57:32,924 - INFO - Initializing LogParser
+2024-11-18 20:57:32,924 - INFO - Parsing the log file
+2024-11-18 20:57:32,926 - INFO - Logs parsed successfully
+2024-11-18 20:57:33,081 - INFO - Bar chart for log levels saved.
+2024-11-18 20:57:33,176 - INFO - Line chart for hourly error counts saved.
+2024-11-18 20:57:33,176 - INFO - Error level analysis completed successfully.
+2024-11-18 20:59:09,950 - INFO - ErrorLevel initialized.
+2024-11-18 20:59:09,950 - INFO - Starting error level analysis
+2024-11-18 20:59:09,950 - INFO - Initializing LogParser
+2024-11-18 20:59:09,950 - INFO - Parsing the log file
+2024-11-18 20:59:09,952 - INFO - Logs parsed successfully
+2024-11-18 20:59:10,131 - INFO - Advanced bar chart for log levels saved.
+2024-11-18 20:59:10,259 - INFO - Advanced line chart for hourly error counts saved.
+2024-11-18 20:59:10,259 - INFO - Error level analysis completed successfully.

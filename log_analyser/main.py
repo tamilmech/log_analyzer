@@ -1,8 +1,7 @@
 import logging
 import os
+import pandas as pd
 import json
-from contextlib import redirect_stdout
-
 from logs_preprocessor import LogParser
 from model_components.SentimentAnalysis import SentimentAnalysis
 from model_components.log_sensitive_data_parser import SensitiveDataParser
@@ -12,6 +11,7 @@ from model_components.Root_Cause_Analysis import RootCauseAnalysis
 from model_components.Threshold_Alert import ThresholdAlert
 from model_components.DBSCAN_Clustering import DBSCANClustering
 from model_components.HDBSCAN_Clustering import HDBSCANClustering
+from Plot_Analysis import LogLevelVisualizer, SentimentVisualizer, KeywordClusteringVisualizer
 
 # Configure logging
 logging.basicConfig(
@@ -24,12 +24,10 @@ def save_output(df, output_path, filename):
     """
     Save DataFrame to CSV and JSON output to the given path.
     """
-    # Save DataFrame to CSV
     csv_path = os.path.join(output_path, f"{filename}.csv")
     df.to_csv(csv_path, index=False)
     logging.info(f"Saved CSV output: {csv_path}")
 
-    # Save DataFrame to JSON
     json_path = os.path.join(output_path, f"{filename}.json")
     df.to_json(json_path, orient="records", lines=True)
     logging.info(f"Saved JSON output: {json_path}")
@@ -38,7 +36,6 @@ def save_json_output(data, output_path, filename):
     """
     Save JSON output to the given path, ensuring proper formatting.
     """
-    # If data is a JSON string, parse it to a Python dictionary
     if isinstance(data, str):
         try:
             data = json.loads(data)
@@ -46,7 +43,6 @@ def save_json_output(data, output_path, filename):
             logging.error(f"Failed to decode JSON string: {e}")
             return
 
-    # Save the JSON object with proper formatting
     json_path = os.path.join(output_path, f"{filename}.json")
     with open(json_path, "w") as json_file:
         json.dump(data, json_file, indent=4)
@@ -55,127 +51,79 @@ def save_json_output(data, output_path, filename):
 def main():
     logging.info("Starting log analysis")
 
-    # Define the path to the sample log file
-    log_file_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt"  # Replace with the actual path to your log file
-    logging.info(f"Log file path: {log_file_path}")
-
-    # Output path for results
+    # Define paths
+    log_file_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt"
     output_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs"
+    error_visualization_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/visualization/error_level"
+    sentiment_visualization_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/visualization/sentimental_analysis"
+    keyword_clustering_visualization_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/visualization/keyword_clustering"
+
     os.makedirs(output_path, exist_ok=True)
 
-    # Initialize the LogParser
-    logging.info("Initializing LogParser")
+    # Log parsing
     log_parser = LogParser()
-
-    # Parse the log file
-    logging.info("Parsing the log file")
     df = log_parser.parse(log_file_path)
     if df.empty:
         logging.warning("No valid logs to display.")
-        print("No valid logs to display.")
         return
-    logging.info("Parsed logs successfully")
-    print(df[['level', 'message']])
 
-    # Save the parsed logs to CSV and JSON
+    # Ensure timestamp is in datetime format
+    df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce')
+    df = df.dropna(subset=['timestamp'])
+
+    # Save parsed logs
     save_output(df, output_path, "parsed_logs")
 
-    # Initialize the SentimentAnalysis class
-    logging.info("Initializing SentimentAnalysis")
+    # Log level visualizations
+    log_level_visualizer = LogLevelVisualizer(df, error_visualization_path)
+    log_level_visualizer.run_visualizations()
+
+    # Sentiment Analysis
     sentiment_analyzer = SentimentAnalysis()
+    sentiment_df = sentiment_analyzer.analyze(df)
+    save_output(sentiment_df, output_path, "sentiment_analysis_results")
 
-    # Analyze the sentiment of the messages
-    logging.info("Analyzing sentiment of log messages")
-    analyzed_df = sentiment_analyzer.analyze(df)
-    logging.info("Sentiment analysis completed")
-    print("Analyzed Logs:")
-    print(analyzed_df[['message', 'Sentiment']])
+    sentiment_visualizer = SentimentVisualizer(sentiment_df, sentiment_visualization_path)
+    sentiment_visualizer.run_visualizations()
 
-    # Save sentiment analysis results to CSV and JSON
-    save_output(analyzed_df, output_path, "sentiment_analysis_results")
-
-    # Initialize the SensitiveDataParser
-    logging.info("Initializing SensitiveDataParser")
+    # Sensitive Data Parsing
     sensitive_data_parser = SensitiveDataParser()
-
-    # Parse sensitive data
-    logging.info("Parsing sensitive data")
     sensitive_data = sensitive_data_parser.parse(df)
-    logging.info("Sensitive data parsing completed")
-    print("Parsed Sensitive Data:")
-    print(json.dumps(sensitive_data, indent=4))
-
-    # Save sensitive data to JSON
     save_json_output(sensitive_data, output_path, "sensitive_data")
 
-    # Initialize the KeywordClustering class
-    logging.info("Initializing KeywordClustering")
+    # Keyword Clustering
     keyword_clustering = KeywordClustering()
-
-    # Categorize the messages into clusters
-    logging.info("Clustering messages into categories")
     clustered_df = keyword_clustering.categorize(df)
-    logging.info("Keyword clustering completed")
-    print("Clustered Logs:")
-    print(clustered_df[['message', 'Keyword_cluster']])
-
-    # Save clustering results to CSV and JSON
     save_output(clustered_df, output_path, "keyword_clustering_results")
 
-    # Initialize the AnomalyPrediction class
-    logging.info("Initializing AnomalyPrediction")
+    keyword_clustering_visualizer = KeywordClusteringVisualizer(clustered_df, keyword_clustering_visualization_path)
+    keyword_clustering_visualizer.run_visualizations()
+
+    # Anomaly Detection
     anomaly_predictor = AnomalyPrediction()
-
-    # Extract specific metrics and failure events
-    logging.info("Extracting anomalies from log messages")
     anomalies_json = anomaly_predictor.analyze(df)
-    logging.info("Anomaly prediction completed")
-
-    # Deserialize anomalies JSON
-    try:
-        structured_data = json.loads(anomalies_json) if isinstance(anomalies_json, str) else anomalies_json
-    except json.JSONDecodeError as e:
-        logging.error(f"Failed to decode anomalies JSON: {e}")
-        print("Failed to decode anomalies JSON")
-        return
-
-    # Pretty print the deserialized anomalies
-    logging.info("Structured anomalies data successfully parsed")
-    print("Extracted Anomalies:")
-    print(json.dumps(structured_data, indent=4))
-
-    # Save anomalies JSON to file
+    structured_data = json.loads(anomalies_json) if isinstance(anomalies_json, str) else anomalies_json
     save_json_output(structured_data, output_path, "anomalies")
 
-    # Initialize the RootCauseAnalysis class
-    logging.info("Initializing RootCauseAnalysis")
+    # Root Cause Analysis
     root_cause_analyzer = RootCauseAnalysis()
-
-    # Analyze the root causes and provide recommendations
-    logging.info("Analyzing root causes")
     root_cause_json = root_cause_analyzer.analyze(structured_data)
-    logging.info("Root cause analysis completed")
-    print("Root Causes and Recommendations:")
-    print(json.dumps(root_cause_json, indent=4))
-
-    # Save root cause analysis results to JSON
     save_json_output(root_cause_json, output_path, "root_cause_analysis")
 
-    # Initialize the ThresholdAlert class
-    logging.info("Initializing ThresholdAlert")
+    # Threshold Alert Analysis
     threshold_alert = ThresholdAlert()
-
-    # Analyze the thresholds and provide alerts
-    logging.info("Analyzing thresholds for alerts")
     threshold_alert_json = threshold_alert.analyze(structured_data)
-    logging.info("Threshold alert analysis completed")
-
-    # Pretty print the threshold alerts
-    print("Threshold Alerts:")
-    print(json.dumps(threshold_alert_json, indent=4))
-
-    # Save threshold alerts JSON to file
     save_json_output(threshold_alert_json, output_path, "threshold_alerts")
+
+    # DBSCAN Clustering (if needed)
+    dbscan_clustering = DBSCANClustering()
+    dbscan_results = dbscan_clustering.cluster(df)
+    save_output(dbscan_results, output_path, "dbscan_clustering_results")
+
+    # HDBSCAN Clustering (if needed)
+    hdbscan_clustering = HDBSCANClustering()
+    hdbscan_results = hdbscan_clustering.cluster(df)
+    save_output(hdbscan_results, output_path, "hdbscan_clustering_results")
 
     logging.info("Log analysis completed successfully")
 

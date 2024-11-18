@@ -1,1 +1,268 @@
-"{\n    \"issues\": [\n        {\n            \"timestamp\": \"2024-11-18 02:19:00\",\n            \"root_cause\": \"Disk usage\",\n            \"value\": 71,\n            \"recommendation\": \"Free up disk space or expand storage capacity.\"\n        },\n        {\n            \"timestamp\": \"2024-11-18 03:02:00\",\n            \"root_cause\": \"Disk usage\",\n            \"value\": 76,\n            \"recommendation\": \"Free up disk space or expand storage capacity.\"\n        }\n    ]\n}"
+{
+    "issues": [
+        {
+            "timestamp": "2024-11-18 23:26:00",
+            "root_cause": "Disk usage",
+            "value": 92,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-18 23:26:00",
+            "root_cause": "Critical Disk usage",
+            "value": 92,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-19 01:18:00",
+            "root_cause": "CPU usage",
+            "value": 90,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-11-19 01:53:00",
+            "root_cause": "CPU usage",
+            "value": 88,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-11-19 05:11:00",
+            "root_cause": "Disk usage",
+            "value": 92,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-19 05:11:00",
+            "root_cause": "Critical Disk usage",
+            "value": 92,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-19 08:42:00",
+            "root_cause": "Disk usage",
+            "value": 91,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-19 08:42:00",
+            "root_cause": "Critical Disk usage",
+            "value": 91,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-19 15:12:00",
+            "root_cause": "Disk usage",
+            "value": 94,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-19 15:12:00",
+            "root_cause": "Critical Disk usage",
+            "value": 94,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-20 03:01:00",
+            "root_cause": "Disk usage",
+            "value": 81,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-20 07:10:00",
+            "root_cause": "Disk usage",
+            "value": 79,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-20 12:43:00",
+            "root_cause": "Disk usage",
+            "value": 77,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-20 13:15:00",
+            "root_cause": "Disk usage",
+            "value": 88,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-20 13:55:00",
+            "root_cause": "Disk usage",
+            "value": 93,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-20 13:55:00",
+            "root_cause": "Critical Disk usage",
+            "value": 93,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-20 14:26:00",
+            "root_cause": "Disk usage",
+            "value": 75,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-20 16:32:00",
+            "root_cause": "Disk usage",
+            "value": 93,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-20 16:32:00",
+            "root_cause": "Critical Disk usage",
+            "value": 93,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-20 16:44:00",
+            "root_cause": "Disk usage",
+            "value": 92,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-20 16:44:00",
+            "root_cause": "Critical Disk usage",
+            "value": 92,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-20 20:47:00",
+            "root_cause": "CPU usage",
+            "value": 82,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-11-20 21:14:00",
+            "root_cause": "CPU usage",
+            "value": 85,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-11-21 01:05:00",
+            "root_cause": "Disk usage",
+            "value": 82,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-21 04:35:00",
+            "root_cause": "Disk usage",
+            "value": 74,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-21 05:12:00",
+            "root_cause": "Disk usage",
+            "value": 87,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-21 08:34:00",
+            "root_cause": "Disk usage",
+            "value": 74,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-21 09:55:00",
+            "root_cause": "Disk usage",
+            "value": 71,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-21 10:59:00",
+            "root_cause": "Disk usage",
+            "value": 84,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-21 12:08:00",
+            "root_cause": "Disk usage",
+            "value": 81,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-21 12:56:00",
+            "root_cause": "CPU usage",
+            "value": 88,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-11-21 14:05:00",
+            "root_cause": "Disk usage",
+            "value": 74,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-21 17:18:00",
+            "root_cause": "Disk usage",
+            "value": 93,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-21 17:18:00",
+            "root_cause": "Critical Disk usage",
+            "value": 93,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-21 17:39:00",
+            "root_cause": "CPU usage",
+            "value": 83,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-11-21 23:29:00",
+            "root_cause": "CPU usage",
+            "value": 86,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-11-22 09:00:00",
+            "root_cause": "Disk usage",
+            "value": 88,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-22 16:22:00",
+            "root_cause": "CPU usage",
+            "value": 90,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-11-23 02:57:00",
+            "root_cause": "Disk usage",
+            "value": 87,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-23 05:39:00",
+            "root_cause": "Disk usage",
+            "value": 90,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-23 09:47:00",
+            "root_cause": "Disk usage",
+            "value": 87,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-11-23 09:49:00",
+            "root_cause": "CPU usage",
+            "value": 88,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-11-23 12:18:00",
+            "root_cause": "CPU usage",
+            "value": 82,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-11-23 22:40:00",
+            "root_cause": "CPU usage",
+            "value": 84,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        }
+    ]
+}

@@ -102,8 +102,8 @@ def generate_hourly_logs(start_time, num_hours, logs_per_hour, output_file=None)
 # Main function
 if __name__ == "__main__":
     start_time = datetime.now().replace(minute=0, second=0, microsecond=0)  # Start from the current hour
-    num_hours = 5  # Number of hours to generate logs for
-    logs_per_hour = 10  # Number of logs per hour
+    num_hours = 30  # Number of hours to generate logs for
+    logs_per_hour = 40  # Number of logs per hour
     output_file_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt"  # File to save logs
     logs = generate_hourly_logs(start_time, num_hours, logs_per_hour, output_file_path)
     print(f"\nGenerated logs with separate CPU and Disk usage saved to {output_file_path}")

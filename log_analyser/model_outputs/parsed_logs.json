@@ -1,50 +1,1200 @@
-{"timestamp":"2024-11-17 23:00:00","host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_transactions' using AWS. Error: TimeoutException after 30 seconds."}
-{"timestamp":"2024-11-17 23:01:00","host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
-{"timestamp":"2024-11-17 23:08:00","host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
-{"timestamp":"2024-11-17 23:13:00","host":"","level":"INFO","message":"DELETE request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
-{"timestamp":"2024-11-17 23:14:00","host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database."}
-{"timestamp":"2024-11-17 23:18:00","host":"","level":"INFO","message":"CPU usage is 27%. Threshold not exceeded. System operating normally."}
-{"timestamp":"2024-11-17 23:19:00","host":"","level":"ERROR","message":"Airflow encountered an issue. Exception: NullPointerException in thread 'main'."}
-{"timestamp":"2024-11-17 23:20:00","host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2."}
-{"timestamp":"2024-11-17 23:21:00","host":"","level":"ERROR","message":"Docker container failed to start for service Java. Error log: Container crashed on startup."}
-{"timestamp":"2024-11-17 23:22:00","host":"","level":"INFO","message":"CPU usage is 15%. Threshold not exceeded. System operating normally."}
-{"timestamp":"2024-11-18 00:00:00","host":"","level":"INFO","message":"AWS operation completed successfully. Processed 1500 records in 2.35 seconds."}
-{"timestamp":"2024-11-18 00:03:00","host":"","level":"INFO","message":"Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678."}
-{"timestamp":"2024-11-18 00:12:00","host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database."}
-{"timestamp":"2024-11-18 00:20:00","host":"","level":"INFO","message":"PATCH request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB."}
-{"timestamp":"2024-11-18 00:24:00","host":"","level":"INFO","message":"AWS operation completed successfully. Processed 1500 records in 2.35 seconds."}
-{"timestamp":"2024-11-18 00:30:00","host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
-{"timestamp":"2024-11-18 00:40:00","host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ."}
-{"timestamp":"2024-11-18 00:47:00","host":"","level":"INFO","message":"Kafka operation completed successfully. Processed 1500 records in 2.35 seconds."}
-{"timestamp":"2024-11-18 00:54:00","host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2."}
-{"timestamp":"2024-11-18 01:04:00","host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
-{"timestamp":"2024-11-18 02:00:00","host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
-{"timestamp":"2024-11-18 02:07:00","host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
-{"timestamp":"2024-11-18 02:11:00","host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
-{"timestamp":"2024-11-18 02:19:00","host":"","level":"INFO","message":"Disk usage is 71%. Disk space within acceptable limits."}
-{"timestamp":"2024-11-18 02:22:00","host":"","level":"INFO","message":"Disk usage is 67%. Disk space within acceptable limits."}
-{"timestamp":"2024-11-18 02:28:00","host":"","level":"INFO","message":"PUT request to \/api\/v1\/orders succeeded. Response code: 200 OK. Response size: 1.2MB."}
-{"timestamp":"2024-11-18 02:29:00","host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
-{"timestamp":"2024-11-18 02:32:00","host":"","level":"ERROR","message":"Docker container failed to start for service Airflow. Error log: Container crashed on startup."}
-{"timestamp":"2024-11-18 02:37:00","host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
-{"timestamp":"2024-11-18 02:39:00","host":"","level":"INFO","message":"Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678."}
-{"timestamp":"2024-11-18 03:00:00","host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.20. Login duration: 10 minutes."}
-{"timestamp":"2024-11-18 03:02:00","host":"","level":"INFO","message":"Disk usage is 76%. Disk space within acceptable limits."}
-{"timestamp":"2024-11-18 03:04:00","host":"","level":"ERROR","message":"CPU usage is critically high: 51%. Immediate action required."}
-{"timestamp":"2024-11-18 03:06:00","host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
-{"timestamp":"2024-11-18 03:16:00","host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
-{"timestamp":"2024-11-18 03:17:00","host":"","level":"INFO","message":"CPU usage is 66%. Threshold not exceeded. System operating normally."}
-{"timestamp":"2024-11-18 03:20:00","host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.64. Login duration: 10 minutes."}
-{"timestamp":"2024-11-18 03:21:00","host":"","level":"INFO","message":"AWS operation completed successfully. Processed 1500 records in 2.35 seconds."}
-{"timestamp":"2024-11-18 03:25:00","host":"","level":"INFO","message":"Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678."}
-{"timestamp":"2024-11-18 03:30:00","host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.197. Login duration: 10 minutes."}
-{"timestamp":"2024-11-18 04:00:00","host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Azure. Message delivery confirmed after 10 retries."}
-{"timestamp":"2024-11-18 04:07:00","host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
-{"timestamp":"2024-11-18 04:13:00","host":"","level":"ERROR","message":"Docker container failed to start for service Kafka. Error log: Container crashed on startup."}
-{"timestamp":"2024-11-18 04:20:00","host":"","level":"INFO","message":"Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds."}
-{"timestamp":"2024-11-18 04:27:00","host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2."}
-{"timestamp":"2024-11-18 04:29:00","host":"","level":"ERROR","message":"Disk usage is critically high: 74%. Threshold exceeded on volume \/dev\/sda1."}
-{"timestamp":"2024-11-18 04:36:00","host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
-{"timestamp":"2024-11-18 04:40:00","host":"","level":"INFO","message":"CPU usage is 64%. Threshold not exceeded. System operating normally."}
-{"timestamp":"2024-11-18 04:49:00","host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
-{"timestamp":"2024-11-18 04:52:00","host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1731963600000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1731964200000,"host":"","level":"INFO","message":"Disk usage is 37%. Disk space within acceptable limits."}
+{"timestamp":1731964260000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1731964560000,"host":"","level":"INFO","message":"GET request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731964620000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1731964920000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1731965100000,"host":"","level":"INFO","message":"CPU usage is 25%. Threshold not exceeded. System operating normally."}
+{"timestamp":1731965580000,"host":"","level":"INFO","message":"PATCH request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731965640000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1731966120000,"host":"","level":"INFO","message":"Docker container started successfully for service AWS. Container ID: abcd1234efgh5678."}
+{"timestamp":1731966420000,"host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1731966660000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1731967260000,"host":"","level":"INFO","message":"PUT request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731967320000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1731967740000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Java. Error: TimeoutException after 30 seconds."}
+{"timestamp":1731967800000,"host":"","level":"ERROR","message":"Disk usage is critically high: 29%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1731968220000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1731968700000,"host":"","level":"INFO","message":"Disk usage is 66%. Disk space within acceptable limits."}
+{"timestamp":1731969060000,"host":"","level":"INFO","message":"AWS operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1731969420000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1731969780000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.250. Login duration: 10 minutes."}
+{"timestamp":1731970020000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1731970620000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1731970860000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1731971160000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1731971220000,"host":"","level":"ERROR","message":"Docker container failed to start for service Airflow. Error log: Container crashed on startup."}
+{"timestamp":1731971400000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1731971820000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1731971880000,"host":"","level":"ERROR","message":"CPU usage is critically high: 64%. Immediate action required."}
+{"timestamp":1731972240000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1731972360000,"host":"","level":"INFO","message":"Disk usage is 92%. Disk space within acceptable limits."}
+{"timestamp":1731972900000,"host":"","level":"INFO","message":"DELETE request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731973140000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1731973680000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1731974220000,"host":"","level":"INFO","message":"Docker container started successfully for service AWS. Container ID: abcd1234efgh5678."}
+{"timestamp":1731974400000,"host":"","level":"INFO","message":"POST request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731975000000,"host":"","level":"INFO","message":"Python operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1731975420000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1731975840000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1731976380000,"host":"","level":"INFO","message":"PUT request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731978000000,"host":"","level":"ERROR","message":"Disk usage is critically high: 21%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1731978480000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1731979080000,"host":"","level":"ERROR","message":"CPU usage is critically high: 90%. Immediate action required."}
+{"timestamp":1731979200000,"host":"","level":"INFO","message":"Docker container started successfully for service Azure. Container ID: abcd1234efgh5678."}
+{"timestamp":1731979320000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.224. Login duration: 10 minutes."}
+{"timestamp":1731979860000,"host":"","level":"INFO","message":"GET request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731980400000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1731980820000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.196. Login duration: 10 minutes."}
+{"timestamp":1731981180000,"host":"","level":"ERROR","message":"CPU usage is critically high: 88%. Immediate action required."}
+{"timestamp":1731981300000,"host":"","level":"INFO","message":"Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1731981360000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1731981420000,"host":"","level":"ERROR","message":"Azure encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1731981540000,"host":"","level":"ERROR","message":"Disk usage is critically high: 23%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1731982020000,"host":"","level":"INFO","message":"Disk usage is 60%. Disk space within acceptable limits."}
+{"timestamp":1731982260000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1731982560000,"host":"","level":"INFO","message":"POST request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731982920000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1731983340000,"host":"","level":"ERROR","message":"CPU usage is critically high: 16%. Immediate action required."}
+{"timestamp":1731983940000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_transactions' using Python. Error: TimeoutException after 30 seconds."}
+{"timestamp":1731984300000,"host":"","level":"INFO","message":"PATCH request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731984420000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1731984960000,"host":"","level":"INFO","message":"PUT request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731985200000,"host":"","level":"INFO","message":"Java operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1731985620000,"host":"","level":"ERROR","message":"Python encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1731985680000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1731985920000,"host":"","level":"ERROR","message":"Disk usage is critically high: 49%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1731986040000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1731986340000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1731986520000,"host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1731986640000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1731986820000,"host":"","level":"ERROR","message":"Python encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1731986940000,"host":"","level":"INFO","message":"Disk usage is 58%. Disk space within acceptable limits."}
+{"timestamp":1731987000000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1731987540000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1731988080000,"host":"","level":"INFO","message":"AWS operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1731988200000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kubernetes. Error log: Container crashed on startup."}
+{"timestamp":1731988800000,"host":"","level":"INFO","message":"Disk usage is 51%. Disk space within acceptable limits."}
+{"timestamp":1731989100000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Kubernetes. Error: TimeoutException after 30 seconds."}
+{"timestamp":1731989640000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1731990000000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1731992400000,"host":"","level":"ERROR","message":"Kubernetes encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1731992940000,"host":"","level":"INFO","message":"PUT request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731993060000,"host":"","level":"INFO","message":"Disk usage is 92%. Disk space within acceptable limits."}
+{"timestamp":1731993660000,"host":"","level":"INFO","message":"Disk usage is 48%. Disk space within acceptable limits."}
+{"timestamp":1731994080000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1731994140000,"host":"","level":"ERROR","message":"CPU usage is critically high: 15%. Immediate action required."}
+{"timestamp":1731994320000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1731994620000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1731995220000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1731995820000,"host":"","level":"INFO","message":"GET request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731996240000,"host":"","level":"ERROR","message":"Disk usage is critically high: 24%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1731996780000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1731997140000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1731997200000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1731997620000,"host":"","level":"INFO","message":"PUT request to \/api\/v1\/orders succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731997920000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1731998340000,"host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1731998460000,"host":"","level":"ERROR","message":"Docker container failed to start for service Airflow. Error log: Container crashed on startup."}
+{"timestamp":1731998760000,"host":"","level":"INFO","message":"AWS operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1731998880000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1731999420000,"host":"","level":"INFO","message":"POST request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1731999720000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732000260000,"host":"","level":"INFO","message":"Docker container started successfully for service Python. Container ID: abcd1234efgh5678."}
+{"timestamp":1732000380000,"host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732000980000,"host":"","level":"INFO","message":"Disk usage is 45%. Disk space within acceptable limits."}
+{"timestamp":1732001220000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.231. Login duration: 10 minutes."}
+{"timestamp":1732001640000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732002180000,"host":"","level":"ERROR","message":"CPU usage is critically high: 74%. Immediate action required."}
+{"timestamp":1732002660000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732003260000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732003740000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732004340000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732004820000,"host":"","level":"ERROR","message":"Phone number 9988776655 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732005180000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732005300000,"host":"","level":"ERROR","message":"AWS encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732005420000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732005720000,"host":"","level":"INFO","message":"Disk usage is 91%. Disk space within acceptable limits."}
+{"timestamp":1732006020000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732006500000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732006680000,"host":"","level":"ERROR","message":"PUT request to \/healthcheck failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732010400000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732010880000,"host":"","level":"INFO","message":"CPU usage is 40%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732011480000,"host":"","level":"ERROR","message":"Docker container failed to start for service Python. Error log: Container crashed on startup."}
+{"timestamp":1732011600000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732011780000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732011840000,"host":"","level":"INFO","message":"Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732012020000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Azure. Message delivery confirmed after 10 retries."}
+{"timestamp":1732012500000,"host":"","level":"INFO","message":"GET request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732012800000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732013220000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Python. Message delivery confirmed after 10 retries."}
+{"timestamp":1732013520000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732014060000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732014300000,"host":"","level":"ERROR","message":"POST request to \/admin\/dashboard failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732014900000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.242. Login duration: 10 minutes."}
+{"timestamp":1732015380000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732015560000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Java. Message delivery confirmed after 10 retries."}
+{"timestamp":1732016160000,"host":"","level":"INFO","message":"Docker container started successfully for service Java. Container ID: abcd1234efgh5678."}
+{"timestamp":1732016280000,"host":"","level":"INFO","message":"POST request to \/api\/v1\/orders succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732016880000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732017360000,"host":"","level":"ERROR","message":"Docker container failed to start for service AWS. Error log: Container crashed on startup."}
+{"timestamp":1732017960000,"host":"","level":"INFO","message":"Docker container started successfully for service Python. Container ID: abcd1234efgh5678."}
+{"timestamp":1732018260000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732018740000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Python. Message delivery confirmed after 10 retries."}
+{"timestamp":1732018980000,"host":"","level":"INFO","message":"Disk usage is 38%. Disk space within acceptable limits."}
+{"timestamp":1732019580000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732020120000,"host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732020240000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Docker. Message delivery confirmed after 10 retries."}
+{"timestamp":1732020420000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.150. Login duration: 10 minutes."}
+{"timestamp":1732020720000,"host":"","level":"INFO","message":"GET request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732020780000,"host":"","level":"INFO","message":"Disk usage is 44%. Disk space within acceptable limits."}
+{"timestamp":1732021260000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732021860000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_transactions' using Python. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732022160000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.146. Login duration: 10 minutes."}
+{"timestamp":1732022340000,"host":"","level":"ERROR","message":"CPU usage is critically high: 73%. Immediate action required."}
+{"timestamp":1732022880000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732023240000,"host":"","level":"ERROR","message":"GET request to \/api\/v2\/transactions failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732023600000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732023840000,"host":"","level":"INFO","message":"Docker container started successfully for service Java. Container ID: abcd1234efgh5678."}
+{"timestamp":1732023900000,"host":"","level":"ERROR","message":"Disk usage is critically high: 63%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732024260000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732028400000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Docker. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732028460000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.229. Login duration: 10 minutes."}
+{"timestamp":1732028580000,"host":"","level":"ERROR","message":"Docker container failed to start for service AWS. Error log: Container crashed on startup."}
+{"timestamp":1732029120000,"host":"","level":"INFO","message":"Disk usage is 94%. Disk space within acceptable limits."}
+{"timestamp":1732029660000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732029960000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732030560000,"host":"","level":"INFO","message":"Docker operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732031160000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732031700000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732031880000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1732032180000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_users' using Java. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732032480000,"host":"","level":"INFO","message":"CPU usage is 40%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732032840000,"host":"","level":"ERROR","message":"PATCH request to \/api\/v1\/users failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732033140000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732033440000,"host":"","level":"INFO","message":"DELETE request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732033980000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732034400000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.252. Login duration: 10 minutes."}
+{"timestamp":1732034640000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732035060000,"host":"","level":"INFO","message":"CPU usage is 22%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732035600000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732035840000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732036380000,"host":"","level":"INFO","message":"CPU usage is 61%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732036920000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732037100000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732037400000,"host":"","level":"ERROR","message":"Disk usage is critically high: 32%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732037700000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732038300000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kubernetes. Error log: Container crashed on startup."}
+{"timestamp":1732038480000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732038660000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732039200000,"host":"","level":"ERROR","message":"Docker container failed to start for service Airflow. Error log: Container crashed on startup."}
+{"timestamp":1732039440000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732039620000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1732039740000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732039920000,"host":"","level":"INFO","message":"Docker container started successfully for service Docker. Container ID: abcd1234efgh5678."}
+{"timestamp":1732040100000,"host":"","level":"ERROR","message":"Python encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732040220000,"host":"","level":"ERROR","message":"Disk usage is critically high: 55%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732040640000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732041000000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Java. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732041360000,"host":"","level":"ERROR","message":"POST request to \/healthcheck failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732041840000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732042800000,"host":"","level":"ERROR","message":"Kubernetes encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732043160000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732043640000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732044060000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732044540000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732044600000,"host":"","level":"INFO","message":"Disk usage is 40%. Disk space within acceptable limits."}
+{"timestamp":1732044960000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732045440000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732045560000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732045620000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732045680000,"host":"","level":"INFO","message":"Docker container started successfully for service Java. Container ID: abcd1234efgh5678."}
+{"timestamp":1732045740000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732045920000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732046100000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732046700000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732047120000,"host":"","level":"INFO","message":"Docker container started successfully for service Azure. Container ID: abcd1234efgh5678."}
+{"timestamp":1732047540000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732048080000,"host":"","level":"ERROR","message":"Phone number 9988776655 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732048500000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732048800000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732049220000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732049700000,"host":"","level":"ERROR","message":"Phone number 9988776655 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732049760000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.255. Login duration: 10 minutes."}
+{"timestamp":1732050300000,"host":"","level":"INFO","message":"Disk usage is 38%. Disk space within acceptable limits."}
+{"timestamp":1732050540000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732050600000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732050720000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732050840000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732050900000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.48. Login duration: 10 minutes."}
+{"timestamp":1732051140000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Kubernetes. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732051320000,"host":"","level":"ERROR","message":"POST request to \/healthcheck failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732051500000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1732051980000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732052340000,"host":"","level":"ERROR","message":"Airflow encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732052460000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.250. Login duration: 10 minutes."}
+{"timestamp":1732052700000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Java. Message delivery confirmed after 10 retries."}
+{"timestamp":1732053060000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732053480000,"host":"","level":"INFO","message":"POST request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732053900000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732054260000,"host":"","level":"ERROR","message":"Disk usage is critically high: 59%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732057200000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732057620000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732057920000,"host":"","level":"INFO","message":"Docker container started successfully for service Kubernetes. Container ID: abcd1234efgh5678."}
+{"timestamp":1732058100000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kafka. Error log: Container crashed on startup."}
+{"timestamp":1732058580000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Airflow. Message delivery confirmed after 10 retries."}
+{"timestamp":1732058880000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732059480000,"host":"","level":"INFO","message":"PATCH request to \/api\/v1\/orders succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732059540000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732060140000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_users' using Kubernetes. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732060380000,"host":"","level":"ERROR","message":"Airflow encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732060800000,"host":"","level":"INFO","message":"CPU usage is 16%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732061400000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732061940000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732062360000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732062780000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732062840000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732063020000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.155. Login duration: 10 minutes."}
+{"timestamp":1732063260000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Azure. Message delivery confirmed after 10 retries."}
+{"timestamp":1732063620000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732064100000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732064160000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732064220000,"host":"","level":"INFO","message":"CPU usage is 55%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732064700000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.142. Login duration: 10 minutes."}
+{"timestamp":1732064880000,"host":"","level":"ERROR","message":"Disk usage is critically high: 82%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732065180000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Kubernetes. Message delivery confirmed after 10 retries."}
+{"timestamp":1732065660000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732066020000,"host":"","level":"INFO","message":"Python operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732066440000,"host":"","level":"ERROR","message":"Disk usage is critically high: 21%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732066680000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732067220000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1732067640000,"host":"","level":"INFO","message":"CPU usage is 11%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732068000000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.73. Login duration: 10 minutes."}
+{"timestamp":1732068180000,"host":"","level":"INFO","message":"PATCH request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732068780000,"host":"","level":"INFO","message":"Disk usage is 46%. Disk space within acceptable limits."}
+{"timestamp":1732069200000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732069380000,"host":"","level":"INFO","message":"Docker container started successfully for service Python. Container ID: abcd1234efgh5678."}
+{"timestamp":1732069740000,"host":"","level":"INFO","message":"CPU usage is 36%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732070220000,"host":"","level":"INFO","message":"Docker container started successfully for service Azure. Container ID: abcd1234efgh5678."}
+{"timestamp":1732070640000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732070700000,"host":"","level":"ERROR","message":"Disk usage is critically high: 71%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732071600000,"host":"","level":"INFO","message":"Python operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732071660000,"host":"","level":"INFO","message":"Disk usage is 81%. Disk space within acceptable limits."}
+{"timestamp":1732071720000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732071960000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.109. Login duration: 10 minutes."}
+{"timestamp":1732072500000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Azure. Message delivery confirmed after 10 retries."}
+{"timestamp":1732073100000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_users' using Kafka. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732073640000,"host":"","level":"ERROR","message":"CPU usage is critically high: 14%. Immediate action required."}
+{"timestamp":1732074240000,"host":"","level":"INFO","message":"CPU usage is 39%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732074540000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732075140000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732075680000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Python. Message delivery confirmed after 10 retries."}
+{"timestamp":1732076040000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732076520000,"host":"","level":"INFO","message":"Disk usage is 64%. Disk space within acceptable limits."}
+{"timestamp":1732077120000,"host":"","level":"ERROR","message":"Disk usage is critically high: 66%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732077180000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Docker. Message delivery confirmed after 10 retries."}
+{"timestamp":1732077600000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Docker. Message delivery confirmed after 10 retries."}
+{"timestamp":1732078020000,"host":"","level":"ERROR","message":"Kafka encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732078500000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732079100000,"host":"","level":"INFO","message":"Docker container started successfully for service Java. Container ID: abcd1234efgh5678."}
+{"timestamp":1732079400000,"host":"","level":"INFO","message":"Docker container started successfully for service Azure. Container ID: abcd1234efgh5678."}
+{"timestamp":1732079820000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732080180000,"host":"","level":"INFO","message":"Docker container started successfully for service Java. Container ID: abcd1234efgh5678."}
+{"timestamp":1732080420000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732080780000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732081080000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Java. Message delivery confirmed after 10 retries."}
+{"timestamp":1732081260000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732081860000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using AWS. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732082340000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_transactions' using Airflow. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732082940000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732083000000,"host":"","level":"INFO","message":"Docker container started successfully for service Docker. Container ID: abcd1234efgh5678."}
+{"timestamp":1732083180000,"host":"","level":"INFO","message":"CPU usage is 32%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732083720000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732083780000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732084200000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732084500000,"host":"","level":"ERROR","message":"Docker container failed to start for service Java. Error log: Container crashed on startup."}
+{"timestamp":1732084560000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732084860000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732085460000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Airflow. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732086000000,"host":"","level":"INFO","message":"CPU usage is 19%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732086600000,"host":"","level":"INFO","message":"Disk usage is 79%. Disk space within acceptable limits."}
+{"timestamp":1732089600000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732090200000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Kubernetes. Message delivery confirmed after 10 retries."}
+{"timestamp":1732090620000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732091040000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732091340000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732091940000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732092180000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732092480000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1732093080000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Azure. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732093440000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732093560000,"host":"","level":"INFO","message":"Java operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732094040000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732094220000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Airflow. Message delivery confirmed after 10 retries."}
+{"timestamp":1732094640000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732095060000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732095660000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732095960000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732096200000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732096560000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732097040000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732097580000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732098120000,"host":"","level":"INFO","message":"CPU usage is 57%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732098240000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.19. Login duration: 10 minutes."}
+{"timestamp":1732098600000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732099200000,"host":"","level":"INFO","message":"Disk usage is 60%. Disk space within acceptable limits."}
+{"timestamp":1732099560000,"host":"","level":"ERROR","message":"CPU usage is critically high: 54%. Immediate action required."}
+{"timestamp":1732099860000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732100460000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732101060000,"host":"","level":"INFO","message":"GET request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732101120000,"host":"","level":"ERROR","message":"POST request to \/api\/v1\/users failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732101360000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732101420000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732101480000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732101960000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732102320000,"host":"","level":"ERROR","message":"CPU usage is critically high: 43%. Immediate action required."}
+{"timestamp":1732102800000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732103100000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_users' using Airflow. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732103160000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732103280000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732103340000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.75. Login duration: 10 minutes."}
+{"timestamp":1732104000000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732104420000,"host":"","level":"ERROR","message":"Docker container failed to start for service Python. Error log: Container crashed on startup."}
+{"timestamp":1732104960000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732105320000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1732105680000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732105980000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732106340000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732106580000,"host":"","level":"INFO","message":"Disk usage is 77%. Disk space within acceptable limits."}
+{"timestamp":1732106640000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732107000000,"host":"","level":"INFO","message":"Java operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732107120000,"host":"","level":"ERROR","message":"Docker encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732107240000,"host":"","level":"INFO","message":"Airflow operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732107780000,"host":"","level":"ERROR","message":"CPU usage is critically high: 12%. Immediate action required."}
+{"timestamp":1732107960000,"host":"","level":"INFO","message":"POST request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732108140000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732108380000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.167. Login duration: 10 minutes."}
+{"timestamp":1732108500000,"host":"","level":"INFO","message":"Disk usage is 88%. Disk space within acceptable limits."}
+{"timestamp":1732108860000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732109460000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Python. Message delivery confirmed after 10 retries."}
+{"timestamp":1732109700000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732110000000,"host":"","level":"ERROR","message":"Airflow encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732110060000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732110480000,"host":"","level":"INFO","message":"Java operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732110840000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.103. Login duration: 10 minutes."}
+{"timestamp":1732110900000,"host":"","level":"INFO","message":"Disk usage is 93%. Disk space within acceptable limits."}
+{"timestamp":1732111200000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732111560000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732112100000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.79. Login duration: 10 minutes."}
+{"timestamp":1732112220000,"host":"","level":"INFO","message":"Disk usage is 38%. Disk space within acceptable limits."}
+{"timestamp":1732112520000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.153. Login duration: 10 minutes."}
+{"timestamp":1732112640000,"host":"","level":"INFO","message":"GET request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732112760000,"host":"","level":"INFO","message":"Disk usage is 75%. Disk space within acceptable limits."}
+{"timestamp":1732112880000,"host":"","level":"ERROR","message":"Disk usage is critically high: 32%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732113420000,"host":"","level":"ERROR","message":"Disk usage is critically high: 27%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732113840000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732113960000,"host":"","level":"ERROR","message":"PUT request to \/admin\/dashboard failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732114320000,"host":"","level":"ERROR","message":"Phone number 9988776655 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732114860000,"host":"","level":"INFO","message":"Kafka operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732115280000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732115880000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732118400000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732118820000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732119360000,"host":"","level":"INFO","message":"DELETE request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732119600000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kafka. Error log: Container crashed on startup."}
+{"timestamp":1732119720000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732120020000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732120320000,"host":"","level":"INFO","message":"Disk usage is 93%. Disk space within acceptable limits."}
+{"timestamp":1732120440000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732121040000,"host":"","level":"INFO","message":"Disk usage is 92%. Disk space within acceptable limits."}
+{"timestamp":1732121280000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.234. Login duration: 10 minutes."}
+{"timestamp":1732121880000,"host":"","level":"INFO","message":"PUT request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732122000000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732122240000,"host":"","level":"ERROR","message":"Docker container failed to start for service Airflow. Error log: Container crashed on startup."}
+{"timestamp":1732122540000,"host":"","level":"ERROR","message":"CPU usage is critically high: 22%. Immediate action required."}
+{"timestamp":1732123020000,"host":"","level":"INFO","message":"Airflow operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732123080000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732123140000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732123260000,"host":"","level":"INFO","message":"CPU usage is 28%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732123440000,"host":"","level":"ERROR","message":"Docker container failed to start for service AWS. Error log: Container crashed on startup."}
+{"timestamp":1732123620000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732123920000,"host":"","level":"ERROR","message":"Docker container failed to start for service Docker. Error log: Container crashed on startup."}
+{"timestamp":1732124340000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732124520000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Kubernetes. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732125060000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732125660000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732125780000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732126320000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732126920000,"host":"","level":"ERROR","message":"Disk usage is critically high: 62%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732127040000,"host":"","level":"ERROR","message":"Airflow encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732127640000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kafka. Error log: Container crashed on startup."}
+{"timestamp":1732128240000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732128600000,"host":"","level":"INFO","message":"Disk usage is 24%. Disk space within acceptable limits."}
+{"timestamp":1732128780000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.43. Login duration: 10 minutes."}
+{"timestamp":1732129380000,"host":"","level":"ERROR","message":"DELETE request to \/api\/v1\/users failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732129860000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732130100000,"host":"","level":"INFO","message":"CPU usage is 32%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732130700000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Azure. Message delivery confirmed after 10 retries."}
+{"timestamp":1732130940000,"host":"","level":"INFO","message":"Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732131120000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.83. Login duration: 10 minutes."}
+{"timestamp":1732131600000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1732132800000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732132860000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732133100000,"host":"","level":"INFO","message":"CPU usage is 40%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732133580000,"host":"","level":"INFO","message":"POST request to \/api\/v1\/orders succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732134180000,"host":"","level":"ERROR","message":"Kubernetes encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732134480000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732134840000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Azure. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732135380000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732135560000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732135620000,"host":"","level":"INFO","message":"CPU usage is 82%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732135740000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732136220000,"host":"","level":"ERROR","message":"POST request to \/healthcheck failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732136820000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732137240000,"host":"","level":"ERROR","message":"CPU usage is critically high: 85%. Immediate action required."}
+{"timestamp":1732137840000,"host":"","level":"ERROR","message":"Python encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732138200000,"host":"","level":"ERROR","message":"PATCH request to \/api\/v1\/users failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732138440000,"host":"","level":"INFO","message":"Docker container started successfully for service Azure. Container ID: abcd1234efgh5678."}
+{"timestamp":1732138800000,"host":"","level":"ERROR","message":"Docker container failed to start for service AWS. Error log: Container crashed on startup."}
+{"timestamp":1732139400000,"host":"","level":"INFO","message":"DELETE request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732139460000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732139940000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kubernetes. Error log: Container crashed on startup."}
+{"timestamp":1732140240000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732140540000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732140900000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732141080000,"host":"","level":"ERROR","message":"Disk usage is critically high: 51%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732141260000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732141860000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.251. Login duration: 10 minutes."}
+{"timestamp":1732142220000,"host":"","level":"ERROR","message":"Docker encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732142400000,"host":"","level":"ERROR","message":"DELETE request to \/api\/v2\/transactions failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732142460000,"host":"","level":"INFO","message":"Disk usage is 16%. Disk space within acceptable limits."}
+{"timestamp":1732143000000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732143060000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732143180000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.56. Login duration: 10 minutes."}
+{"timestamp":1732143360000,"host":"","level":"INFO","message":"Airflow operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732143600000,"host":"","level":"ERROR","message":"Kubernetes encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732143780000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732144380000,"host":"","level":"INFO","message":"PATCH request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732144500000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732144740000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732145040000,"host":"","level":"INFO","message":"AWS operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732147200000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732147740000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732148220000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Kafka. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732148400000,"host":"","level":"ERROR","message":"Python encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732148820000,"host":"","level":"INFO","message":"GET request to \/api\/v1\/orders succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732149060000,"host":"","level":"INFO","message":"Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732149540000,"host":"","level":"ERROR","message":"Kafka encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732149600000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.191. Login duration: 10 minutes."}
+{"timestamp":1732149660000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732149840000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732150260000,"host":"","level":"ERROR","message":"DELETE request to \/api\/v1\/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732150500000,"host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732150920000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732151100000,"host":"","level":"INFO","message":"Disk usage is 82%. Disk space within acceptable limits."}
+{"timestamp":1732151280000,"host":"","level":"ERROR","message":"CPU usage is critically high: 64%. Immediate action required."}
+{"timestamp":1732151760000,"host":"","level":"INFO","message":"Disk usage is 45%. Disk space within acceptable limits."}
+{"timestamp":1732151820000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.19. Login duration: 10 minutes."}
+{"timestamp":1732152300000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732152540000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.126. Login duration: 10 minutes."}
+{"timestamp":1732152780000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732152900000,"host":"","level":"INFO","message":"PUT request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732153440000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732153800000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732153980000,"host":"","level":"ERROR","message":"Docker container failed to start for service Airflow. Error log: Container crashed on startup."}
+{"timestamp":1732154520000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732154760000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732155300000,"host":"","level":"INFO","message":"CPU usage is 61%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732155720000,"host":"","level":"INFO","message":"DELETE request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732156140000,"host":"","level":"ERROR","message":"GET request to \/api\/v1\/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732156440000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732156800000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732157220000,"host":"","level":"INFO","message":"DELETE request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732157700000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732158240000,"host":"","level":"ERROR","message":"Disk usage is critically high: 53%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732158840000,"host":"","level":"ERROR","message":"Kafka encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732159080000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732159500000,"host":"","level":"INFO","message":"Docker container started successfully for service Azure. Container ID: abcd1234efgh5678."}
+{"timestamp":1732159800000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732160160000,"host":"","level":"INFO","message":"Disk usage is 23%. Disk space within acceptable limits."}
+{"timestamp":1732160400000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732161600000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732161900000,"host":"","level":"INFO","message":"Docker container started successfully for service Docker. Container ID: abcd1234efgh5678."}
+{"timestamp":1732162200000,"host":"","level":"INFO","message":"Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732162800000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732163280000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732163700000,"host":"","level":"INFO","message":"Disk usage is 74%. Disk space within acceptable limits."}
+{"timestamp":1732164240000,"host":"","level":"ERROR","message":"Airflow encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732164780000,"host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732165140000,"host":"","level":"ERROR","message":"Disk usage is critically high: 14%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732165680000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732165740000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1732165920000,"host":"","level":"INFO","message":"Disk usage is 87%. Disk space within acceptable limits."}
+{"timestamp":1732166280000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732166400000,"host":"","level":"ERROR","message":"Docker container failed to start for service AWS. Error log: Container crashed on startup."}
+{"timestamp":1732166760000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.162. Login duration: 10 minutes."}
+{"timestamp":1732167180000,"host":"","level":"INFO","message":"DELETE request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732167240000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732167420000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1732167720000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732167840000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732168320000,"host":"","level":"INFO","message":"Disk usage is 36%. Disk space within acceptable limits."}
+{"timestamp":1732168860000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Kubernetes. Message delivery confirmed after 10 retries."}
+{"timestamp":1732169100000,"host":"","level":"INFO","message":"CPU usage is 60%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732169460000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732170060000,"host":"","level":"ERROR","message":"Disk usage is critically high: 86%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732170240000,"host":"","level":"INFO","message":"CPU usage is 56%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732170660000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732170780000,"host":"","level":"INFO","message":"Airflow operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732171380000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732171680000,"host":"","level":"INFO","message":"Disk usage is 23%. Disk space within acceptable limits."}
+{"timestamp":1732171920000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732172520000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kafka. Error log: Container crashed on startup."}
+{"timestamp":1732172940000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732173360000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732173540000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732173840000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732174260000,"host":"","level":"INFO","message":"Disk usage is 62%. Disk space within acceptable limits."}
+{"timestamp":1732174740000,"host":"","level":"INFO","message":"Java operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732174800000,"host":"","level":"ERROR","message":"Phone number 9988776655 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732174980000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732176000000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732176600000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732176900000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732177380000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732177740000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732178040000,"host":"","level":"INFO","message":"Disk usage is 74%. Disk space within acceptable limits."}
+{"timestamp":1732178220000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732178340000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732178580000,"host":"","level":"ERROR","message":"Docker container failed to start for service Docker. Error log: Container crashed on startup."}
+{"timestamp":1732179120000,"host":"","level":"INFO","message":"Java operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732179180000,"host":"","level":"INFO","message":"Python operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732179360000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1732179900000,"host":"","level":"INFO","message":"Docker container started successfully for service AWS. Container ID: abcd1234efgh5678."}
+{"timestamp":1732179960000,"host":"","level":"INFO","message":"Java operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732180140000,"host":"","level":"ERROR","message":"Java encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732180200000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.27. Login duration: 10 minutes."}
+{"timestamp":1732180380000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kubernetes. Error log: Container crashed on startup."}
+{"timestamp":1732180800000,"host":"","level":"INFO","message":"Docker operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732181400000,"host":"","level":"INFO","message":"CPU usage is 16%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732181880000,"host":"","level":"ERROR","message":"PATCH request to \/healthcheck failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732181940000,"host":"","level":"INFO","message":"Java operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732182120000,"host":"","level":"INFO","message":"Disk usage is 28%. Disk space within acceptable limits."}
+{"timestamp":1732182420000,"host":"","level":"ERROR","message":"Docker container failed to start for service Airflow. Error log: Container crashed on startup."}
+{"timestamp":1732182840000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Python. Message delivery confirmed after 10 retries."}
+{"timestamp":1732182900000,"host":"","level":"INFO","message":"Disk usage is 71%. Disk space within acceptable limits."}
+{"timestamp":1732183380000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732183560000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732184100000,"host":"","level":"ERROR","message":"DELETE request to \/admin\/dashboard failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732184220000,"host":"","level":"INFO","message":"CPU usage is 58%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732184820000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732185240000,"host":"","level":"INFO","message":"Disk usage is 43%. Disk space within acceptable limits."}
+{"timestamp":1732185600000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732185840000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732185960000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732186320000,"host":"","level":"INFO","message":"Disk usage is 11%. Disk space within acceptable limits."}
+{"timestamp":1732186740000,"host":"","level":"INFO","message":"Disk usage is 84%. Disk space within acceptable limits."}
+{"timestamp":1732186980000,"host":"","level":"ERROR","message":"Airflow encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732187460000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732187760000,"host":"","level":"ERROR","message":"CPU usage is critically high: 76%. Immediate action required."}
+{"timestamp":1732187820000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732190400000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.193. Login duration: 10 minutes."}
+{"timestamp":1732190880000,"host":"","level":"INFO","message":"Disk usage is 81%. Disk space within acceptable limits."}
+{"timestamp":1732191000000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732191180000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732191240000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732191840000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732192140000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Python. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732192680000,"host":"","level":"INFO","message":"CPU usage is 51%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732193100000,"host":"","level":"ERROR","message":"GET request to \/admin\/dashboard failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732193400000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Kubernetes. Message delivery confirmed after 10 retries."}
+{"timestamp":1732193760000,"host":"","level":"ERROR","message":"CPU usage is critically high: 88%. Immediate action required."}
+{"timestamp":1732194360000,"host":"","level":"ERROR","message":"Azure encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732194780000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732195080000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.19. Login duration: 10 minutes."}
+{"timestamp":1732195140000,"host":"","level":"INFO","message":"Docker container started successfully for service Python. Container ID: abcd1234efgh5678."}
+{"timestamp":1732195500000,"host":"","level":"INFO","message":"Disk usage is 38%. Disk space within acceptable limits."}
+{"timestamp":1732195680000,"host":"","level":"ERROR","message":"Docker container failed to start for service Python. Error log: Container crashed on startup."}
+{"timestamp":1732195920000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_users' using Azure. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732195980000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732196280000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732196340000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732196880000,"host":"","level":"INFO","message":"DELETE request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732197300000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Docker. Message delivery confirmed after 10 retries."}
+{"timestamp":1732197540000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732197900000,"host":"","level":"INFO","message":"Disk usage is 74%. Disk space within acceptable limits."}
+{"timestamp":1732197960000,"host":"","level":"INFO","message":"DELETE request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732198560000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Java. Message delivery confirmed after 10 retries."}
+{"timestamp":1732198740000,"host":"","level":"INFO","message":"PATCH request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732199220000,"host":"","level":"INFO","message":"Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732199280000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732199400000,"host":"","level":"ERROR","message":"CPU usage is critically high: 10%. Immediate action required."}
+{"timestamp":1732199760000,"host":"","level":"INFO","message":"Airflow operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732200000000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.119. Login duration: 10 minutes."}
+{"timestamp":1732200180000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Python. Message delivery confirmed after 10 retries."}
+{"timestamp":1732200660000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Azure. Message delivery confirmed after 10 retries."}
+{"timestamp":1732201020000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732201440000,"host":"","level":"INFO","message":"PATCH request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732201860000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1732202340000,"host":"","level":"INFO","message":"Python operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732202520000,"host":"","level":"INFO","message":"CPU usage is 22%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732204800000,"host":"","level":"INFO","message":"PUT request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732204860000,"host":"","level":"ERROR","message":"CPU usage is critically high: 24%. Immediate action required."}
+{"timestamp":1732204920000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732205400000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732206000000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732206360000,"host":"","level":"ERROR","message":"CPU usage is critically high: 60%. Immediate action required."}
+{"timestamp":1732206420000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732207020000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732207080000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Azure. Message delivery confirmed after 10 retries."}
+{"timestamp":1732207680000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1732208220000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732208460000,"host":"","level":"ERROR","message":"Docker container failed to start for service Azure. Error log: Container crashed on startup."}
+{"timestamp":1732208880000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Docker. Message delivery confirmed after 10 retries."}
+{"timestamp":1732209480000,"host":"","level":"INFO","message":"Disk usage is 93%. Disk space within acceptable limits."}
+{"timestamp":1732210080000,"host":"","level":"ERROR","message":"CPU usage is critically high: 59%. Immediate action required."}
+{"timestamp":1732210680000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732210740000,"host":"","level":"INFO","message":"CPU usage is 83%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732211340000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Docker. Message delivery confirmed after 10 retries."}
+{"timestamp":1732211760000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732212300000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732212600000,"host":"","level":"INFO","message":"POST request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732212780000,"host":"","level":"INFO","message":"Kafka operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732213020000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.138. Login duration: 10 minutes."}
+{"timestamp":1732213260000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.224. Login duration: 10 minutes."}
+{"timestamp":1732213500000,"host":"","level":"INFO","message":"CPU usage is 70%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732213800000,"host":"","level":"ERROR","message":"GET request to \/admin\/dashboard failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732213860000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732213920000,"host":"","level":"INFO","message":"Disk usage is 46%. Disk space within acceptable limits."}
+{"timestamp":1732214100000,"host":"","level":"ERROR","message":"Docker container failed to start for service Docker. Error log: Container crashed on startup."}
+{"timestamp":1732214340000,"host":"","level":"INFO","message":"Kafka operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732214640000,"host":"","level":"INFO","message":"Disk usage is 31%. Disk space within acceptable limits."}
+{"timestamp":1732214820000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732215360000,"host":"","level":"ERROR","message":"Phone number 9988776655 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732215900000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732216020000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732216080000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732216620000,"host":"","level":"ERROR","message":"Disk usage is critically high: 12%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732217160000,"host":"","level":"INFO","message":"Python operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732217400000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732217820000,"host":"","level":"INFO","message":"Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732219200000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732219500000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732220100000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732220640000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.207. Login duration: 10 minutes."}
+{"timestamp":1732220940000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_transactions' using Azure. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732221240000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Airflow. Message delivery confirmed after 10 retries."}
+{"timestamp":1732221540000,"host":"","level":"INFO","message":"DELETE request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732221900000,"host":"","level":"INFO","message":"PUT request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732222200000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732222800000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732222860000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732223280000,"host":"","level":"ERROR","message":"Disk usage is critically high: 16%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732223820000,"host":"","level":"INFO","message":"Disk usage is 22%. Disk space within acceptable limits."}
+{"timestamp":1732224240000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732224720000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732224960000,"host":"","level":"INFO","message":"CPU usage is 48%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732225500000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732225920000,"host":"","level":"ERROR","message":"POST request to \/api\/v1\/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732226460000,"host":"","level":"ERROR","message":"PATCH request to \/healthcheck failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732226940000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732227480000,"host":"","level":"INFO","message":"CPU usage is 53%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732227600000,"host":"","level":"INFO","message":"Docker container started successfully for service Docker. Container ID: abcd1234efgh5678."}
+{"timestamp":1732228200000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732228320000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732228620000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732228860000,"host":"","level":"INFO","message":"Docker container started successfully for service AWS. Container ID: abcd1234efgh5678."}
+{"timestamp":1732228920000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.105. Login duration: 10 minutes."}
+{"timestamp":1732229220000,"host":"","level":"INFO","message":"Disk usage is 11%. Disk space within acceptable limits."}
+{"timestamp":1732229400000,"host":"","level":"INFO","message":"Airflow operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732229520000,"host":"","level":"ERROR","message":"CPU usage is critically high: 61%. Immediate action required."}
+{"timestamp":1732229940000,"host":"","level":"ERROR","message":"CPU usage is critically high: 64%. Immediate action required."}
+{"timestamp":1732230480000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732230840000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732231020000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732231500000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732231740000,"host":"","level":"INFO","message":"CPU usage is 86%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732232160000,"host":"","level":"INFO","message":"CPU usage is 47%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732232400000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1732232940000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Python. Message delivery confirmed after 10 retries."}
+{"timestamp":1732233180000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732237200000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.208. Login duration: 10 minutes."}
+{"timestamp":1732237320000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Azure. Message delivery confirmed after 10 retries."}
+{"timestamp":1732237440000,"host":"","level":"INFO","message":"CPU usage is 78%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732237980000,"host":"","level":"INFO","message":"Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678."}
+{"timestamp":1732238100000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732238400000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732238880000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1732239060000,"host":"","level":"INFO","message":"Docker container started successfully for service Azure. Container ID: abcd1234efgh5678."}
+{"timestamp":1732239360000,"host":"","level":"ERROR","message":"AWS encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732239420000,"host":"","level":"INFO","message":"GET request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732239480000,"host":"","level":"INFO","message":"Python operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732239660000,"host":"","level":"ERROR","message":"GET request to \/api\/v1\/users failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732239780000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732240140000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732240380000,"host":"","level":"INFO","message":"DELETE request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732240800000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1732240920000,"host":"","level":"ERROR","message":"Python encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732241280000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732241760000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.198. Login duration: 10 minutes."}
+{"timestamp":1732242180000,"host":"","level":"ERROR","message":"Python encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732242480000,"host":"","level":"ERROR","message":"Disk usage is critically high: 36%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732242600000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Python. Message delivery confirmed after 10 retries."}
+{"timestamp":1732243140000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732243260000,"host":"","level":"ERROR","message":"CPU usage is critically high: 17%. Immediate action required."}
+{"timestamp":1732243680000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732243800000,"host":"","level":"ERROR","message":"Docker container failed to start for service AWS. Error log: Container crashed on startup."}
+{"timestamp":1732244400000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732244880000,"host":"","level":"INFO","message":"GET request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732245240000,"host":"","level":"INFO","message":"PATCH request to \/api\/v1\/orders succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732245360000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732245840000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732246440000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732247040000,"host":"","level":"INFO","message":"Docker container started successfully for service Java. Container ID: abcd1234efgh5678."}
+{"timestamp":1732247520000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732248060000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732248420000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732248960000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732249020000,"host":"","level":"INFO","message":"Docker operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732249140000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732249680000,"host":"","level":"INFO","message":"Python operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732251600000,"host":"","level":"INFO","message":"GET request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732252200000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732252500000,"host":"","level":"INFO","message":"DELETE request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732252920000,"host":"","level":"ERROR","message":"Disk usage is critically high: 42%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732253100000,"host":"","level":"INFO","message":"AWS operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732253700000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.111. Login duration: 10 minutes."}
+{"timestamp":1732254180000,"host":"","level":"ERROR","message":"Disk usage is critically high: 32%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732254360000,"host":"","level":"INFO","message":"CPU usage is 69%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732254600000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Azure. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732254660000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732255260000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732255380000,"host":"","level":"ERROR","message":"CPU usage is critically high: 72%. Immediate action required."}
+{"timestamp":1732255920000,"host":"","level":"INFO","message":"Kafka operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732256400000,"host":"","level":"INFO","message":"Disk usage is 11%. Disk space within acceptable limits."}
+{"timestamp":1732256820000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732257000000,"host":"","level":"ERROR","message":"POST request to \/api\/v2\/transactions failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732257480000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732257540000,"host":"","level":"ERROR","message":"Kubernetes encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732257960000,"host":"","level":"ERROR","message":"CPU usage is critically high: 46%. Immediate action required."}
+{"timestamp":1732258440000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Docker. Message delivery confirmed after 10 retries."}
+{"timestamp":1732259040000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732259520000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.219. Login duration: 10 minutes."}
+{"timestamp":1732259640000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732259700000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732260300000,"host":"","level":"ERROR","message":"Docker container failed to start for service Azure. Error log: Container crashed on startup."}
+{"timestamp":1732260600000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732260660000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1732260780000,"host":"","level":"ERROR","message":"Kafka encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732261080000,"host":"","level":"ERROR","message":"CPU usage is critically high: 24%. Immediate action required."}
+{"timestamp":1732261440000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732261920000,"host":"","level":"INFO","message":"CPU usage is 19%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732262040000,"host":"","level":"INFO","message":"CPU usage is 65%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732262160000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732262220000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732262580000,"host":"","level":"INFO","message":"GET request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732263120000,"host":"","level":"ERROR","message":"Disk usage is critically high: 88%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732263540000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732263840000,"host":"","level":"INFO","message":"Docker container started successfully for service Azure. Container ID: abcd1234efgh5678."}
+{"timestamp":1732264200000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1732264380000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.188. Login duration: 10 minutes."}
+{"timestamp":1732266000000,"host":"","level":"INFO","message":"Disk usage is 88%. Disk space within acceptable limits."}
+{"timestamp":1732266540000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732267020000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732267560000,"host":"","level":"INFO","message":"GET request to \/api\/v1\/orders succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732267680000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732268220000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732268460000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732268520000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732268820000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732269180000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732269300000,"host":"","level":"INFO","message":"Disk usage is 55%. Disk space within acceptable limits."}
+{"timestamp":1732269540000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732269960000,"host":"","level":"INFO","message":"Disk usage is 47%. Disk space within acceptable limits."}
+{"timestamp":1732270140000,"host":"","level":"INFO","message":"Disk usage is 43%. Disk space within acceptable limits."}
+{"timestamp":1732270740000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732271340000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732271820000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_users' using Kubernetes. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732272000000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Airflow. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732272060000,"host":"","level":"ERROR","message":"Kubernetes encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732272180000,"host":"","level":"INFO","message":"Disk usage is 49%. Disk space within acceptable limits."}
+{"timestamp":1732272240000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732272780000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.150. Login duration: 10 minutes."}
+{"timestamp":1732273020000,"host":"","level":"INFO","message":"CPU usage is 32%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732273200000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732273500000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Python. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732273560000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Airflow. Message delivery confirmed after 10 retries."}
+{"timestamp":1732273980000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732274160000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732274700000,"host":"","level":"INFO","message":"DELETE request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732275000000,"host":"","level":"INFO","message":"PATCH request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732275360000,"host":"","level":"INFO","message":"PUT request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732275780000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1732276080000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732276620000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732277160000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732277640000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732277940000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732278480000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732278780000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732279260000,"host":"","level":"INFO","message":"Docker container started successfully for service Kubernetes. Container ID: abcd1234efgh5678."}
+{"timestamp":1732280400000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732280520000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732280760000,"host":"","level":"ERROR","message":"Kafka encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732281300000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732281780000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732281900000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_users' using Kubernetes. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732281960000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Azure. Message delivery confirmed after 10 retries."}
+{"timestamp":1732282320000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Azure. Message delivery confirmed after 10 retries."}
+{"timestamp":1732282860000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732283160000,"host":"","level":"INFO","message":"GET request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732283700000,"host":"","level":"ERROR","message":"Disk usage is critically high: 47%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732284300000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732284660000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732285080000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732285500000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Java. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732285560000,"host":"","level":"INFO","message":"CPU usage is 10%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732285920000,"host":"","level":"ERROR","message":"GET request to \/api\/v2\/transactions failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732286340000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Kubernetes. Message delivery confirmed after 10 retries."}
+{"timestamp":1732286700000,"host":"","level":"INFO","message":"PATCH request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732286880000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1732287420000,"host":"","level":"INFO","message":"Disk usage is 21%. Disk space within acceptable limits."}
+{"timestamp":1732287780000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.154. Login duration: 10 minutes."}
+{"timestamp":1732288260000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732288740000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Kubernetes. Message delivery confirmed after 10 retries."}
+{"timestamp":1732288860000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732289220000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.232. Login duration: 10 minutes."}
+{"timestamp":1732289700000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732290300000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732290420000,"host":"","level":"ERROR","message":"Java encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732290600000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732291140000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732291440000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Docker. Message delivery confirmed after 10 retries."}
+{"timestamp":1732292040000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732292520000,"host":"","level":"INFO","message":"CPU usage is 90%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732292700000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732293060000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732293420000,"host":"","level":"ERROR","message":"Docker container failed to start for service Python. Error log: Container crashed on startup."}
+{"timestamp":1732293780000,"host":"","level":"ERROR","message":"Docker container failed to start for service Java. Error log: Container crashed on startup."}
+{"timestamp":1732294020000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.237. Login duration: 10 minutes."}
+{"timestamp":1732294260000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732294800000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732295100000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732295580000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732295640000,"host":"","level":"ERROR","message":"Azure encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732296180000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732296780000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732297140000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732297560000,"host":"","level":"ERROR","message":"Phone number 9988776655 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732298040000,"host":"","level":"INFO","message":"PATCH request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732298640000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732299180000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732299240000,"host":"","level":"ERROR","message":"DELETE request to \/api\/v1\/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732299360000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Azure. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732299660000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.45. Login duration: 10 minutes."}
+{"timestamp":1732300080000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732300320000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Java. Message delivery confirmed after 10 retries."}
+{"timestamp":1732300380000,"host":"","level":"INFO","message":"Docker container started successfully for service Java. Container ID: abcd1234efgh5678."}
+{"timestamp":1732300560000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Java. Message delivery confirmed after 10 retries."}
+{"timestamp":1732301040000,"host":"","level":"ERROR","message":"Docker container failed to start for service Docker. Error log: Container crashed on startup."}
+{"timestamp":1732301640000,"host":"","level":"INFO","message":"Docker container started successfully for service AWS. Container ID: abcd1234efgh5678."}
+{"timestamp":1732302000000,"host":"","level":"INFO","message":"Disk usage is 61%. Disk space within acceptable limits."}
+{"timestamp":1732302300000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732302420000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.26. Login duration: 10 minutes."}
+{"timestamp":1732303020000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732303320000,"host":"","level":"INFO","message":"PUT request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732303560000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732303980000,"host":"","level":"ERROR","message":"GET request to \/api\/v2\/transactions failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732304400000,"host":"","level":"INFO","message":"PUT request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732305000000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Python. Message delivery confirmed after 10 retries."}
+{"timestamp":1732305480000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732306080000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732306320000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732306920000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Airflow. Message delivery confirmed after 10 retries."}
+{"timestamp":1732307340000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_users' using AWS. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732307880000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732308420000,"host":"","level":"ERROR","message":"CPU usage is critically high: 16%. Immediate action required."}
+{"timestamp":1732308600000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.113. Login duration: 10 minutes."}
+{"timestamp":1732308660000,"host":"","level":"INFO","message":"POST request to \/api\/v1\/orders succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732308780000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732308960000,"host":"","level":"INFO","message":"CPU usage is 36%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732312800000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732313160000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732313340000,"host":"","level":"ERROR","message":"POST request to \/api\/v1\/users failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732313880000,"host":"","level":"ERROR","message":"CPU usage is critically high: 12%. Immediate action required."}
+{"timestamp":1732314000000,"host":"","level":"ERROR","message":"Disk usage is critically high: 50%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732314060000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732314420000,"host":"","level":"ERROR","message":"Python encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732315020000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kafka. Error log: Container crashed on startup."}
+{"timestamp":1732315560000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Airflow. Message delivery confirmed after 10 retries."}
+{"timestamp":1732315800000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732316160000,"host":"","level":"ERROR","message":"CPU usage is critically high: 33%. Immediate action required."}
+{"timestamp":1732316460000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732316940000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.248. Login duration: 10 minutes."}
+{"timestamp":1732317180000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732317540000,"host":"","level":"INFO","message":"Disk usage is 48%. Disk space within acceptable limits."}
+{"timestamp":1732317840000,"host":"","level":"ERROR","message":"PATCH request to \/api\/v1\/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732318260000,"host":"","level":"INFO","message":"Docker container started successfully for service Kubernetes. Container ID: abcd1234efgh5678."}
+{"timestamp":1732318500000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732318680000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732318920000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732319460000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732319520000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732320060000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732320300000,"host":"","level":"INFO","message":"CPU usage is 73%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732320420000,"host":"","level":"ERROR","message":"PATCH request to \/admin\/dashboard failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732320540000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732320900000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.254. Login duration: 10 minutes."}
+{"timestamp":1732321380000,"host":"","level":"INFO","message":"Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732321740000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732321980000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kafka. Error log: Container crashed on startup."}
+{"timestamp":1732322520000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732322760000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732322940000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Docker. Message delivery confirmed after 10 retries."}
+{"timestamp":1732323300000,"host":"","level":"ERROR","message":"CPU usage is critically high: 40%. Immediate action required."}
+{"timestamp":1732323900000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732324260000,"host":"","level":"INFO","message":"CPU usage is 62%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732324380000,"host":"","level":"INFO","message":"Disk usage is 53%. Disk space within acceptable limits."}
+{"timestamp":1732324860000,"host":"","level":"ERROR","message":"Kafka encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732325100000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.55. Login duration: 10 minutes."}
+{"timestamp":1732325520000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732327200000,"host":"","level":"ERROR","message":"CPU usage is critically high: 32%. Immediate action required."}
+{"timestamp":1732327380000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732327500000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Docker. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732328100000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.102. Login duration: 10 minutes."}
+{"timestamp":1732328160000,"host":"","level":"INFO","message":"Docker operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732328700000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732329300000,"host":"","level":"ERROR","message":"Docker encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732329360000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732329480000,"host":"","level":"ERROR","message":"PATCH request to \/healthcheck failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732329840000,"host":"","level":"INFO","message":"AWS operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732330080000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732330620000,"host":"","level":"INFO","message":"Disk usage is 87%. Disk space within acceptable limits."}
+{"timestamp":1732331160000,"host":"","level":"ERROR","message":"Docker container failed to start for service AWS. Error log: Container crashed on startup."}
+{"timestamp":1732331700000,"host":"","level":"ERROR","message":"PUT request to \/admin\/dashboard failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732331940000,"host":"","level":"INFO","message":"Disk usage is 62%. Disk space within acceptable limits."}
+{"timestamp":1732332060000,"host":"","level":"INFO","message":"Disk usage is 63%. Disk space within acceptable limits."}
+{"timestamp":1732332600000,"host":"","level":"ERROR","message":"GET request to \/api\/v2\/transactions failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732332900000,"host":"","level":"INFO","message":"Disk usage is 68%. Disk space within acceptable limits."}
+{"timestamp":1732333320000,"host":"","level":"INFO","message":"CPU usage is 14%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732333500000,"host":"","level":"INFO","message":"CPU usage is 47%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732333980000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Python. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732334160000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732334580000,"host":"","level":"INFO","message":"Docker container started successfully for service Python. Container ID: abcd1234efgh5678."}
+{"timestamp":1732335180000,"host":"","level":"INFO","message":"POST request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732335360000,"host":"","level":"INFO","message":"PATCH request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732335600000,"host":"","level":"ERROR","message":"Azure encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732335840000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732336200000,"host":"","level":"ERROR","message":"Docker encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732336380000,"host":"","level":"INFO","message":"POST request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732336860000,"host":"","level":"INFO","message":"Docker container started successfully for service Python. Container ID: abcd1234efgh5678."}
+{"timestamp":1732337340000,"host":"","level":"INFO","message":"POST request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732337640000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732338120000,"host":"","level":"ERROR","message":"CPU usage is critically high: 77%. Immediate action required."}
+{"timestamp":1732338480000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Java. Message delivery confirmed after 10 retries."}
+{"timestamp":1732339080000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732339560000,"host":"","level":"INFO","message":"PUT request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732340100000,"host":"","level":"ERROR","message":"PATCH request to \/healthcheck failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732340340000,"host":"","level":"INFO","message":"Disk usage is 90%. Disk space within acceptable limits."}
+{"timestamp":1732340940000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732341420000,"host":"","level":"INFO","message":"Docker container started successfully for service Azure. Container ID: abcd1234efgh5678."}
+{"timestamp":1732341600000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732341840000,"host":"","level":"ERROR","message":"Docker container failed to start for service AWS. Error log: Container crashed on startup."}
+{"timestamp":1732342260000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732342560000,"host":"","level":"ERROR","message":"CPU usage is critically high: 47%. Immediate action required."}
+{"timestamp":1732342920000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732343460000,"host":"","level":"ERROR","message":"Disk usage is critically high: 57%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732343880000,"host":"","level":"INFO","message":"Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732344480000,"host":"","level":"INFO","message":"Docker container started successfully for service Java. Container ID: abcd1234efgh5678."}
+{"timestamp":1732344960000,"host":"","level":"ERROR","message":"Docker container failed to start for service Airflow. Error log: Container crashed on startup."}
+{"timestamp":1732345380000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1732345740000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732346220000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732346340000,"host":"","level":"INFO","message":"POST request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732346460000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732346760000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732347000000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732347600000,"host":"","level":"INFO","message":"Docker container started successfully for service Docker. Container ID: abcd1234efgh5678."}
+{"timestamp":1732348140000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732348260000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732348860000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732349460000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732349700000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732350120000,"host":"","level":"ERROR","message":"CPU usage is critically high: 62%. Immediate action required."}
+{"timestamp":1732350300000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732350360000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732350960000,"host":"","level":"INFO","message":"CPU usage is 27%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732351560000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732352160000,"host":"","level":"INFO","message":"GET request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732352400000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732352700000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732352760000,"host":"","level":"ERROR","message":"PATCH request to \/api\/v1\/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732353360000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kubernetes. Error log: Container crashed on startup."}
+{"timestamp":1732353540000,"host":"","level":"INFO","message":"CPU usage is 35%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732353900000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732354380000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Java. Message delivery confirmed after 10 retries."}
+{"timestamp":1732354560000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732354980000,"host":"","level":"INFO","message":"GET request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732355040000,"host":"","level":"ERROR","message":"GET request to \/api\/v1\/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732355220000,"host":"","level":"INFO","message":"Disk usage is 87%. Disk space within acceptable limits."}
+{"timestamp":1732355340000,"host":"","level":"ERROR","message":"CPU usage is critically high: 88%. Immediate action required."}
+{"timestamp":1732356000000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system."}
+{"timestamp":1732356420000,"host":"","level":"ERROR","message":"POST request to \/admin\/dashboard failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732356960000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_transactions' using Python. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732357020000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732357440000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732357860000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732358400000,"host":"","level":"ERROR","message":"CPU usage is critically high: 70%. Immediate action required."}
+{"timestamp":1732358820000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732359240000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732359540000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732359780000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732360140000,"host":"","level":"ERROR","message":"Disk usage is critically high: 50%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732360380000,"host":"","level":"INFO","message":"Java operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732360440000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.232. Login duration: 10 minutes."}
+{"timestamp":1732360560000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732360800000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.208. Login duration: 10 minutes."}
+{"timestamp":1732361160000,"host":"","level":"INFO","message":"PATCH request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732361520000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732361940000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732362120000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732362240000,"host":"","level":"INFO","message":"Published message to topic 'topic_users' using Airflow. Message delivery confirmed after 10 retries."}
+{"timestamp":1732362360000,"host":"","level":"INFO","message":"CPU usage is 24%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732362780000,"host":"","level":"ERROR","message":"CPU usage is critically high: 68%. Immediate action required."}
+{"timestamp":1732363200000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732363680000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1732364280000,"host":"","level":"ERROR","message":"CPU usage is critically high: 82%. Immediate action required."}
+{"timestamp":1732364820000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732365000000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1732365180000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.35. Login duration: 10 minutes."}
+{"timestamp":1732365360000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.209. Login duration: 10 minutes."}
+{"timestamp":1732365720000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Airflow. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732365840000,"host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732366380000,"host":"","level":"ERROR","message":"Kubernetes encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732366440000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732366620000,"host":"","level":"INFO","message":"PUT request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732366920000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Python. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732367520000,"host":"","level":"ERROR","message":"CPU usage is critically high: 57%. Immediate action required."}
+{"timestamp":1732367580000,"host":"","level":"INFO","message":"Docker container started successfully for service Azure. Container ID: abcd1234efgh5678."}
+{"timestamp":1732367760000,"host":"","level":"ERROR","message":"Docker container failed to start for service AWS. Error log: Container crashed on startup."}
+{"timestamp":1732368000000,"host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732370400000,"host":"","level":"INFO","message":"Disk usage is 57%. Disk space within acceptable limits."}
+{"timestamp":1732370460000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732370640000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732371000000,"host":"","level":"INFO","message":"Disk usage is 12%. Disk space within acceptable limits."}
+{"timestamp":1732371240000,"host":"","level":"INFO","message":"Kafka operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732371660000,"host":"","level":"INFO","message":"CPU usage is 26%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732371780000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Airflow. Message delivery confirmed after 10 retries."}
+{"timestamp":1732372380000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732372560000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732372980000,"host":"","level":"ERROR","message":"DELETE request to \/api\/v1\/users failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732373340000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732373520000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732374000000,"host":"","level":"INFO","message":"CPU usage is 70%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732374360000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732374840000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732375260000,"host":"","level":"ERROR","message":"Airflow encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732375860000,"host":"","level":"ERROR","message":"Disk usage is critically high: 80%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732375980000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732376400000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732376700000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732376880000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732377480000,"host":"","level":"ERROR","message":"DELETE request to \/api\/v1\/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732377540000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732377780000,"host":"","level":"ERROR","message":"CPU usage is critically high: 21%. Immediate action required."}
+{"timestamp":1732378080000,"host":"","level":"INFO","message":"GET request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732378260000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732378620000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.48. Login duration: 10 minutes."}
+{"timestamp":1732378860000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.29. Login duration: 10 minutes."}
+{"timestamp":1732379460000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.44. Login duration: 10 minutes."}
+{"timestamp":1732379520000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732379580000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732379760000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732379940000,"host":"","level":"INFO","message":"Python operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732380540000,"host":"","level":"INFO","message":"Docker container started successfully for service AWS. Container ID: abcd1234efgh5678."}
+{"timestamp":1732380840000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732381140000,"host":"","level":"ERROR","message":"CPU usage is critically high: 73%. Immediate action required."}
+{"timestamp":1732381560000,"host":"","level":"INFO","message":"Disk usage is 65%. Disk space within acceptable limits."}
+{"timestamp":1732382160000,"host":"","level":"ERROR","message":"CPU usage is critically high: 33%. Immediate action required."}
+{"timestamp":1732382460000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732382640000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732384800000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Kafka. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732385100000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732385640000,"host":"","level":"INFO","message":"CPU usage is 54%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732386060000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732386660000,"host":"","level":"ERROR","message":"Kubernetes encountered an issue. Exception: NullPointerException in thread 'main'."}
+{"timestamp":1732386840000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732387020000,"host":"","level":"ERROR","message":"PUT request to \/api\/v1\/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token."}
+{"timestamp":1732387500000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.234. Login duration: 10 minutes."}
+{"timestamp":1732388040000,"host":"","level":"ERROR","message":"Disk usage is critically high: 45%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732388220000,"host":"","level":"ERROR","message":"Oreder pipeline container ETL failures . Pod ID: kube_pod12345."}
+{"timestamp":1732388400000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732388640000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732388700000,"host":"","level":"ERROR","message":"Disk usage is critically high: 23%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732389060000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_user_sync' completed successfully in 45 seconds."}
+{"timestamp":1732389420000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732389720000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Java. Message delivery confirmed after 10 retries."}
+{"timestamp":1732390140000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Kafka. Message delivery confirmed after 10 retries."}
+{"timestamp":1732390320000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732390860000,"host":"","level":"INFO","message":"GET request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732391220000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds."}
+{"timestamp":1732391640000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Docker. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732392120000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732392600000,"host":"","level":"ERROR","message":"Docker container failed to start for service Airflow. Error log: Container crashed on startup."}
+{"timestamp":1732392780000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_data_ingestion' completed successfully in 45 seconds."}
+{"timestamp":1732393140000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732393380000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Kubernetes. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732393680000,"host":"","level":"INFO","message":"Docker container started successfully for service Java. Container ID: abcd1234efgh5678."}
+{"timestamp":1732393920000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732394100000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732394280000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732394400000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.141. Login duration: 10 minutes."}
+{"timestamp":1732394760000,"host":"","level":"INFO","message":"CPU usage is 19%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732395120000,"host":"","level":"ERROR","message":"Disk usage is critically high: 42%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732395180000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732395540000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732396020000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5."}
+{"timestamp":1732396440000,"host":"","level":"INFO","message":"AWS operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732396620000,"host":"","level":"ERROR","message":"Disk usage is critically high: 35%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732397040000,"host":"","level":"INFO","message":"POST request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732397340000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2."}
+{"timestamp":1732399200000,"host":"","level":"ERROR","message":"Task 'task_data_validation' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732399740000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732400160000,"host":"","level":"ERROR","message":"Disk usage is critically high: 81%. Threshold exceeded on volume \/dev\/sda1."}
+{"timestamp":1732400700000,"host":"","level":"ERROR","message":"CPU usage is critically high: 64%. Immediate action required."}
+{"timestamp":1732401120000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678."}
+{"timestamp":1732401360000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732401600000,"host":"","level":"INFO","message":"CPU usage is 84%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732401960000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Kafka. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732402200000,"host":"","level":"INFO","message":"CPU usage is 28%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732402680000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732402800000,"host":"","level":"ERROR","message":"CPU usage is critically high: 78%. Immediate action required."}
+{"timestamp":1732403400000,"host":"","level":"INFO","message":"Disk usage is 43%. Disk space within acceptable limits."}
+{"timestamp":1732403460000,"host":"","level":"INFO","message":"Disk usage is 44%. Disk space within acceptable limits."}
+{"timestamp":1732403820000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Service failures ."}
+{"timestamp":1732404180000,"host":"","level":"INFO","message":"CPU usage is 58%. Threshold not exceeded. System operating normally."}
+{"timestamp":1732404780000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided."}
+{"timestamp":1732404840000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Kafka. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732405440000,"host":"","level":"INFO","message":"Kafka operation completed successfully. Processed 1500 records in 2.35 seconds."}
+{"timestamp":1732405500000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Java. Message delivery confirmed after 10 retries."}
+{"timestamp":1732405680000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_users' using Azure. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732405980000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system."}
+{"timestamp":1732406460000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.20. Login duration: 10 minutes."}
+{"timestamp":1732407000000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_users' using Python. Error: TimeoutException after 30 seconds."}
+{"timestamp":1732407420000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732407840000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732408140000,"host":"","level":"ERROR","message":"Docker container failed to start for service Java. Error log: Container crashed on startup."}
+{"timestamp":1732408260000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Airflow. Message delivery confirmed after 10 retries."}
+{"timestamp":1732408860000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345."}
+{"timestamp":1732409160000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.168. Login duration: 10 minutes."}
+{"timestamp":1732409520000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system."}
+{"timestamp":1732410060000,"host":"","level":"ERROR","message":"Phone number 9988776655 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732410240000,"host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database."}
+{"timestamp":1732410540000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.89. Login duration: 10 minutes."}
+{"timestamp":1732410780000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732411200000,"host":"","level":"ERROR","message":"Docker container failed to start for service Java. Error log: Container crashed on startup."}
+{"timestamp":1732411680000,"host":"","level":"INFO","message":"PATCH request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB."}
+{"timestamp":1732412280000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_model_training' completed successfully in 45 seconds."}
+{"timestamp":1732412640000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms."}
+{"timestamp":1732413180000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using AWS. Message delivery confirmed after 10 retries."}
+{"timestamp":1732413780000,"host":"","level":"ERROR","message":"Disk usage is critically high: 94%. Threshold exceeded on volume \/dev\/sda1."}

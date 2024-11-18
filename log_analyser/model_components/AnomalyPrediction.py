@@ -49,12 +49,20 @@ class AnomalyPrediction:
         for _, row in df.iterrows():
             event, value = self.parse_message(row["message"])
             if event:
-                structured_data.append({"timestamp": row["timestamp"], "event": event, "value": value})
+                structured_data.append({
+                    "timestamp": str(row["timestamp"]),  # Convert to string for JSON serialization
+                    "event": event,
+                    "value": value
+                })
 
         # Count occurrences for failure events
         for event in self.failure_events:
             count = int(df["message"].str.contains(event, case=False).sum())  # Convert to integer
-            structured_data.append({"timestamp": str(datetime.now()), "event": event, "value": count})
+            structured_data.append({
+                "timestamp": str(datetime.now()),  # Current timestamp as a string
+                "event": event,
+                "value": count
+            })
 
-        # Convert to JSON
+        # Return structured data as JSON
         return json.dumps(structured_data, indent=4)

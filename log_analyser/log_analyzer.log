@@ -29,3 +29,403 @@
 2024-11-18 01:57:18,761 - INFO - Clustering log messages using HDBSCAN
 2024-11-18 01:57:18,771 - INFO - HDBSCAN clustering completed
 2024-11-18 01:57:18,775 - INFO - Log analysis completed successfully
+2024-11-18 12:47:01,292 - INFO - Starting log analysis
+2024-11-18 12:47:01,292 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 12:47:01,292 - INFO - Initializing LogParser
+2024-11-18 12:47:01,293 - INFO - Parsing the log file
+2024-11-18 12:47:01,296 - INFO - Parsed logs successfully
+2024-11-18 12:47:01,307 - INFO - Initializing SentimentAnalysis
+2024-11-18 12:47:01,880 - INFO - Analyzing sentiment of log messages
+2024-11-18 12:48:37,590 - INFO - Starting log analysis
+2024-11-18 12:48:37,590 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 12:48:37,590 - INFO - Initializing LogParser
+2024-11-18 12:48:37,591 - INFO - Parsing the log file
+2024-11-18 12:48:37,593 - INFO - Parsed logs successfully
+2024-11-18 12:48:37,600 - INFO - Initializing SentimentAnalysis
+2024-11-18 12:48:38,518 - INFO - Analyzing sentiment of log messages
+2024-11-18 12:49:16,399 - INFO - Starting log analysis
+2024-11-18 12:49:16,399 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 12:49:16,399 - INFO - Initializing LogParser
+2024-11-18 12:49:16,399 - INFO - Parsing the log file
+2024-11-18 12:49:16,401 - INFO - Parsed logs successfully
+2024-11-18 12:49:16,407 - INFO - Initializing SentimentAnalysis
+2024-11-18 12:49:18,020 - INFO - Analyzing sentiment of log messages
+2024-11-18 12:49:19,797 - INFO - Sentiment analysis completed
+2024-11-18 12:49:19,800 - INFO - Initializing SensitiveDataParser
+2024-11-18 12:49:19,800 - INFO - Parsing sensitive data
+2024-11-18 12:49:19,801 - INFO - Sensitive data parsing completed
+2024-11-18 12:49:19,801 - INFO - Initializing KeywordClustering
+2024-11-18 12:49:19,801 - INFO - Clustering messages into categories
+2024-11-18 12:49:19,801 - INFO - Keyword clustering completed
+2024-11-18 12:49:19,804 - INFO - Initializing AnomalyPrediction
+2024-11-18 12:49:19,804 - INFO - Extracting anomalies from log messages
+2024-11-18 12:49:19,806 - INFO - Anomaly prediction completed
+2024-11-18 12:49:19,806 - INFO - Initializing RootCauseAnalysis
+2024-11-18 12:49:19,806 - INFO - Analyzing root causes
+2024-11-18 12:49:19,806 - INFO - Root cause analysis completed
+2024-11-18 12:49:19,806 - INFO - Initializing ThresholdAlert
+2024-11-18 12:49:19,806 - INFO - Analyzing thresholds for alerts
+2024-11-18 12:49:19,806 - INFO - Threshold alert analysis completed
+2024-11-18 12:49:19,806 - INFO - Initializing DBSCANClustering
+2024-11-18 12:49:19,806 - INFO - Clustering log messages using DBSCAN
+2024-11-18 12:49:19,819 - INFO - DBSCAN clustering completed
+2024-11-18 12:49:19,821 - INFO - Grouping logs by DBSCAN clusters
+2024-11-18 12:49:19,827 - INFO - Initializing HDBSCANClustering
+2024-11-18 12:49:19,827 - INFO - Clustering log messages using HDBSCAN
+2024-11-18 12:49:19,836 - INFO - HDBSCAN clustering completed
+2024-11-18 12:49:19,841 - INFO - Log analysis completed successfully
+2024-11-18 12:56:15,020 - INFO - Starting log analysis
+2024-11-18 12:56:15,020 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 12:56:15,020 - INFO - Initializing LogParser
+2024-11-18 12:56:15,020 - INFO - Parsing the log file
+2024-11-18 12:56:15,022 - INFO - Parsed logs successfully
+2024-11-18 12:56:15,028 - INFO - Initializing SentimentAnalysis
+2024-11-18 12:56:15,519 - INFO - Analyzing sentiment of log messages
+2024-11-18 12:56:26,613 - INFO - Starting log analysis
+2024-11-18 12:56:26,613 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 12:56:26,613 - INFO - Initializing LogParser
+2024-11-18 12:56:26,614 - INFO - Parsing the log file
+2024-11-18 12:56:26,614 - INFO - Parsed logs successfully
+2024-11-18 12:56:26,617 - INFO - Initializing SentimentAnalysis
+2024-11-18 12:56:26,986 - INFO - Analyzing sentiment of log messages
+2024-11-18 12:56:57,368 - INFO - Starting log analysis
+2024-11-18 12:56:57,368 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 12:56:57,368 - INFO - Initializing LogParser
+2024-11-18 12:56:57,368 - INFO - Parsing the log file
+2024-11-18 12:56:57,370 - INFO - Parsed logs successfully
+2024-11-18 12:56:57,376 - INFO - Initializing SentimentAnalysis
+2024-11-18 12:56:58,514 - INFO - Analyzing sentiment of log messages
+2024-11-18 12:57:00,273 - INFO - Sentiment analysis completed
+2024-11-18 12:57:00,276 - INFO - Initializing SensitiveDataParser
+2024-11-18 12:57:00,276 - INFO - Parsing sensitive data
+2024-11-18 12:57:00,277 - INFO - Sensitive data parsing completed
+2024-11-18 12:57:00,277 - INFO - Initializing KeywordClustering
+2024-11-18 12:57:00,277 - INFO - Clustering messages into categories
+2024-11-18 12:57:00,277 - INFO - Keyword clustering completed
+2024-11-18 12:57:00,280 - INFO - Initializing AnomalyPrediction
+2024-11-18 12:57:00,280 - INFO - Extracting anomalies from log messages
+2024-11-18 12:57:00,282 - INFO - Anomaly prediction completed
+2024-11-18 12:57:00,283 - INFO - Initializing RootCauseAnalysis
+2024-11-18 12:57:00,283 - INFO - Analyzing root causes
+2024-11-18 12:57:00,283 - INFO - Root cause analysis completed
+2024-11-18 12:57:00,283 - INFO - Initializing ThresholdAlert
+2024-11-18 12:57:00,283 - INFO - Analyzing thresholds for alerts
+2024-11-18 12:57:00,283 - INFO - Threshold alert analysis completed
+2024-11-18 12:57:00,284 - INFO - Initializing DBSCANClustering
+2024-11-18 12:57:00,284 - INFO - Clustering log messages using DBSCAN
+2024-11-18 12:57:00,292 - INFO - DBSCAN clustering completed
+2024-11-18 12:57:00,296 - INFO - Grouping logs by DBSCAN clusters
+2024-11-18 12:57:00,300 - INFO - Initializing HDBSCANClustering
+2024-11-18 12:57:00,300 - INFO - Clustering log messages using HDBSCAN
+2024-11-18 12:57:00,309 - INFO - HDBSCAN clustering completed
+2024-11-18 12:57:00,313 - INFO - Log analysis completed successfully
+2024-11-18 20:38:20,448 - INFO - Starting log analysis
+2024-11-18 20:38:20,449 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 20:38:20,449 - INFO - Initializing LogParser
+2024-11-18 20:38:20,449 - INFO - Parsing the log file
+2024-11-18 20:38:20,452 - INFO - Parsed logs successfully
+2024-11-18 20:38:20,465 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 20:38:20,466 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 20:38:20,466 - INFO - Initializing SentimentAnalysis
+2024-11-18 20:38:21,430 - INFO - Analyzing sentiment of log messages
+2024-11-18 20:38:23,085 - INFO - Sentiment analysis completed
+2024-11-18 20:38:23,089 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 20:38:23,090 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 20:38:23,090 - INFO - Initializing SensitiveDataParser
+2024-11-18 20:38:23,090 - INFO - Parsing sensitive data
+2024-11-18 20:38:23,090 - INFO - Sensitive data parsing completed
+2024-11-18 20:38:23,091 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 20:38:23,091 - INFO - Initializing KeywordClustering
+2024-11-18 20:38:23,091 - INFO - Clustering messages into categories
+2024-11-18 20:38:23,092 - INFO - Keyword clustering completed
+2024-11-18 20:38:23,096 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 20:38:23,096 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 20:38:23,096 - INFO - Initializing AnomalyPrediction
+2024-11-18 20:38:23,096 - INFO - Extracting anomalies from log messages
+2024-11-18 20:38:23,100 - INFO - Anomaly prediction completed
+2024-11-18 20:38:23,100 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/anomalies.json
+2024-11-18 20:38:23,100 - INFO - Initializing RootCauseAnalysis
+2024-11-18 20:38:23,100 - INFO - Analyzing root causes
+2024-11-18 20:38:50,018 - INFO - Starting log analysis
+2024-11-18 20:38:50,018 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 20:38:50,018 - INFO - Initializing LogParser
+2024-11-18 20:38:50,018 - INFO - Parsing the log file
+2024-11-18 20:38:50,019 - INFO - Parsed logs successfully
+2024-11-18 20:38:50,022 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 20:38:50,022 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 20:38:50,022 - INFO - Initializing SentimentAnalysis
+2024-11-18 20:38:51,275 - INFO - Analyzing sentiment of log messages
+2024-11-18 20:38:52,998 - INFO - Sentiment analysis completed
+2024-11-18 20:38:53,001 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 20:38:53,001 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 20:38:53,001 - INFO - Initializing SensitiveDataParser
+2024-11-18 20:38:53,001 - INFO - Parsing sensitive data
+2024-11-18 20:38:53,002 - INFO - Sensitive data parsing completed
+2024-11-18 20:38:53,002 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 20:38:53,002 - INFO - Initializing KeywordClustering
+2024-11-18 20:38:53,002 - INFO - Clustering messages into categories
+2024-11-18 20:38:53,002 - INFO - Keyword clustering completed
+2024-11-18 20:38:53,005 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 20:38:53,006 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 20:38:53,006 - INFO - Initializing AnomalyPrediction
+2024-11-18 20:38:53,006 - INFO - Extracting anomalies from log messages
+2024-11-18 20:38:53,008 - INFO - Anomaly prediction completed
+2024-11-18 20:38:53,008 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/anomalies.json
+2024-11-18 20:38:53,008 - INFO - Initializing RootCauseAnalysis
+2024-11-18 20:38:53,008 - INFO - Analyzing root causes
+2024-11-18 20:40:20,992 - INFO - Starting log analysis
+2024-11-18 20:40:20,992 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 20:40:20,992 - INFO - Initializing LogParser
+2024-11-18 20:40:20,992 - INFO - Parsing the log file
+2024-11-18 20:40:20,992 - INFO - Parsed logs successfully
+2024-11-18 20:40:20,996 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 20:40:20,996 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 20:40:20,996 - INFO - Initializing SentimentAnalysis
+2024-11-18 20:40:23,078 - INFO - Analyzing sentiment of log messages
+2024-11-18 20:40:25,023 - INFO - Sentiment analysis completed
+2024-11-18 20:40:25,026 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 20:40:25,026 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 20:40:25,026 - INFO - Initializing SensitiveDataParser
+2024-11-18 20:40:25,026 - INFO - Parsing sensitive data
+2024-11-18 20:40:25,027 - INFO - Sensitive data parsing completed
+2024-11-18 20:40:25,027 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 20:40:25,027 - INFO - Initializing KeywordClustering
+2024-11-18 20:40:25,027 - INFO - Clustering messages into categories
+2024-11-18 20:40:25,028 - INFO - Keyword clustering completed
+2024-11-18 20:40:25,031 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 20:40:25,031 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 20:40:25,031 - INFO - Initializing AnomalyPrediction
+2024-11-18 20:40:25,031 - INFO - Extracting anomalies from log messages
+2024-11-18 20:40:25,033 - INFO - Anomaly prediction completed
+2024-11-18 20:40:25,034 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/anomalies.json
+2024-11-18 20:40:25,034 - INFO - Initializing RootCauseAnalysis
+2024-11-18 20:40:25,034 - INFO - Analyzing root causes
+2024-11-18 20:40:39,480 - INFO - Starting log analysis
+2024-11-18 20:40:39,480 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 20:40:39,480 - INFO - Initializing LogParser
+2024-11-18 20:40:39,480 - INFO - Parsing the log file
+2024-11-18 20:40:39,480 - INFO - Parsed logs successfully
+2024-11-18 20:40:39,484 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 20:40:39,484 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 20:40:39,484 - INFO - Initializing SentimentAnalysis
+2024-11-18 20:40:40,383 - INFO - Analyzing sentiment of log messages
+2024-11-18 20:40:42,201 - INFO - Sentiment analysis completed
+2024-11-18 20:40:42,204 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 20:40:42,204 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 20:40:42,204 - INFO - Initializing SensitiveDataParser
+2024-11-18 20:40:42,204 - INFO - Parsing sensitive data
+2024-11-18 20:40:42,205 - INFO - Sensitive data parsing completed
+2024-11-18 20:40:42,205 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 20:40:42,205 - INFO - Initializing KeywordClustering
+2024-11-18 20:40:42,205 - INFO - Clustering messages into categories
+2024-11-18 20:40:42,206 - INFO - Keyword clustering completed
+2024-11-18 20:40:42,208 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 20:40:42,209 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 20:40:42,209 - INFO - Initializing AnomalyPrediction
+2024-11-18 20:40:42,209 - INFO - Extracting anomalies from log messages
+2024-11-18 20:40:42,211 - INFO - Anomaly prediction completed
+2024-11-18 20:40:42,211 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/anomalies.json
+2024-11-18 20:40:42,211 - INFO - Initializing RootCauseAnalysis
+2024-11-18 20:40:42,211 - INFO - Analyzing root causes
+2024-11-18 20:40:42,211 - INFO - Root cause analysis completed
+2024-11-18 20:40:42,212 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 20:40:42,212 - INFO - Initializing ThresholdAlert
+2024-11-18 20:40:42,212 - INFO - Analyzing thresholds for alerts
+2024-11-18 20:40:42,212 - INFO - Threshold alert analysis completed
+2024-11-18 20:40:42,212 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 20:40:42,212 - INFO - Initializing DBSCANClustering
+2024-11-18 20:40:42,212 - INFO - Clustering log messages using DBSCAN
+2024-11-18 20:40:42,220 - INFO - DBSCAN clustering completed
+2024-11-18 20:40:42,222 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 20:40:42,223 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 20:40:42,223 - INFO - Grouping logs by DBSCAN clusters
+2024-11-18 20:40:42,226 - INFO - Initializing HDBSCANClustering
+2024-11-18 20:40:42,226 - INFO - Clustering log messages using HDBSCAN
+2024-11-18 20:40:42,234 - INFO - HDBSCAN clustering completed
+2024-11-18 20:40:42,238 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 20:40:42,239 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 20:40:42,239 - INFO - Log analysis completed successfully
+2024-11-18 20:41:36,552 - INFO - Starting log analysis
+2024-11-18 20:41:36,552 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 20:41:36,552 - INFO - Initializing LogParser
+2024-11-18 20:41:36,553 - INFO - Parsing the log file
+2024-11-18 20:41:36,553 - INFO - Parsed logs successfully
+2024-11-18 20:41:36,556 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 20:41:36,556 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 20:41:36,556 - INFO - Initializing SentimentAnalysis
+2024-11-18 20:41:37,353 - INFO - Analyzing sentiment of log messages
+2024-11-18 20:41:39,043 - INFO - Sentiment analysis completed
+2024-11-18 20:41:39,045 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 20:41:39,045 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 20:41:39,045 - INFO - Initializing SensitiveDataParser
+2024-11-18 20:41:39,045 - INFO - Parsing sensitive data
+2024-11-18 20:41:39,046 - INFO - Sensitive data parsing completed
+2024-11-18 20:41:39,046 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 20:41:39,046 - INFO - Initializing KeywordClustering
+2024-11-18 20:41:39,046 - INFO - Clustering messages into categories
+2024-11-18 20:41:39,047 - INFO - Keyword clustering completed
+2024-11-18 20:41:39,050 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 20:41:39,050 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 20:41:39,050 - INFO - Initializing AnomalyPrediction
+2024-11-18 20:41:39,050 - INFO - Extracting anomalies from log messages
+2024-11-18 20:41:39,052 - INFO - Anomaly prediction completed
+2024-11-18 20:41:39,052 - INFO - Structured anomalies data successfully parsed
+2024-11-18 20:41:39,052 - INFO - Initializing RootCauseAnalysis
+2024-11-18 20:41:39,052 - INFO - Analyzing root causes
+2024-11-18 20:41:39,052 - INFO - Root cause analysis completed
+2024-11-18 20:41:39,052 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 20:41:39,052 - INFO - Log analysis completed successfully
+2024-11-18 20:45:21,335 - INFO - Starting log analysis
+2024-11-18 20:45:21,335 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 20:45:21,335 - INFO - Initializing LogParser
+2024-11-18 20:45:21,335 - INFO - Parsing the log file
+2024-11-18 20:45:21,336 - INFO - Parsed logs successfully
+2024-11-18 20:45:21,339 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 20:45:21,339 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 20:45:21,339 - INFO - Initializing SentimentAnalysis
+2024-11-18 20:45:22,314 - INFO - Analyzing sentiment of log messages
+2024-11-18 20:45:23,998 - INFO - Sentiment analysis completed
+2024-11-18 20:45:24,001 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 20:45:24,001 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 20:45:24,001 - INFO - Initializing SensitiveDataParser
+2024-11-18 20:45:24,001 - INFO - Parsing sensitive data
+2024-11-18 20:45:24,002 - INFO - Sensitive data parsing completed
+2024-11-18 20:45:24,002 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 20:45:24,002 - INFO - Initializing KeywordClustering
+2024-11-18 20:45:24,002 - INFO - Clustering messages into categories
+2024-11-18 20:45:24,003 - INFO - Keyword clustering completed
+2024-11-18 20:45:24,006 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 20:45:24,006 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 20:45:24,007 - INFO - Initializing AnomalyPrediction
+2024-11-18 20:45:24,007 - INFO - Extracting anomalies from log messages
+2024-11-18 20:45:24,008 - INFO - Anomaly prediction completed
+2024-11-18 20:45:24,008 - INFO - Structured anomalies data successfully parsed
+2024-11-18 20:45:24,008 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/anomalies.json
+2024-11-18 20:45:24,008 - INFO - Initializing RootCauseAnalysis
+2024-11-18 20:45:24,008 - INFO - Analyzing root causes
+2024-11-18 20:45:24,008 - INFO - Root cause analysis completed
+2024-11-18 20:45:24,009 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 20:45:24,009 - INFO - Initializing ThresholdAlert
+2024-11-18 20:45:24,009 - INFO - Analyzing thresholds for alerts
+2024-11-18 20:45:24,009 - INFO - Threshold alert analysis completed
+2024-11-18 20:45:24,009 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 20:45:24,009 - INFO - Log analysis completed successfully
+2024-11-18 21:00:53,888 - INFO - Starting log analysis
+2024-11-18 21:00:53,888 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 21:00:53,888 - INFO - Initializing LogParser
+2024-11-18 21:00:53,888 - INFO - Parsing the log file
+2024-11-18 21:00:53,889 - INFO - Parsed logs successfully
+2024-11-18 21:00:53,893 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:00:53,893 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:00:53,893 - INFO - Initializing SentimentAnalysis
+2024-11-18 21:00:55,804 - INFO - Analyzing sentiment of log messages
+2024-11-18 21:00:57,548 - INFO - Sentiment analysis completed
+2024-11-18 21:00:57,551 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:00:57,552 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:00:57,552 - INFO - Initializing SensitiveDataParser
+2024-11-18 21:00:57,552 - INFO - Parsing sensitive data
+2024-11-18 21:00:57,552 - INFO - Sensitive data parsing completed
+2024-11-18 21:00:57,552 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:00:57,552 - INFO - Initializing KeywordClustering
+2024-11-18 21:00:57,552 - INFO - Clustering messages into categories
+2024-11-18 21:00:57,553 - INFO - Keyword clustering completed
+2024-11-18 21:00:57,556 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:00:57,556 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:00:57,556 - INFO - Initializing AnomalyPrediction
+2024-11-18 21:00:57,556 - INFO - Extracting anomalies from log messages
+2024-11-18 21:00:57,557 - INFO - Anomaly prediction completed
+2024-11-18 21:00:57,557 - INFO - Structured anomalies data successfully parsed
+2024-11-18 21:00:57,558 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/anomalies.json
+2024-11-18 21:00:57,558 - INFO - Initializing RootCauseAnalysis
+2024-11-18 21:00:57,558 - INFO - Analyzing root causes
+2024-11-18 21:00:57,558 - INFO - Root cause analysis completed
+2024-11-18 21:00:57,558 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 21:00:57,558 - INFO - Initializing ThresholdAlert
+2024-11-18 21:00:57,558 - INFO - Analyzing thresholds for alerts
+2024-11-18 21:00:57,558 - INFO - Threshold alert analysis completed
+2024-11-18 21:00:57,558 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 21:00:57,558 - INFO - Log analysis completed successfully
+2024-11-18 21:23:35,693 - INFO - Starting log analysis
+2024-11-18 21:24:54,787 - INFO - Starting log analysis
+2024-11-18 21:25:14,381 - INFO - Starting log analysis
+2024-11-18 21:31:31,946 - INFO - Starting log analysis
+2024-11-18 21:34:18,051 - INFO - Starting log analysis
+2024-11-18 21:34:18,056 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:34:18,057 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:34:21,439 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:34:21,440 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:34:21,509 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:34:21,510 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:34:21,511 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:38:52,952 - INFO - Starting log analysis
+2024-11-18 21:38:52,956 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:38:52,956 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:38:56,563 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:38:56,564 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:38:56,634 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:38:56,635 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:38:56,636 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:38:56,714 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/anomalies.json
+2024-11-18 21:38:56,714 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 21:38:56,714 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 21:38:56,714 - INFO - Log analysis completed successfully
+2024-11-18 21:40:02,074 - INFO - Starting log analysis
+2024-11-18 21:40:02,077 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:40:02,078 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:40:04,908 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:40:04,909 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:40:04,978 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:40:04,979 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:40:04,979 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:40:05,055 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/anomalies.json
+2024-11-18 21:40:05,056 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 21:40:05,056 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 21:40:05,056 - INFO - Log analysis completed successfully
+2024-11-18 21:43:22,431 - INFO - Starting log analysis
+2024-11-18 21:43:22,434 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:43:22,435 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:43:25,946 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:43:25,946 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:43:26,019 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:43:26,020 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:43:26,020 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:43:26,098 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/anomalies.json
+2024-11-18 21:43:26,098 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 21:43:26,099 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 21:43:26,106 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 21:43:26,106 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 21:43:26,114 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 21:43:26,115 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 21:43:26,115 - INFO - Log analysis completed successfully
+2024-11-18 21:46:28,151 - INFO - Starting log analysis
+2024-11-18 21:46:28,154 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:46:28,155 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:46:31,312 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:46:31,312 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:46:31,383 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:46:31,385 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:46:31,385 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:46:31,466 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/anomalies.json
+2024-11-18 21:46:31,466 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 21:46:31,466 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 21:46:31,470 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 21:46:31,470 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 21:46:31,475 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 21:46:31,475 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 21:46:31,475 - INFO - Log analysis completed successfully
+2024-11-18 21:48:38,663 - INFO - Starting log analysis
+2024-11-18 21:48:38,670 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 21:48:38,671 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 21:49:19,026 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 21:49:19,028 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 21:49:19,111 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 21:49:19,122 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 21:49:19,124 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 21:49:19,225 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/anomalies.json
+2024-11-18 21:49:19,226 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 21:49:19,226 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 21:49:19,250 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 21:49:19,252 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 21:49:19,584 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 21:49:19,585 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 21:49:19,585 - INFO - Log analysis completed successfully
