@@ -1,0 +1,45 @@
+2024-11-18 13:01:14,890 - INFO - Starting log analysis
+2024-11-18 13:01:14,890 - INFO - Log file path: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt
+2024-11-18 13:01:14,891 - INFO - Initializing LogParser
+2024-11-18 13:01:14,891 - INFO - Parsing the log file
+2024-11-18 13:01:14,892 - INFO - Parsed logs successfully
+2024-11-18 13:01:14,900 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.csv
+2024-11-18 13:01:14,900 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/parsed_logs.json
+2024-11-18 13:01:14,900 - INFO - Initializing SentimentAnalysis
+2024-11-18 13:01:17,160 - INFO - Analyzing sentiment of log messages
+2024-11-18 13:01:19,141 - INFO - Sentiment analysis completed
+2024-11-18 13:01:19,149 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.csv
+2024-11-18 13:01:19,150 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sentiment_analysis_results.json
+2024-11-18 13:01:19,150 - INFO - Initializing SensitiveDataParser
+2024-11-18 13:01:19,150 - INFO - Parsing sensitive data
+2024-11-18 13:01:19,150 - INFO - Sensitive data parsing completed
+2024-11-18 13:01:19,151 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/sensitive_data.json
+2024-11-18 13:01:19,151 - INFO - Initializing KeywordClustering
+2024-11-18 13:01:19,151 - INFO - Clustering messages into categories
+2024-11-18 13:01:19,151 - INFO - Keyword clustering completed
+2024-11-18 13:01:19,155 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.csv
+2024-11-18 13:01:19,155 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/keyword_clustering_results.json
+2024-11-18 13:01:19,156 - INFO - Initializing AnomalyPrediction
+2024-11-18 13:01:19,156 - INFO - Extracting anomalies from log messages
+2024-11-18 13:01:19,157 - INFO - Anomaly prediction completed
+2024-11-18 13:01:19,158 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/anomalies.json
+2024-11-18 13:01:19,158 - INFO - Initializing RootCauseAnalysis
+2024-11-18 13:01:19,158 - INFO - Analyzing root causes
+2024-11-18 13:01:19,158 - INFO - Root cause analysis completed
+2024-11-18 13:01:19,158 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/root_cause_analysis.json
+2024-11-18 13:01:19,158 - INFO - Initializing ThresholdAlert
+2024-11-18 13:01:19,158 - INFO - Analyzing thresholds for alerts
+2024-11-18 13:01:19,159 - INFO - Threshold alert analysis completed
+2024-11-18 13:01:19,159 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/threshold_alerts.json
+2024-11-18 13:01:19,159 - INFO - Initializing DBSCANClustering
+2024-11-18 13:01:19,159 - INFO - Clustering log messages using DBSCAN
+2024-11-18 13:01:19,172 - INFO - DBSCAN clustering completed
+2024-11-18 13:01:19,175 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/dbscan_clustering_results.csv
+2024-11-18 13:01:19,175 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/dbscan_clustering_results.json
+2024-11-18 13:01:19,175 - INFO - Grouping logs by DBSCAN clusters
+2024-11-18 13:01:19,179 - INFO - Initializing HDBSCANClustering
+2024-11-18 13:01:19,179 - INFO - Clustering log messages using HDBSCAN
+2024-11-18 13:01:19,190 - INFO - HDBSCAN clustering completed
+2024-11-18 13:01:19,195 - INFO - Saved CSV output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/hdbscan_clustering_results.csv
+2024-11-18 13:01:19,195 - INFO - Saved JSON output: /Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs/hdbscan_clustering_results.json
+2024-11-18 13:01:19,195 - INFO - Log analysis completed successfully

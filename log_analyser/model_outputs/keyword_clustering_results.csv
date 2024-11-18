@@ -1,0 +1,51 @@
+timestamp,host,level,message,Sentiment,Confidence,Keyword_cluster
+2024-11-17 23:00:00,,ERROR,Failed to consume message from topic 'topic_transactions' using AWS. Error: TimeoutException after 30 seconds.,Negative,0.6713958978652954,kafka
+2024-11-17 23:01:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.,Positive,0.7399508357048035,unknown
+2024-11-17 23:08:00,,INFO,Kubernetes pod scaled up successfully. New replicas: 5.,Positive,0.7399508357048035,unknown
+2024-11-17 23:13:00,,INFO,DELETE request to /api/v1/users succeeded. Response code: 200 OK. Response size: 1.2MB.,Negative,0.40849044919013977,api
+2024-11-17 23:14:00,,ERROR,Phone number 9123456789 could not be added due to a duplicate record conflict in the database.,Negative,0.4470262825489044,database
+2024-11-17 23:18:00,,INFO,CPU usage is 27%. Threshold not exceeded. System operating normally.,Neutral,0.4267198443412781,server
+2024-11-17 23:19:00,,ERROR,Airflow encountered an issue. Exception: NullPointerException in thread 'main'.,Neutral,0.3167468011379242,unknown
+2024-11-17 23:20:00,,ERROR,Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.,Negative,0.4574546813964844,airflow
+2024-11-17 23:21:00,,ERROR,Docker container failed to start for service Java. Error log: Container crashed on startup.,Negative,0.7422016263008118,unknown
+2024-11-17 23:22:00,,INFO,CPU usage is 15%. Threshold not exceeded. System operating normally.,Neutral,0.43596747517585754,server
+2024-11-18 00:00:00,,INFO,AWS operation completed successfully. Processed 1500 records in 2.35 seconds.,Positive,0.7193358540534973,unknown
+2024-11-18 00:03:00,,INFO,Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.,Positive,0.5006256699562073,unknown
+2024-11-18 00:12:00,,ERROR,Phone number 9123456789 could not be added due to a duplicate record conflict in the database.,Negative,0.4470262825489044,database
+2024-11-18 00:20:00,,INFO,PATCH request to /healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB.,Negative,0.3047099709510803,unknown
+2024-11-18 00:24:00,,INFO,AWS operation completed successfully. Processed 1500 records in 2.35 seconds.,Positive,0.7193358540534973,unknown
+2024-11-18 00:30:00,,INFO,Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds.,Positive,0.474467933177948,airflow
+2024-11-18 00:40:00,,ERROR,Task 'task_model_training' in DAG 'dag_model_training' failed after 3 retries. Error: Service failures .,Negative,0.6450492143630981,airflow
+2024-11-18 00:47:00,,INFO,Kafka operation completed successfully. Processed 1500 records in 2.35 seconds.,Positive,0.7099003195762634,unknown
+2024-11-18 00:54:00,,ERROR,Task 'task_api_sync' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2.,Negative,0.44093769788742065,airflow
+2024-11-18 01:04:00,,INFO,Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds.,Positive,0.4948080778121948,airflow
+2024-11-18 02:00:00,,ERROR,Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2.,Negative,0.5247730016708374,airflow
+2024-11-18 02:07:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.,Positive,0.5993630290031433,aws
+2024-11-18 02:11:00,,ERROR,Lambda function execution failed in AWS. Error: Invalid parameters provided.,Negative,0.5555518865585327,aws
+2024-11-18 02:19:00,,INFO,Disk usage is 71%. Disk space within acceptable limits.,Negative,0.3395330309867859,server
+2024-11-18 02:22:00,,INFO,Disk usage is 67%. Disk space within acceptable limits.,Negative,0.32880455255508423,server
+2024-11-18 02:28:00,,INFO,PUT request to /api/v1/orders succeeded. Response code: 200 OK. Response size: 1.2MB.,Negative,0.25928255915641785,api
+2024-11-18 02:29:00,,ERROR,Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Service failures .,Negative,0.6265330910682678,airflow
+2024-11-18 02:32:00,,ERROR,Docker container failed to start for service Airflow. Error log: Container crashed on startup.,Negative,0.7636429667472839,unknown
+2024-11-18 02:37:00,,ERROR,Oreder pipeline container ETL failures . Pod ID: kube_pod12345.,Negative,0.718826174736023,unknown
+2024-11-18 02:39:00,,INFO,Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.,Positive,0.5006256699562073,unknown
+2024-11-18 03:00:00,,INFO,User user123@domain.org logged in from IP 192.168.0.20. Login duration: 10 minutes.,Negative,0.4508456885814667,logging
+2024-11-18 03:02:00,,INFO,Disk usage is 76%. Disk space within acceptable limits.,Negative,0.371338427066803,server
+2024-11-18 03:04:00,,ERROR,CPU usage is critically high: 51%. Immediate action required.,Neutral,0.3200187385082245,server
+2024-11-18 03:06:00,,INFO,Phone number 9988776655 was successfully added to the system.,Positive,0.5713627338409424,unknown
+2024-11-18 03:16:00,,INFO,Phone number 9123456789 was successfully added to the system.,Positive,0.5815085768699646,unknown
+2024-11-18 03:17:00,,INFO,CPU usage is 66%. Threshold not exceeded. System operating normally.,Neutral,0.41831254959106445,server
+2024-11-18 03:20:00,,INFO,User alice.smith@test.com logged in from IP 192.168.0.64. Login duration: 10 minutes.,Negative,0.29985666275024414,logging
+2024-11-18 03:21:00,,INFO,AWS operation completed successfully. Processed 1500 records in 2.35 seconds.,Positive,0.7193358540534973,unknown
+2024-11-18 03:25:00,,INFO,Docker container started successfully for service Airflow. Container ID: abcd1234efgh5678.,Positive,0.5006256699562073,unknown
+2024-11-18 03:30:00,,INFO,User john.doe@example.com logged in from IP 192.168.0.197. Login duration: 10 minutes.,Negative,0.4058997333049774,logging
+2024-11-18 04:00:00,,INFO,Published message to topic 'topic_transactions' using Azure. Message delivery confirmed after 10 retries.,Negative,0.3540608286857605,kafka
+2024-11-18 04:07:00,,INFO,Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.,Positive,0.4566805958747864,airflow
+2024-11-18 04:13:00,,ERROR,Docker container failed to start for service Kafka. Error log: Container crashed on startup.,Negative,0.7327998876571655,unknown
+2024-11-18 04:20:00,,INFO,Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds.,Positive,0.722551703453064,unknown
+2024-11-18 04:27:00,,ERROR,Task 'task_etl' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.,Negative,0.5298964381217957,airflow
+2024-11-18 04:29:00,,ERROR,Disk usage is critically high: 74%. Threshold exceeded on volume /dev/sda1.,Negative,0.40283164381980896,server
+2024-11-18 04:36:00,,INFO,Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.,Positive,0.4566805958747864,airflow
+2024-11-18 04:40:00,,INFO,CPU usage is 64%. Threshold not exceeded. System operating normally.,Neutral,0.37822088599205017,server
+2024-11-18 04:49:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.,Positive,0.5993630290031433,aws
+2024-11-18 04:52:00,,INFO,Lambda function executed successfully in AWS. Execution duration: 250ms.,Positive,0.5993630290031433,aws
