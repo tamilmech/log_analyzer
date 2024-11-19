@@ -1,4 +1,9 @@
 absl-py==2.1.0
+
+hdbscan==0.8.40
+matplotlib==3.9.2
+
+
 altair==5.4.1
 astunparse==1.6.3
 attrs==24.2.0
