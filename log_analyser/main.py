@@ -1,8 +1,47 @@
+from datetime import datetime  # Correct import for datetime
+from logs_data.log_generator import LogGenerator  # Import the LogGenerator class
+from config.paths import MainPath  # Import MainPath for folder path configuration
+
+# -------------------------------------------------------------------
+#                   Main Execution (LOG GENEROTER)
+# -------------------------------------------------------------------
+
+"""
+Main block for testing the LogGenerator class.
+"""
+
+# Define parameters for log generation
+start_time: datetime = datetime.now().replace(minute=0, second=0, microsecond=0)  # Start from the current hour
+num_hours: int = 7  # Number of hours to generate logs for
+logs_per_hour: int = 7  # Number of logs to generate per hour
+output_file_path: str = f"{MainPath.folder_path}/log_analyser/logs_data/data_logs.txt"  # File path to save generated logs
+
+# Initialize the LogGenerator
+log_generator: LogGenerator = LogGenerator()
+
+# Generate logs
+logs: list[str] = log_generator.generate_hourly_logs(start_time, num_hours, logs_per_hour, output_file_path)
+
+# Print the completion message with the output file path
+print(f"\nGenerated logs saved to {output_file_path}")
+
+# -------------------------------------------------------------------
+#                   Configuration and Utilities
+# -------------------------------------------------------------------
+from config.paths import MainPath
 import logging
 import os
 import pandas as pd
 import json
+
+# -------------------------------------------------------------------
+#                   Preprocessors
+# -------------------------------------------------------------------
 from logs_preprocessor import LogParser
+
+# -------------------------------------------------------------------
+#                   Model Components
+# -------------------------------------------------------------------
 from model_components.SentimentAnalysis import SentimentAnalysis
 from model_components.log_sensitive_data_parser import SensitiveDataParser
 from model_components.clustering_keywords import KeywordClustering
@@ -11,6 +50,10 @@ from model_components.Root_Cause_Analysis import RootCauseAnalysis
 from model_components.Threshold_Alert import ThresholdAlert
 from model_components.DBSCAN_Clustering import DBSCANClustering
 from model_components.HDBSCAN_Clustering import HDBSCANClustering
+
+# -------------------------------------------------------------------
+#                   Visualizations
+# -------------------------------------------------------------------
 from Plot_Analysis import LogLevelVisualizer, SentimentVisualizer, KeywordClusteringVisualizer
 
 # Configure logging
@@ -20,7 +63,10 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
 
-def save_output(df, output_path, filename):
+# -------------------------------------------------------------------
+#                   Save Output Methods
+# -------------------------------------------------------------------
+def save_output(df: pd.DataFrame, output_path: str, filename: str) -> None:
     """
     Save DataFrame to CSV and JSON output to the given path.
     """
@@ -32,7 +78,8 @@ def save_output(df, output_path, filename):
     df.to_json(json_path, orient="records", lines=True)
     logging.info(f"Saved JSON output: {json_path}")
 
-def save_json_output(data, output_path, filename):
+
+def save_json_output(data: dict | str, output_path: str, filename: str) -> None:
     """
     Save JSON output to the given path, ensuring proper formatting.
     """
@@ -48,15 +95,21 @@ def save_json_output(data, output_path, filename):
         json.dump(data, json_file, indent=4)
     logging.info(f"Saved JSON output: {json_path}")
 
-def main():
+# -------------------------------------------------------------------
+#                   Main Method
+# -------------------------------------------------------------------
+def main() -> None:
+    """
+    Main method to orchestrate the log analysis process.
+    """
     logging.info("Starting log analysis")
 
     # Define paths
-    log_file_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/logs_data/data_logs.txt"
-    output_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/model_outputs"
-    error_visualization_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/visualization/error_level"
-    sentiment_visualization_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/visualization/sentimental_analysis"
-    keyword_clustering_visualization_path = "/Users/tamilselavans/Desktop/log_analyzer/log_analyser/visualization/keyword_clustering"
+    log_file_path = f"{MainPath.folder_path}/log_analyser/logs_data/data_logs.txt"
+    output_path = f"{MainPath.folder_path}/log_analyser/model_outputs"
+    error_visualization_path = f"{MainPath.folder_path}/log_analyser/visualization/error_level"
+    sentiment_visualization_path = f"{MainPath.folder_path}/log_analyser/visualization/sentimental_analysis"
+    keyword_clustering_visualization_path = f"{MainPath.folder_path}/log_analyser/visualization/keyword_clustering"
 
     os.makedirs(output_path, exist_ok=True)
 

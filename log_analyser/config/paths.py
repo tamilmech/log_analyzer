@@ -1,8 +1,16 @@
-class MainPath:
-    """Represents the main path configuration for the log analyzer."""
+# -------------------------------------------------------------------
+#                   Main Path Configuration & Threshold Alert settings
+# -------------------------------------------------------------------
 
-    # Define the folder path and thresholds
-    folder_path = "/Users/tamilselavans/Desktop/log_analyzer/"
-    cpu_threshold = 90
-    disk_threshold = 90
-    critical_threshold = 90
+from dataclasses import dataclass
+
+@dataclass
+class MainPath:
+    """
+    Represents the main path configuration for the log analyzer.
+    """
+
+    folder_path: str = "/Users/tamilselavans/Desktop/log_analyzer/"  # Main folder for log analyzer data and outputs
+    cpu_threshold: int = 90  # CPU usage threshold in percentage
+    disk_threshold: int = 90  # Disk usage threshold in percentage
+    critical_threshold: int = 90  # Critical system threshold in percentage

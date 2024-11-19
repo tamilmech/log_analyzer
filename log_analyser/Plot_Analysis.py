@@ -4,14 +4,28 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
+# -------------------------------------------------------------------
+#                   Log Level Visualizer
+# -------------------------------------------------------------------
 class LogLevelVisualizer:
-    def __init__(self, log_df, output_path):
+    """
+    A visualizer for log level data, providing bar and line chart visualizations.
+    """
+
+    def __init__(self, log_df: pd.DataFrame, output_path: str):
+        """
+        Initialize the LogLevelVisualizer with log DataFrame and output directory.
+
+        :param log_df: DataFrame containing log data.
+        :param output_path: Path to save visualizations.
+        """
         self.log_df = log_df
         self.output_path = output_path
 
-    def generate_log_level_barchart(self):
+    def generate_log_level_barchart(self) -> None:
         """
         Generate a bar chart for log levels with specific colors for 'INFO' and 'ERROR'.
+        Saves the chart as 'log_levels_barchart.png' in the output directory.
         """
         os.makedirs(self.output_path, exist_ok=True)
         level_counts = self.log_df['level'].value_counts()
@@ -40,9 +54,10 @@ class LogLevelVisualizer:
         plt.savefig(os.path.join(self.output_path, "log_levels_barchart.png"))
         plt.close()
 
-    def generate_error_hourly_linechart(self):
+    def generate_error_hourly_linechart(self) -> None:
         """
         Generate a line chart for hourly error counts.
+        Saves the chart as 'error_hourly_linechart.png' in the output directory.
         """
         error_data = self.log_df[self.log_df['level'] == 'ERROR'].copy()
         error_data['hour'] = error_data['timestamp'].dt.floor('h')
@@ -65,19 +80,36 @@ class LogLevelVisualizer:
         plt.savefig(os.path.join(self.output_path, "error_hourly_linechart.png"))
         plt.close()
 
-    def run_visualizations(self):
+    def run_visualizations(self) -> None:
+        """
+        Run all visualizations for log level data.
+        """
         self.generate_log_level_barchart()
         self.generate_error_hourly_linechart()
 
 
+# -------------------------------------------------------------------
+#                   Sentiment Visualizer
+# -------------------------------------------------------------------
 class SentimentVisualizer:
-    def __init__(self, sentiment_df, output_path):
+    """
+    A visualizer for sentiment analysis data, providing bar chart visualizations.
+    """
+
+    def __init__(self, sentiment_df: pd.DataFrame, output_path: str):
+        """
+        Initialize the SentimentVisualizer with sentiment DataFrame and output directory.
+
+        :param sentiment_df: DataFrame containing sentiment analysis data.
+        :param output_path: Path to save visualizations.
+        """
         self.sentiment_df = sentiment_df
         self.output_path = output_path
 
-    def generate_sentiment_barchart(self):
+    def generate_sentiment_barchart(self) -> None:
         """
-        Generate a bar chart for sentiment analysis with custom colors.
+        Generate a bar chart for sentiment distribution.
+        Saves the chart as 'sentiment_barchart.png' in the output directory.
         """
         os.makedirs(self.output_path, exist_ok=True)
         sentiment_counts = self.sentiment_df['Sentiment'].value_counts()
@@ -107,18 +139,35 @@ class SentimentVisualizer:
         plt.savefig(os.path.join(self.output_path, "sentiment_barchart.png"))
         plt.close()
 
-    def run_visualizations(self):
+    def run_visualizations(self) -> None:
+        """
+        Run all visualizations for sentiment analysis data.
+        """
         self.generate_sentiment_barchart()
 
 
+# -------------------------------------------------------------------
+#                   Keyword Clustering Visualizer
+# -------------------------------------------------------------------
 class KeywordClusteringVisualizer:
-    def __init__(self, clustered_df, output_path):
+    """
+    A visualizer for keyword clustering data, providing bar chart visualizations.
+    """
+
+    def __init__(self, clustered_df: pd.DataFrame, output_path: str):
+        """
+        Initialize the KeywordClusteringVisualizer with clustering DataFrame and output directory.
+
+        :param clustered_df: DataFrame containing keyword clustering data.
+        :param output_path: Path to save visualizations.
+        """
         self.clustered_df = clustered_df
         self.output_path = output_path
 
-    def generate_keyword_barchart(self):
+    def generate_keyword_barchart(self) -> None:
         """
         Generate a bar chart for keyword clusters (filtered by 'ERROR' level).
+        Saves the chart as 'keyword_cluster_barchart.png' in the output directory.
         """
         os.makedirs(self.output_path, exist_ok=True)
         error_clusters = self.clustered_df[self.clustered_df['level'] == 'ERROR']
@@ -147,5 +196,8 @@ class KeywordClusteringVisualizer:
         plt.savefig(os.path.join(self.output_path, "keyword_cluster_barchart.png"))
         plt.close()
 
-    def run_visualizations(self):
+    def run_visualizations(self) -> None:
+        """
+        Run all visualizations for keyword clustering data.
+        """
         self.generate_keyword_barchart()

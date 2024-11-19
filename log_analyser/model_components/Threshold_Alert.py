@@ -2,6 +2,10 @@ import json
 import os
 import sys
 
+# -------------------------------------------------------------------
+#                   Threshold Alert
+# -------------------------------------------------------------------
+
 # Add the parent directory to sys.path for proper imports
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
@@ -17,30 +21,38 @@ class ThresholdAlert:
     """
 
     def __init__(self):
+        """
+        Initialize the ThresholdAlert class with thresholds and recommendations.
+
+        TODO: Threshold values should be dynamically adjustable via a UI input.
+        FIXME: Current thresholds are static; ensure real-time updates to thresholds in future implementations.
+        """
         # Initialize thresholds from MainPath 
-        # TODO: threshold should get from UI input
-        self.cpu_threshold = MainPath.cpu_threshold
-        self.disk_threshold = MainPath.disk_threshold
-        self.critical_threshold = MainPath.critical_threshold
+        self.cpu_threshold: int = MainPath.cpu_threshold
+        self.disk_threshold: int = MainPath.disk_threshold
+        self.critical_threshold: int = MainPath.critical_threshold
 
         # Recommendations for root causes
-        self.recommendations = {
+        self.recommendations: dict[str, str] = {
             "CPU usage": "Optimize running processes or upgrade CPU capacity.",
             "Disk usage": "Free up disk space or expand storage capacity."
         }
 
-    def analyze(self, structured_data):
+    def analyze(self, structured_data: list[dict]) -> str:
         """
         Analyze structured data for threshold violations and provide recommendations.
 
         Args:
-            structured_data (list): A list of structured data dictionaries.
+            structured_data (list[dict]): A list of dictionaries containing structured log data.
 
         Returns:
             str: A JSON string containing threshold alerts and recommendations.
-        """
-        root_causes = []
 
+        FIXME: Extend support for more complex recommendation logic, potentially using AI or historical log analysis.
+        """
+        root_causes: list[dict] = []
+
+        # Analyze each log for threshold violations
         for log in structured_data:
             # Check for CPU threshold violations
             if log["event"] == "CPU usage" and log["value"] > self.cpu_threshold:
@@ -71,8 +83,14 @@ class ThresholdAlert:
         return json.dumps({"issues": root_causes}, indent=4)
 
 
-# Example usage
+# -------------------------------------------------------------------
+#                   Main Execution
+# -------------------------------------------------------------------
+
 if __name__ == "__main__":
+    """
+    Main block for testing the ThresholdAlert class with example data.
+    """
     # Example structured data
     example_data = [
         {"timestamp": "2024-11-18T10:00:00", "event": "CPU usage", "value": 85},
