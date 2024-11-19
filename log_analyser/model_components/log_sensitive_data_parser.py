@@ -17,6 +17,9 @@ class SensitiveDataParser:
 
         TODO: Add advanced parsing capabilities using SpaCy for improved accuracy and context understanding.
         """
+        
+        # HACK: Temporarily using this method until we find a better solution
+        
         # Define patterns for sensitive data
         self.patterns: dict[str, str] = {
             "email": r"[\w\.-]+@[\w\.-]+\.com",

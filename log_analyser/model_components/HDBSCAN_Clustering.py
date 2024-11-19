@@ -6,11 +6,17 @@ import pandas as pd
 #                   HDBSCAN Clustering
 # -------------------------------------------------------------------
 
+
+# NOTE: group the log messages into clusters based on their similarity.
+
+#HACK : Need to implement word2vec instead of tf-idf
+
 class HDBSCANClustering:
     """
     A class to cluster log messages using the HDBSCAN algorithm.
     """
 
+    
     def __init__(self, min_cluster_size: int = 2, metric: str = 'euclidean'):
         """
         Initialize the HDBSCAN clustering parameters.

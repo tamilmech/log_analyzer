@@ -17,6 +17,10 @@ class AnomalyPrediction:
         Initialize the AnomalyPrediction class with patterns for specific metrics 
         and a list of failure events to monitor.
         """
+        
+        # HACK: Temporarily using this method until we find a better solution
+        
+        
         # Define patterns for specific metrics
         self.patterns: list[tuple[str, str]] = [
             (r"CPU usage is(?: critically high:)? (\d+)%", "CPU usage"),
