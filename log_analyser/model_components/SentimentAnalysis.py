@@ -13,6 +13,10 @@ class SentimentAnalysis:
 
     def __init__(self):
         """
+            https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment
+        """
+        
+        """
         Initialize the SentimentAnalysis class by loading a pre-trained sentiment analysis model.
 
         TODO: This transformer is lightweight, but GPU settings need to be explicitly specified.
