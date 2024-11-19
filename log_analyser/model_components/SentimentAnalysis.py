@@ -10,12 +10,13 @@ class SentimentAnalysis:
     """
     A class to analyze the sentiment of log messages using PyTorch and transformers.
     """
+    
+# -------------------------------------------------------------------
+#   NOTE -  https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment  
+ # -------------------------------------------------------------------
+
 
     def __init__(self):
-        """
-            https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment
-        """
-        
         """
         Initialize the SentimentAnalysis class by loading a pre-trained sentiment analysis model.
 
