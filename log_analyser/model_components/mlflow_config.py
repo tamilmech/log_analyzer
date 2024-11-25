@@ -2,9 +2,7 @@ from transformers import pipeline
 import torch
 import pandas as pd
 import mlflow
-from mlflow.exceptions import MlflowException
-from mlflow.tracking import MlflowClient
-
+import mlflow.pyfunc
 
 # -------------------------------------------------------------------
 #                   Sentiment Analysis with MLflow
@@ -29,31 +27,15 @@ class SentimentAnalysis:
         # Explicitly use PyTorch and determine device (GPU if available)
         self.device: int = 0 if torch.cuda.is_available() else -1
         self.classifier = pipeline(
-            "sentiment-analysis",
-            model="nlptown/bert-base-multilingual-uncased-sentiment",
-            framework="pt",
+            "sentiment-analysis", 
+            model="nlptown/bert-base-multilingual-uncased-sentiment", 
+            framework="pt", 
             device=self.device
         )
 
         # Set up MLflow tracking
         mlflow.set_tracking_uri(tracking_uri)
-        experiment_name = "Sentiment Analysis Experiment"
-
-        # Handle potential issues with deleted experiments
-        client = MlflowClient()
-        existing_experiment = client.get_experiment_by_name(experiment_name)
-
-        if existing_experiment and existing_experiment.lifecycle_stage == "deleted":
-            print(f"Experiment '{experiment_name}' is deleted. Creating a new one.")
-            try:
-                # Create a completely new experiment
-                new_experiment_id = client.create_experiment(experiment_name)
-                mlflow.set_experiment(experiment_name)
-            except MlflowException as e:
-                print(f"Failed to recreate experiment: {e}")
-                raise e
-        else:
-            mlflow.set_experiment(experiment_name)
+        mlflow.set_experiment("Sentiment Analysis Experiment")
 
     def analyze(self, df: pd.DataFrame) -> pd.DataFrame:
         """
@@ -75,7 +57,7 @@ class SentimentAnalysis:
         confidences: list[float] = []
 
         with mlflow.start_run():
-            # Log parameters
+            # Log parameter: model name
             mlflow.log_param("model", "nlptown/bert-base-multilingual-uncased-sentiment")
             mlflow.log_param("device", "GPU" if self.device == 0 else "CPU")
 
@@ -102,12 +84,9 @@ class SentimentAnalysis:
             positive_count = sentiments.count("Positive")
             negative_count = sentiments.count("Negative")
             neutral_count = sentiments.count("Neutral")
-            total_messages = len(df)
-
             mlflow.log_metric("Positive Sentiments", positive_count)
             mlflow.log_metric("Negative Sentiments", negative_count)
             mlflow.log_metric("Neutral Sentiments", neutral_count)
-            mlflow.log_metric("Total Messages", total_messages)
 
             # Log the resulting DataFrame as an artifact
             result_file = "sentiment_analysis_results.csv"
@@ -134,12 +113,6 @@ if __name__ == "__main__":
         ]
     }
     df = pd.DataFrame(sample_data)
-
-    # Initialize sentiment analyzer with MLflow integration
     sentiment_analyzer = SentimentAnalysis()
-
-    # Perform sentiment analysis and log results
     analyzed_df = sentiment_analyzer.analyze(df)
-
-    # Print the analyzed DataFrame
     print(analyzed_df)
