@@ -1,3 +1,172 @@
 {
-    "issues": []
+    "issues": [
+        {
+            "timestamp": "2024-12-02 23:04:00",
+            "root_cause": "Disk usage",
+            "value": 92,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-02 23:04:00",
+            "root_cause": "Critical Disk usage",
+            "value": 92,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-02 23:24:00",
+            "root_cause": "Disk usage",
+            "value": 63,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-02 23:24:00",
+            "root_cause": "Critical Disk usage",
+            "value": 63,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 03:04:00",
+            "root_cause": "Disk usage",
+            "value": 78,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 03:04:00",
+            "root_cause": "Critical Disk usage",
+            "value": 78,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 03:17:00",
+            "root_cause": "CPU usage",
+            "value": 50,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-12-03 03:17:00",
+            "root_cause": "Critical CPU usage",
+            "value": 50,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-12-03 03:38:00",
+            "root_cause": "CPU usage",
+            "value": 80,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-12-03 03:38:00",
+            "root_cause": "Critical CPU usage",
+            "value": 80,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-12-03 03:57:00",
+            "root_cause": "Disk usage",
+            "value": 68,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 03:57:00",
+            "root_cause": "Critical Disk usage",
+            "value": 68,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 05:14:00",
+            "root_cause": "Disk usage",
+            "value": 85,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 05:14:00",
+            "root_cause": "Critical Disk usage",
+            "value": 85,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 05:29:00",
+            "root_cause": "Disk usage",
+            "value": 43,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 05:29:00",
+            "root_cause": "Critical Disk usage",
+            "value": 43,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 09:24:00",
+            "root_cause": "CPU usage",
+            "value": 50,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-12-03 09:24:00",
+            "root_cause": "Critical CPU usage",
+            "value": 50,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-12-03 09:36:00",
+            "root_cause": "Disk usage",
+            "value": 50,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 09:36:00",
+            "root_cause": "Critical Disk usage",
+            "value": 50,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 16:01:00",
+            "root_cause": "Disk usage",
+            "value": 54,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 16:01:00",
+            "root_cause": "Critical Disk usage",
+            "value": 54,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 18:37:00",
+            "root_cause": "CPU usage",
+            "value": 43,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-12-03 18:37:00",
+            "root_cause": "Critical CPU usage",
+            "value": 43,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-12-03 21:00:00",
+            "root_cause": "CPU usage",
+            "value": 49,
+            "recommendation": "Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-12-03 21:00:00",
+            "root_cause": "Critical CPU usage",
+            "value": 49,
+            "recommendation": "Immediate attention required: Optimize running processes or upgrade CPU capacity."
+        },
+        {
+            "timestamp": "2024-12-03 22:02:00",
+            "root_cause": "Disk usage",
+            "value": 63,
+            "recommendation": "Free up disk space or expand storage capacity."
+        },
+        {
+            "timestamp": "2024-12-03 22:02:00",
+            "root_cause": "Critical Disk usage",
+            "value": 63,
+            "recommendation": "Immediate attention required: Free up disk space or expand storage capacity."
+        }
+    ]
 }

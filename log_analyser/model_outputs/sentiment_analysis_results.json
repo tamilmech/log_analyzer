@@ -1,49 +1,204 @@
-{"timestamp":1732014000000,"host":"","level":"INFO","message":"Docker container started successfully for service AWS. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.5011991858}
-{"timestamp":1732014420000,"host":"","level":"INFO","message":"CPU usage is 11%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4230278432}
-{"timestamp":1732015020000,"host":"","level":"INFO","message":"Disk usage is 64%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3375967741}
-{"timestamp":1732015440000,"host":"","level":"INFO","message":"Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7225517035}
-{"timestamp":1732015800000,"host":"","level":"INFO","message":"PATCH request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Negative","Confidence":0.2683964372}
-{"timestamp":1732016400000,"host":"","level":"INFO","message":"Java operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7265459299}
-{"timestamp":1732016460000,"host":"","level":"ERROR","message":"Phone number 9988776655 could not be added due to a duplicate record conflict in the database.","Sentiment":"Negative","Confidence":0.4577593803}
-{"timestamp":1732017600000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.422065258}
-{"timestamp":1732017900000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Azure. Error: TimeoutException after 30 seconds.","Sentiment":"Negative","Confidence":0.7150247693}
-{"timestamp":1732018020000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Kafka. Message delivery confirmed after 10 retries.","Sentiment":"Negative","Confidence":0.4408006668}
-{"timestamp":1732018380000,"host":"","level":"INFO","message":"CPU usage is 67%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4209883213}
-{"timestamp":1732018680000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_sales_pipeline' failed after 3 retries. Error: Data validation error in step 2.","Sentiment":"Negative","Confidence":0.4804422855}
-{"timestamp":1732019100000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
-{"timestamp":1732019580000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_transactions' using Azure. Error: TimeoutException after 30 seconds.","Sentiment":"Negative","Confidence":0.7008960843}
-{"timestamp":1732021200000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Kubernetes. Message delivery confirmed after 10 retries.","Sentiment":"Negative","Confidence":0.3407844007}
-{"timestamp":1732021740000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.4566805959}
-{"timestamp":1732021920000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2.","Sentiment":"Negative","Confidence":0.5247730017}
-{"timestamp":1732022520000,"host":"","level":"INFO","message":"Disk usage is 34%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3394563794}
-{"timestamp":1732022580000,"host":"","level":"INFO","message":"AWS operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7193358541}
-{"timestamp":1732022640000,"host":"","level":"INFO","message":"CPU usage is 75%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4262567759}
-{"timestamp":1732023000000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
-{"timestamp":1732024800000,"host":"","level":"INFO","message":"Docker container started successfully for service Kubernetes. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.5086477399}
-{"timestamp":1732024980000,"host":"","level":"INFO","message":"CPU usage is 80%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4169528186}
-{"timestamp":1732025040000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
-{"timestamp":1732025400000,"host":"","level":"ERROR","message":"Docker container failed to start for service Docker. Error log: Container crashed on startup.","Sentiment":"Negative","Confidence":0.7398056984}
-{"timestamp":1732025520000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7276560664}
-{"timestamp":1732026120000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
-{"timestamp":1732026480000,"host":"","level":"INFO","message":"PATCH request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Negative","Confidence":0.2683964372}
-{"timestamp":1732028400000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Docker. Error: TimeoutException after 30 seconds.","Sentiment":"Negative","Confidence":0.7010474801}
-{"timestamp":1732029000000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_user_sync' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.4982591271}
-{"timestamp":1732029240000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system.","Sentiment":"Positive","Confidence":0.6177729368}
-{"timestamp":1732029780000,"host":"","level":"INFO","message":"Disk usage is 51%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3209311068}
-{"timestamp":1732030320000,"host":"","level":"INFO","message":"Disk usage is 65%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3160023987}
-{"timestamp":1732030860000,"host":"","level":"ERROR","message":"CPU usage is critically high: 52%. Immediate action required.","Sentiment":"Neutral","Confidence":0.3332246542}
-{"timestamp":1732030920000,"host":"","level":"INFO","message":"CPU usage is 13%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4123308957}
-{"timestamp":1732032000000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.192. Login duration: 10 minutes.","Sentiment":"Negative","Confidence":0.3239612877}
-{"timestamp":1732032540000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_user_sync' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.4744679332}
-{"timestamp":1732032660000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided.","Sentiment":"Negative","Confidence":0.5555518866}
-{"timestamp":1732032720000,"host":"","level":"ERROR","message":"Docker container failed to start for service Java. Error log: Container crashed on startup.","Sentiment":"Negative","Confidence":0.7422016263}
-{"timestamp":1732033200000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system.","Sentiment":"Positive","Confidence":0.5815085769}
-{"timestamp":1732033560000,"host":"","level":"INFO","message":"Airflow operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7164776921}
-{"timestamp":1732033920000,"host":"","level":"ERROR","message":"Phone number 9988776655 could not be added due to a duplicate record conflict in the database.","Sentiment":"Negative","Confidence":0.4577593803}
-{"timestamp":1732035600000,"host":"","level":"INFO","message":"Disk usage is 87%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.358581543}
-{"timestamp":1732036200000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided.","Sentiment":"Negative","Confidence":0.5555518866}
-{"timestamp":1732036260000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Docker. Message delivery confirmed after 10 retries.","Sentiment":"Negative","Confidence":0.3472083807}
-{"timestamp":1732036500000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system.","Sentiment":"Positive","Confidence":0.5815085769}
-{"timestamp":1732036740000,"host":"","level":"ERROR","message":"PATCH request to \/healthcheck failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.","Sentiment":"Negative","Confidence":0.7201058269}
-{"timestamp":1732037160000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.4948080778}
-{"timestamp":1732037640000,"host":"","level":"ERROR","message":"Docker container failed to start for service Java. Error log: Container crashed on startup.","Sentiment":"Negative","Confidence":0.7422016263}
+{"timestamp":1733180400000,"host":"","level":"ERROR","message":"Disk usage is critically high: 11%. Threshold exceeded on volume \/dev\/sda1.","Sentiment":"Negative","Confidence":0.4097027183}
+{"timestamp":1733180520000,"host":"","level":"INFO","message":"CPU usage is 30%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4213261604}
+{"timestamp":1733180640000,"host":"","level":"INFO","message":"Disk usage is 92%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3658626974}
+{"timestamp":1733181120000,"host":"","level":"INFO","message":"CPU usage is 16%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4055534899}
+{"timestamp":1733181660000,"host":"","level":"INFO","message":"Kafka operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7099003196}
+{"timestamp":1733181780000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345.","Sentiment":"Negative","Confidence":0.595705986}
+{"timestamp":1733181840000,"host":"","level":"INFO","message":"Disk usage is 63%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3309648633}
+{"timestamp":1733182200000,"host":"","level":"INFO","message":"Disk usage is 27%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3358404934}
+{"timestamp":1733182680000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided.","Sentiment":"Negative","Confidence":0.5555518866}
+{"timestamp":1733183220000,"host":"","level":"INFO","message":"CPU usage is 36%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4064473212}
+{"timestamp":1733183460000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.4948080778}
+{"timestamp":1733183880000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345.","Sentiment":"Negative","Confidence":0.595705986}
+{"timestamp":1733184240000,"host":"","level":"ERROR","message":"Docker container failed to start for service Airflow. Error log: Container crashed on startup.","Sentiment":"Negative","Confidence":0.7636429667}
+{"timestamp":1733184540000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.","Sentiment":"Negative","Confidence":0.4574546814}
+{"timestamp":1733184900000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733185500000,"host":"","level":"INFO","message":"PUT request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Negative","Confidence":0.2805105746}
+{"timestamp":1733185740000,"host":"","level":"INFO","message":"POST request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Neutral","Confidence":0.2593095005}
+{"timestamp":1733187600000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345.","Sentiment":"Negative","Confidence":0.595705986}
+{"timestamp":1733187660000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733188200000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system.","Sentiment":"Positive","Confidence":0.5713627338}
+{"timestamp":1733188320000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733188920000,"host":"","level":"INFO","message":"Kubernetes operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7225517035}
+{"timestamp":1733189160000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_user_sync' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.4679553211}
+{"timestamp":1733189580000,"host":"","level":"INFO","message":"GET request to \/api\/v2\/transactions succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Neutral","Confidence":0.2660682201}
+{"timestamp":1733190060000,"host":"","level":"ERROR","message":"Java encountered an issue. Exception: NullPointerException in thread 'main'.","Sentiment":"Negative","Confidence":0.3054761291}
+{"timestamp":1733190120000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided.","Sentiment":"Negative","Confidence":0.5555518866}
+{"timestamp":1733190720000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733191200000,"host":"","level":"ERROR","message":"Docker container failed to start for service Java. Error log: Container crashed on startup.","Sentiment":"Negative","Confidence":0.7422016263}
+{"timestamp":1733191260000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided.","Sentiment":"Negative","Confidence":0.5555518866}
+{"timestamp":1733191680000,"host":"","level":"ERROR","message":"PUT request to \/admin\/dashboard failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.","Sentiment":"Negative","Confidence":0.7472891808}
+{"timestamp":1733192100000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
+{"timestamp":1733192640000,"host":"","level":"INFO","message":"Kafka operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7099003196}
+{"timestamp":1733193120000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7276560664}
+{"timestamp":1733193660000,"host":"","level":"INFO","message":"Published message to topic 'topic_orders' using Kubernetes. Message delivery confirmed after 10 retries.","Sentiment":"Negative","Confidence":0.409540534}
+{"timestamp":1733194800000,"host":"","level":"INFO","message":"Kafka operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7099003196}
+{"timestamp":1733195040000,"host":"","level":"INFO","message":"Disk usage is 78%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3393346071}
+{"timestamp":1733195280000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kafka. Error log: Container crashed on startup.","Sentiment":"Negative","Confidence":0.7327998877}
+{"timestamp":1733195460000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_users' using Python. Error: TimeoutException after 30 seconds.","Sentiment":"Negative","Confidence":0.6632558703}
+{"timestamp":1733195820000,"host":"","level":"INFO","message":"CPU usage is 50%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4270168245}
+{"timestamp":1733196420000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided.","Sentiment":"Negative","Confidence":0.5555518866}
+{"timestamp":1733196720000,"host":"","level":"INFO","message":"Docker operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7248876095}
+{"timestamp":1733197080000,"host":"","level":"INFO","message":"CPU usage is 80%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4169528186}
+{"timestamp":1733197140000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Python. Message delivery confirmed after 10 retries.","Sentiment":"Negative","Confidence":0.2831365168}
+{"timestamp":1733197320000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345.","Sentiment":"Negative","Confidence":0.595705986}
+{"timestamp":1733197800000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database.","Sentiment":"Negative","Confidence":0.4765887856}
+{"timestamp":1733198220000,"host":"","level":"INFO","message":"Disk usage is 68%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3492718637}
+{"timestamp":1733198640000,"host":"","level":"INFO","message":"Docker container started successfully for service Python. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.4567032158}
+{"timestamp":1733199180000,"host":"","level":"INFO","message":"Docker container started successfully for service Kafka. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.4728730917}
+{"timestamp":1733199480000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345.","Sentiment":"Negative","Confidence":0.595705986}
+{"timestamp":1733199780000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
+{"timestamp":1733200200000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system.","Sentiment":"Positive","Confidence":0.5713627338}
+{"timestamp":1733202000000,"host":"","level":"ERROR","message":"Docker container failed to start for service Airflow. Error log: Container crashed on startup.","Sentiment":"Negative","Confidence":0.7636429667}
+{"timestamp":1733202240000,"host":"","level":"ERROR","message":"CPU usage is critically high: 35%. Immediate action required.","Sentiment":"Neutral","Confidence":0.3389826119}
+{"timestamp":1733202420000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Airflow. Error: TimeoutException after 30 seconds.","Sentiment":"Negative","Confidence":0.6751669645}
+{"timestamp":1733202840000,"host":"","level":"INFO","message":"Disk usage is 85%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3629157841}
+{"timestamp":1733203320000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733203620000,"host":"","level":"ERROR","message":"AWS encountered an issue. Exception: NullPointerException in thread 'main'.","Sentiment":"Negative","Confidence":0.3568454385}
+{"timestamp":1733203740000,"host":"","level":"INFO","message":"Disk usage is 43%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3479713798}
+{"timestamp":1733203800000,"host":"","level":"INFO","message":"Python operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7135714889}
+{"timestamp":1733204340000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system.","Sentiment":"Positive","Confidence":0.5713627338}
+{"timestamp":1733204700000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.251. Login duration: 10 minutes.","Sentiment":"Negative","Confidence":0.447525084}
+{"timestamp":1733204880000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2.","Sentiment":"Negative","Confidence":0.4617351294}
+{"timestamp":1733205180000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.179. Login duration: 10 minutes.","Sentiment":"Negative","Confidence":0.460988313}
+{"timestamp":1733205360000,"host":"","level":"ERROR","message":"Disk usage is critically high: 51%. Threshold exceeded on volume \/dev\/sda1.","Sentiment":"Negative","Confidence":0.4091995955}
+{"timestamp":1733205540000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.4611484706}
+{"timestamp":1733205720000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
+{"timestamp":1733206080000,"host":"","level":"INFO","message":"Docker container started successfully for service Python. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.4567032158}
+{"timestamp":1733206560000,"host":"","level":"ERROR","message":"Phone number 9988776655 could not be added due to a duplicate record conflict in the database.","Sentiment":"Negative","Confidence":0.4577593803}
+{"timestamp":1733209200000,"host":"","level":"INFO","message":"Docker container started successfully for service Docker. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.514274478}
+{"timestamp":1733209560000,"host":"","level":"INFO","message":"POST request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Neutral","Confidence":0.2605073154}
+{"timestamp":1733210040000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.","Sentiment":"Negative","Confidence":0.4974234104}
+{"timestamp":1733210460000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.99. Login duration: 10 minutes.","Sentiment":"Negative","Confidence":0.455386579}
+{"timestamp":1733210880000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system.","Sentiment":"Positive","Confidence":0.5713627338}
+{"timestamp":1733211480000,"host":"","level":"INFO","message":"GET request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Neutral","Confidence":0.2526327074}
+{"timestamp":1733211600000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.422065258}
+{"timestamp":1733211900000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733212500000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system.","Sentiment":"Positive","Confidence":0.6177729368}
+{"timestamp":1733212680000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_user_sync' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.4982591271}
+{"timestamp":1733213040000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using AWS. Message delivery confirmed after 10 retries.","Sentiment":"Negative","Confidence":0.327963084}
+{"timestamp":1733213520000,"host":"","level":"INFO","message":"Airflow operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7164776921}
+{"timestamp":1733213760000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345.","Sentiment":"Negative","Confidence":0.595705986}
+{"timestamp":1733214120000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Kafka. Error: TimeoutException after 30 seconds.","Sentiment":"Negative","Confidence":0.640171349}
+{"timestamp":1733214180000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7276560664}
+{"timestamp":1733214360000,"host":"","level":"INFO","message":"Docker container started successfully for service AWS. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.5011991858}
+{"timestamp":1733214660000,"host":"","level":"INFO","message":"Docker container started successfully for service AWS. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.5011991858}
+{"timestamp":1733216400000,"host":"","level":"INFO","message":"Disk usage is 33%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3312768936}
+{"timestamp":1733216460000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733217060000,"host":"","level":"INFO","message":"Airflow operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7164776921}
+{"timestamp":1733217300000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_model_training' failed after 3 retries. Error: Data validation error in step 2.","Sentiment":"Negative","Confidence":0.4617351294}
+{"timestamp":1733217480000,"host":"","level":"ERROR","message":"Docker container failed to start for service Airflow. Error log: Container crashed on startup.","Sentiment":"Negative","Confidence":0.7636429667}
+{"timestamp":1733217660000,"host":"","level":"ERROR","message":"Phone number 9988776655 could not be added due to a duplicate record conflict in the database.","Sentiment":"Negative","Confidence":0.4577593803}
+{"timestamp":1733217720000,"host":"","level":"INFO","message":"Docker container started successfully for service Kubernetes. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.5086477399}
+{"timestamp":1733217840000,"host":"","level":"INFO","message":"CPU usage is 50%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4270168245}
+{"timestamp":1733218320000,"host":"","level":"ERROR","message":"Docker container failed to start for service Azure. Error log: Container crashed on startup.","Sentiment":"Negative","Confidence":0.7704427838}
+{"timestamp":1733218440000,"host":"","level":"INFO","message":"Docker container started successfully for service Kubernetes. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.5086477399}
+{"timestamp":1733218560000,"host":"","level":"INFO","message":"Disk usage is 50%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3005355299}
+{"timestamp":1733218920000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
+{"timestamp":1733219460000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided.","Sentiment":"Negative","Confidence":0.5555518866}
+{"timestamp":1733219940000,"host":"","level":"ERROR","message":"GET request to \/api\/v1\/users failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.","Sentiment":"Negative","Confidence":0.7507590055}
+{"timestamp":1733220120000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733220720000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Kubernetes. Error: TimeoutException after 30 seconds.","Sentiment":"Negative","Confidence":0.6667993665}
+{"timestamp":1733221020000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system.","Sentiment":"Positive","Confidence":0.5815085769}
+{"timestamp":1733223600000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_events' using Azure. Error: TimeoutException after 30 seconds.","Sentiment":"Negative","Confidence":0.6818088293}
+{"timestamp":1733224200000,"host":"","level":"ERROR","message":"GET request to \/api\/v1\/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.","Sentiment":"Negative","Confidence":0.7382317781}
+{"timestamp":1733224560000,"host":"","level":"ERROR","message":"Disk usage is critically high: 56%. Threshold exceeded on volume \/dev\/sda1.","Sentiment":"Negative","Confidence":0.4187806249}
+{"timestamp":1733225040000,"host":"","level":"INFO","message":"Task 'task_etl' in DAG 'dag_model_training' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.546294868}
+{"timestamp":1733225220000,"host":"","level":"ERROR","message":"Disk usage is critically high: 13%. Threshold exceeded on volume \/dev\/sda1.","Sentiment":"Negative","Confidence":0.4374663532}
+{"timestamp":1733225820000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733226180000,"host":"","level":"INFO","message":"Disk usage is 35%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3204218149}
+{"timestamp":1733226600000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.106. Login duration: 10 minutes.","Sentiment":"Negative","Confidence":0.4411398172}
+{"timestamp":1733226960000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
+{"timestamp":1733227020000,"host":"","level":"ERROR","message":"Disk usage is critically high: 21%. Threshold exceeded on volume \/dev\/sda1.","Sentiment":"Negative","Confidence":0.4133791625}
+{"timestamp":1733227320000,"host":"","level":"ERROR","message":"Disk usage is critically high: 92%. Threshold exceeded on volume \/dev\/sda1.","Sentiment":"Negative","Confidence":0.4330021143}
+{"timestamp":1733227680000,"host":"","level":"ERROR","message":"Disk usage is critically high: 53%. Threshold exceeded on volume \/dev\/sda1.","Sentiment":"Negative","Confidence":0.4097626507}
+{"timestamp":1733227800000,"host":"","level":"ERROR","message":"Docker container failed to start for service Kubernetes. Error log: Container crashed on startup.","Sentiment":"Negative","Confidence":0.7467762232}
+{"timestamp":1733227860000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.126. Login duration: 10 minutes.","Sentiment":"Negative","Confidence":0.3858337104}
+{"timestamp":1733228220000,"host":"","level":"INFO","message":"GET request to \/api\/v1\/orders succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Neutral","Confidence":0.2563306391}
+{"timestamp":1733228820000,"host":"","level":"ERROR","message":"POST request to \/api\/v2\/transactions failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.","Sentiment":"Negative","Confidence":0.711220324}
+{"timestamp":1733229120000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Kubernetes. Message delivery confirmed after 10 retries.","Sentiment":"Negative","Confidence":0.3407844007}
+{"timestamp":1733230800000,"host":"","level":"ERROR","message":"Task 'task_etl' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2.","Sentiment":"Negative","Confidence":0.5247730017}
+{"timestamp":1733231160000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.88. Login duration: 10 minutes.","Sentiment":"Negative","Confidence":0.3947581053}
+{"timestamp":1733231760000,"host":"","level":"INFO","message":"DELETE request to \/api\/v1\/orders succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Negative","Confidence":0.3962040246}
+{"timestamp":1733232180000,"host":"","level":"INFO","message":"Docker container started successfully for service Kubernetes. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.5086477399}
+{"timestamp":1733232300000,"host":"","level":"INFO","message":"Phone number 9876543210 was successfully added to the system.","Sentiment":"Positive","Confidence":0.6177729368}
+{"timestamp":1733232480000,"host":"","level":"INFO","message":"Task 'task_model_training' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.4566805959}
+{"timestamp":1733232720000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
+{"timestamp":1733232960000,"host":"","level":"INFO","message":"CPU usage is 30%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4213261604}
+{"timestamp":1733233320000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system.","Sentiment":"Positive","Confidence":0.5713627338}
+{"timestamp":1733233740000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system.","Sentiment":"Positive","Confidence":0.5713627338}
+{"timestamp":1733233860000,"host":"","level":"ERROR","message":"POST request to \/admin\/dashboard failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.","Sentiment":"Negative","Confidence":0.7174092531}
+{"timestamp":1733233920000,"host":"","level":"INFO","message":"PUT request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Negative","Confidence":0.2484495789}
+{"timestamp":1733233980000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database.","Sentiment":"Negative","Confidence":0.4765887856}
+{"timestamp":1733234220000,"host":"","level":"INFO","message":"DELETE request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Negative","Confidence":0.4423403144}
+{"timestamp":1733234580000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database.","Sentiment":"Negative","Confidence":0.4765887856}
+{"timestamp":1733234760000,"host":"","level":"ERROR","message":"Kubernetes pod crash detected. Pod ID: kube_pod12345.","Sentiment":"Negative","Confidence":0.595705986}
+{"timestamp":1733235360000,"host":"","level":"INFO","message":"User user123@domain.org logged in from IP 192.168.0.189. Login duration: 10 minutes.","Sentiment":"Negative","Confidence":0.4548882544}
+{"timestamp":1733238000000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
+{"timestamp":1733238360000,"host":"","level":"INFO","message":"Docker container started successfully for service Python. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.4567032158}
+{"timestamp":1733238420000,"host":"","level":"INFO","message":"CPU usage is 30%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4213261604}
+{"timestamp":1733238720000,"host":"","level":"INFO","message":"Azure operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7276560664}
+{"timestamp":1733238780000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733239380000,"host":"","level":"ERROR","message":"Docker container failed to start for service Python. Error log: Container crashed on startup.","Sentiment":"Negative","Confidence":0.7345687747}
+{"timestamp":1733239740000,"host":"","level":"ERROR","message":"POST request to \/healthcheck failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.","Sentiment":"Negative","Confidence":0.7338770628}
+{"timestamp":1733240100000,"host":"","level":"INFO","message":"PATCH request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Neutral","Confidence":0.2939448953}
+{"timestamp":1733240160000,"host":"","level":"ERROR","message":"Disk usage is critically high: 26%. Threshold exceeded on volume \/dev\/sda1.","Sentiment":"Negative","Confidence":0.43687886}
+{"timestamp":1733240460000,"host":"","level":"INFO","message":"Python operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7135714889}
+{"timestamp":1733241000000,"host":"","level":"ERROR","message":"Phone number 9123456789 could not be added due to a duplicate record conflict in the database.","Sentiment":"Negative","Confidence":0.4470262825}
+{"timestamp":1733241180000,"host":"","level":"ERROR","message":"Docker encountered an issue. Exception: NullPointerException in thread 'main'.","Sentiment":"Negative","Confidence":0.318657428}
+{"timestamp":1733241420000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_transactions' using AWS. Error: TimeoutException after 30 seconds.","Sentiment":"Negative","Confidence":0.6713958979}
+{"timestamp":1733241660000,"host":"","level":"INFO","message":"Disk usage is 54%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3261159062}
+{"timestamp":1733241960000,"host":"","level":"ERROR","message":"Kubernetes encountered an issue. Exception: NullPointerException in thread 'main'.","Sentiment":"Neutral","Confidence":0.2948133051}
+{"timestamp":1733242140000,"host":"","level":"ERROR","message":"PATCH request to \/api\/v1\/users failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.","Sentiment":"Negative","Confidence":0.7007181048}
+{"timestamp":1733242200000,"host":"","level":"INFO","message":"PUT request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Negative","Confidence":0.2805105746}
+{"timestamp":1733245200000,"host":"","level":"ERROR","message":"Kafka encountered an issue. Exception: NullPointerException in thread 'main'.","Sentiment":"Negative","Confidence":0.3134287}
+{"timestamp":1733245680000,"host":"","level":"INFO","message":"Task 'task_data_validation' in DAG 'dag_sales_pipeline' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.4948080778}
+{"timestamp":1733246220000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.167. Login duration: 10 minutes.","Sentiment":"Negative","Confidence":0.4092483521}
+{"timestamp":1733246280000,"host":"","level":"INFO","message":"Docker container started successfully for service Docker. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.514274478}
+{"timestamp":1733246400000,"host":"","level":"INFO","message":"Java operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7265459299}
+{"timestamp":1733246640000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733247060000,"host":"","level":"ERROR","message":"Disk usage is critically high: 64%. Threshold exceeded on volume \/dev\/sda1.","Sentiment":"Negative","Confidence":0.4166183174}
+{"timestamp":1733247540000,"host":"","level":"ERROR","message":"Phone number 9876543210 could not be added due to a duplicate record conflict in the database.","Sentiment":"Negative","Confidence":0.4765887856}
+{"timestamp":1733247660000,"host":"","level":"ERROR","message":"Task 'task_model_training' in DAG 'dag_user_sync' failed after 3 retries. Error: Data validation error in step 2.","Sentiment":"Negative","Confidence":0.4644771218}
+{"timestamp":1733248140000,"host":"","level":"INFO","message":"User alice.smith@test.com logged in from IP 192.168.0.255. Login duration: 10 minutes.","Sentiment":"Negative","Confidence":0.3162126839}
+{"timestamp":1733248740000,"host":"","level":"INFO","message":"User john.doe@example.com logged in from IP 192.168.0.228. Login duration: 10 minutes.","Sentiment":"Negative","Confidence":0.3986305296}
+{"timestamp":1733248980000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided.","Sentiment":"Negative","Confidence":0.5555518866}
+{"timestamp":1733249520000,"host":"","level":"INFO","message":"GET request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Neutral","Confidence":0.2526327074}
+{"timestamp":1733250000000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733250480000,"host":"","level":"INFO","message":"Docker container started successfully for service Python. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.4567032158}
+{"timestamp":1733251020000,"host":"","level":"ERROR","message":"CPU usage is critically high: 43%. Immediate action required.","Sentiment":"Neutral","Confidence":0.3337799907}
+{"timestamp":1733251440000,"host":"","level":"INFO","message":"Disk usage is 40%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3483163118}
+{"timestamp":1733252400000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
+{"timestamp":1733252880000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system.","Sentiment":"Positive","Confidence":0.5815085769}
+{"timestamp":1733253300000,"host":"","level":"INFO","message":"Disk usage is 21%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3217131793}
+{"timestamp":1733253720000,"host":"","level":"INFO","message":"GET request to \/healthcheck succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Neutral","Confidence":0.2574192286}
+{"timestamp":1733254020000,"host":"","level":"ERROR","message":"PATCH request to \/api\/v2\/transactions failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.","Sentiment":"Negative","Confidence":0.6864984035}
+{"timestamp":1733254620000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Airflow. Error: TimeoutException after 30 seconds.","Sentiment":"Negative","Confidence":0.7063082457}
+{"timestamp":1733254680000,"host":"","level":"INFO","message":"CPU usage is 39%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.3990610838}
+{"timestamp":1733255160000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_orders' using Kafka. Error: TimeoutException after 30 seconds.","Sentiment":"Negative","Confidence":0.6855235696}
+{"timestamp":1733255640000,"host":"","level":"ERROR","message":"Lambda function execution failed in AWS. Error: Invalid parameters provided.","Sentiment":"Negative","Confidence":0.5555518866}
+{"timestamp":1733255700000,"host":"","level":"INFO","message":"PATCH request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Neutral","Confidence":0.2939448953}
+{"timestamp":1733255760000,"host":"","level":"INFO","message":"AWS operation completed successfully. Processed 1500 records in 2.35 seconds.","Sentiment":"Positive","Confidence":0.7193358541}
+{"timestamp":1733256000000,"host":"","level":"INFO","message":"Docker container started successfully for service Python. Container ID: abcd1234efgh5678.","Sentiment":"Positive","Confidence":0.4567032158}
+{"timestamp":1733256120000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Kubernetes. Message delivery confirmed after 10 retries.","Sentiment":"Negative","Confidence":0.3373670578}
+{"timestamp":1733256300000,"host":"","level":"ERROR","message":"Failed to consume message from topic 'topic_users' using Airflow. Error: TimeoutException after 30 seconds.","Sentiment":"Negative","Confidence":0.7084281445}
+{"timestamp":1733256420000,"host":"","level":"INFO","message":"Published message to topic 'topic_events' using Docker. Message delivery confirmed after 10 retries.","Sentiment":"Negative","Confidence":0.3346120417}
+{"timestamp":1733256480000,"host":"","level":"INFO","message":"POST request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Neutral","Confidence":0.2560210228}
+{"timestamp":1733256600000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Kubernetes. Message delivery confirmed after 10 retries.","Sentiment":"Negative","Confidence":0.3407844007}
+{"timestamp":1733259600000,"host":"","level":"INFO","message":"CPU usage is 49%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.3804881275}
+{"timestamp":1733259900000,"host":"","level":"INFO","message":"PUT request to \/admin\/dashboard succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Neutral","Confidence":0.2565564215}
+{"timestamp":1733260380000,"host":"","level":"ERROR","message":"PATCH request to \/api\/v1\/orders failed. Response code: 500 Internal Server Error. Error details: Missing authentication token.","Sentiment":"Negative","Confidence":0.6931935549}
+{"timestamp":1733260440000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
+{"timestamp":1733260680000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
+{"timestamp":1733261100000,"host":"","level":"ERROR","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' failed after 3 retries. Error: Data validation error in step 2.","Sentiment":"Negative","Confidence":0.4974234104}
+{"timestamp":1733261580000,"host":"","level":"INFO","message":"PUT request to \/api\/v1\/users succeeded. Response code: 200 OK. Response size: 1.2MB.","Sentiment":"Negative","Confidence":0.2484495789}
+{"timestamp":1733261880000,"host":"","level":"INFO","message":"Published message to topic 'topic_transactions' using Kubernetes. Message delivery confirmed after 10 retries.","Sentiment":"Negative","Confidence":0.3407844007}
+{"timestamp":1733262420000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
+{"timestamp":1733262780000,"host":"","level":"INFO","message":"Phone number 9123456789 was successfully added to the system.","Sentiment":"Positive","Confidence":0.5815085769}
+{"timestamp":1733263320000,"host":"","level":"INFO","message":"Disk usage is 63%. Disk space within acceptable limits.","Sentiment":"Negative","Confidence":0.3309648633}
+{"timestamp":1733263500000,"host":"","level":"INFO","message":"Phone number 9988776655 was successfully added to the system.","Sentiment":"Positive","Confidence":0.5713627338}
+{"timestamp":1733263560000,"host":"","level":"INFO","message":"Lambda function executed successfully in AWS. Execution duration: 250ms.","Sentiment":"Positive","Confidence":0.599363029}
+{"timestamp":1733263800000,"host":"","level":"INFO","message":"Kubernetes pod scaled up successfully. New replicas: 5.","Sentiment":"Positive","Confidence":0.7399508357}
+{"timestamp":1733264280000,"host":"","level":"ERROR","message":"Disk usage is critically high: 41%. Threshold exceeded on volume \/dev\/sda1.","Sentiment":"Negative","Confidence":0.4150583446}
+{"timestamp":1733264460000,"host":"","level":"INFO","message":"CPU usage is 23%. Threshold not exceeded. System operating normally.","Sentiment":"Neutral","Confidence":0.4143579006}
+{"timestamp":1733264880000,"host":"","level":"INFO","message":"Task 'task_api_sync' in DAG 'dag_data_ingestion' completed successfully in 45 seconds.","Sentiment":"Positive","Confidence":0.422065258}
