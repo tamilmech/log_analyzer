@@ -1,67 +1,52 @@
 import os
 import pandas as pd
 import json
-import requests
-from bs4 import BeautifulSoup
 import streamlit as st
 from PIL import Image
 from langchain_groq import ChatGroq
 from config.paths import MainPath
+import os
+from dotenv import load_dotenv
 
+# Load environment variables
+load_dotenv()
 # Paths to folders
 folder_path = f"{MainPath.folder_path}/log_analyser/model_outputs"
 error_level_path = f"{MainPath.folder_path}/log_analyser/visualization/error_level"
 keyword_clustering_path = f"{MainPath.folder_path}/log_analyser/visualization/keyword_clustering"
 sentimental_analysis_path = f"{MainPath.folder_path}/log_analyser/visualization/sentimental_analysis"
-sentiment_output_path = os.path.join(folder_path, "sentiment_analysis_results.csv")
 
-# Google Search Function
-def google_search(query, num_results=5):
-    search_url = f"https://www.google.com/search?q={query.replace(' ', '+')}&num={num_results}"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-    }
-    response = requests.get(search_url, headers=headers)
-
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-        results = []
-        for g in soup.find_all('div', class_='tF2Cxc')[:num_results]:  # Adjust result limit
-            link = g.find('a')['href']
-            title = g.find('h3').text
-            results.append({'title': title, 'link': link})
-        return results
-    else:
-        return None
-
-# Create a list of pages as buttons
+# Streamlit Sidebar Navigation
 st.sidebar.title("Navigation")
-selected_page = st.sidebar.radio("Go to", ["Troubleshooting", "Google Search Results", "Plots and DataFrames"])
+selected_page = st.sidebar.radio("Go to", ["Troubleshooting", "Plots and DataFrames"])
 
 if selected_page == "Troubleshooting":
     st.title("Troubleshooting Guide (LangChain)")
-    st.markdown("---")
+    st.markdown("---")  # Horizontal line for separation
 
-    # Load the sentiment analysis CSV
+    # Path to sentiment analysis CSV
+    sentiment_output_path = os.path.join(folder_path, "sentiment_analysis_results.csv")
+
+    # Load the CSV file as a DataFrame
     try:
         sentiment_df = pd.read_csv(sentiment_output_path)
     except Exception as e:
         st.error(f"Error loading sentiment analysis file: {e}")
         st.stop()
 
-    # Filter messages where Sentiment is "Negative" and Confidence >= 0.50
+    # Filter messages where Sentiment is "Negative" and Confidence >= 0.70
     filtered_messages = sentiment_df[
-        (sentiment_df["Sentiment"] == "Negative") & (sentiment_df["Confidence"] >= 0.50)
+        (sentiment_df["Sentiment"] == "Negative") & (sentiment_df["Confidence"] >= 0.70)
     ]["message"]
 
     if filtered_messages.empty:
         st.warning("No negative sentiment messages with high confidence found.")
     else:
-        # Initialize LangChain ChatGroq model
+        # Initialize ChatGroq
         llm = ChatGroq(
             temperature=0,
-            groq_api_key="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",  # Replace with your actual API key
-            model_name="llama-3.1-70b-versatile"  # Replace with desired model
+            groq_api_key=os.getenv("LANGCHAIN_API_KEY"), # dont use large dataset
+            model_name="llama-3.1-70b-versatile"
         )
 
         for idx, message in enumerate(filtered_messages, start=1):
@@ -69,58 +54,24 @@ if selected_page == "Troubleshooting":
             st.write(f"**Error Message:** {message}")
 
             try:
-                # LangChain: Pass the error message to the model
-                langchain_response = llm.invoke(f"What is this error, and how to solve it?:\n{message}")
+                # Pass the error message to the model
+                response = llm.invoke(f"What is this error, and how to solve it?:\n{message}")
+
+                # Display the model's response with colored background
                 st.markdown(
                     f"""
                     <div style="background-color: #f0f0f5; padding: 10px; border-radius: 5px;">
-                        <strong>LangChain Solution:</strong> {langchain_response.content}
+                        <strong>Solution:</strong> {response.content}
                     </div>
                     """,
                     unsafe_allow_html=True,
                 )
             except Exception as e:
-                st.error(f"Error processing message with LangChain: {e}")
-
-elif selected_page == "Google Search Results":
-    st.title("Google Search Results for Errors")
-    st.markdown("---")
-
-    # Load the sentiment analysis CSV
-    try:
-        sentiment_df = pd.read_csv(sentiment_output_path)
-    except Exception as e:
-        st.error(f"Error loading sentiment analysis file: {e}")
-        st.stop()
-
-    # Filter messages where Sentiment is "Negative" and Confidence >= 0.50
-    filtered_messages = sentiment_df[
-        (sentiment_df["Sentiment"] == "Negative") & (sentiment_df["Confidence"] >= 0.50)
-    ]["message"]
-
-    if filtered_messages.empty:
-        st.warning("No negative sentiment messages with high confidence found.")
-    else:
-        for idx, message in enumerate(filtered_messages, start=1):
-            st.subheader(f"Error {idx}:")
-            st.write(f"**Error Message:** {message}")
-
-            # Google Search: Perform search for the error message
-            google_results = google_search(message)
-
-            if google_results:
-                st.markdown("### Top Solutions from Google:")
-                for result_idx, result in enumerate(google_results, start=1):
-                    st.markdown(f"**{result_idx}.** [{result['title']}]({result['link']})")
-            else:
-                st.error("Failed to retrieve search results from Google.")
-
-            # Add spacing between each error
-            st.markdown("<br>", unsafe_allow_html=True)
+                st.error(f"Error processing message: {e}")
 
 elif selected_page == "Plots and DataFrames":
     st.title("Log Analyzer Outputs Viewer")
-    st.markdown("---")
+    st.markdown("---")  # Horizontal line for separation
 
     # List all files in the main data directory
     files = os.listdir(folder_path)
@@ -139,7 +90,7 @@ elif selected_page == "Plots and DataFrames":
                 with open(file_path, "r") as f:
                     content = f.read()
                     try:
-                        data = json.loads(content)  # Attempt to load full JSON
+                        data = json.loads(content)
                         st.json(data)
                     except json.JSONDecodeError:
                         st.warning("File contains multiple JSON objects. Displaying each object.")
